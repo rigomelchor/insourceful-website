@@ -92,6 +92,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     href="/assets/vendors/fontawesome/webfonts/fa-brands-400.woff2"
                     crossOrigin="anonymous"
                 />
+                {/* Preload LCP hero image — mobile gets small version */}
+                <link
+                    rel="preload"
+                    as="image"
+                    href="/assets/images/backgrounds/hero-mobile.webp"
+                    media="(max-width: 768px)"
+                />
+                <link
+                    rel="preload"
+                    as="image"
+                    href="/assets/images/backgrounds/hero.webp"
+                    media="(min-width: 769px)"
+                />
                 {/* Performance optimization meta */}
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="theme-color" content="#0066cc" />

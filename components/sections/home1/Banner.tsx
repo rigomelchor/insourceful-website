@@ -2,7 +2,6 @@
 import { useState } from "react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Image from "next/image";
 
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
@@ -37,15 +36,19 @@ export default function Banner() {
           <SwiperSlide>
             <div className="item main-slider__slide-1">
               <div className="main-slider__bg">
-                <Image
-                  src="/assets/images/backgrounds/hero.webp"
-                  alt="Engineering Excellence for Asset-Intensive Enterprises"
-                  fill
-                  priority
-                  fetchPriority="high"
-                  sizes="100vw"
-                  style={{ objectFit: "cover" }}
-                />
+                <picture>
+                  <source
+                    media="(max-width: 768px)"
+                    srcSet="/assets/images/backgrounds/hero-mobile.webp"
+                  />
+                  <img
+                    src="/assets/images/backgrounds/hero.webp"
+                    alt="Engineering Excellence for Asset-Intensive Enterprises"
+                    fetchPriority="high"
+                    decoding="async"
+                    style={{ position: "absolute", width: "100%", height: "100%", inset: 0, objectFit: "cover" }}
+                  />
+                </picture>
               </div>
               {/* /.slider-one__bg */}
               <div className="main-slider__shape-1" />
