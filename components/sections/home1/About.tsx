@@ -16,8 +16,8 @@ export default function About() {
                   <img
                     src="assets/images/resources/about-one-img-1.webp"
                     alt="Business professionals in meeting"
-                    width={459}
-                    height={515}
+                    width={382}
+                    height={429}
                   />
                   <div className="about-one__experience-text">
                     <p>25+ years Experience</p>
