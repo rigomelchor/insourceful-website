@@ -1,0 +1,228 @@
+/*--------------------------------------------------------------
+# Accessibility Fixes
+--------------------------------------------------------------
+This file contains accessibility improvements and WCAG 2.1 AA compliance fixes.
+MUST BE LOADED LAST to override all other styles.
+--------------------------------------------------------------*/
+
+/* Focus Indicators - Visible keyboard navigation */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus,
+[tabindex]:focus {
+  outline: 3px solid #0066cc;
+  outline-offset: 2px;
+}
+
+/* Skip to main content link (for keyboard users) */
+.skip-to-main {
+  position: absolute;
+  left: -9999px;
+  z-index: 999;
+  padding: 1rem 1.5rem;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.skip-to-main:focus {
+  left: 50%;
+  top: 1rem;
+  transform: translateX(-50%);
+  outline: 3px solid #fff;
+}
+
+/* Screen reader only content */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+/* Improved link visibility */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Remove all animations for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* High contrast mode improvements */
+@media (prefers-contrast: high) {
+  a,
+  button {
+    text-decoration: underline;
+  }
+
+  button,
+  .btn,
+  .thm-btn {
+    border: 2px solid currentColor;
+  }
+}
+
+/* Ensure minimum tap target size (44x44px for mobile) */
+@media (max-width: 768px) {
+  a,
+  button,
+  input[type="submit"],
+  input[type="button"],
+  .btn,
+  .thm-btn {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Form improvements */
+input:invalid,
+textarea:invalid,
+select:invalid {
+  border-color: #dc3545;
+}
+
+input:valid,
+textarea:valid,
+select:valid {
+  border-color: #28a745;
+}
+
+/* Ensure sufficient color contrast for error messages */
+.error-message,
+.form-error {
+  color: #dc3545;
+  font-weight: 600;
+  margin-top: 0.25rem;
+}
+
+/* Improve focus visibility for icon-only buttons */
+button:focus i,
+a:focus i {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Dark mode accessibility fixes */
+.dark-version {
+  /* Ensure text remains readable in dark mode */
+}
+
+.dark-version a:focus,
+.dark-version button:focus {
+  outline-color: #66b3ff;
+}
+
+/* Ensure images don't break layouts when loading */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Table accessibility */
+table {
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
+/* Language switcher */
+[lang]:not([lang="en"]) {
+  font-style: italic;
+}
+
+/* Print styles for accessibility */
+@media print {
+  .no-print,
+  .mobile-nav,
+  .back-to-top,
+  .cookie-consent {
+    display: none !important;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+}
+
+/* Fix for sticky header keyboard navigation */
+.stricky-fixed {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+/* Improve carousel accessibility */
+.swiper-button-disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+/* Ensure adequate spacing for readability */
+p,
+li {
+  line-height: 1.6;
+}
+
+/* Heading hierarchy visibility for screen readers */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+/* Form label association */
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+/* Required field indicator */
+.required::after,
+[required] + label::after {
+  content: " *";
+  color: #dc3545;
+  font-weight: bold;
+}
+
+/* Loading states */
+[aria-busy="true"] {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+/* Disabled states */
+[disabled],
+[aria-disabled="true"] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
