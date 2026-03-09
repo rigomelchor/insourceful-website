@@ -14072,6 +14072,15 @@ section.error-page p {
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+    .main-slider__bg {
+        background-position: center top;
+    }
+
+    .main-slider .item {
+        padding-top: 200px;
+        padding-bottom: 150px;
+    }
+
     .section-title__tagline {
         font-size: 18px;
     }

@@ -79,8 +79,8 @@ export default function CookieConsent() {
                     cursor: 'pointer',
                     fontSize: '14px',
                     fontWeight: '500',
-                    background: '#ea1b29',
-                    color: 'white',
+                    background: '#dc2626',
+                    color: '#ffffff',
                     transition: 'all 0.3s ease'
                   }}
                 >

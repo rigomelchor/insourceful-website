@@ -69,7 +69,7 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }: Heade
                     </Link>
                     </div>
                     <div className="main-menu__main-menu-box">
-                    <Link onClick={handleMobileMenu} href="#" className="mobile-nav__toggler">
+                    <Link onClick={handleMobileMenu} href="#" className="mobile-nav__toggler" aria-label="Open mobile menu">
                         <i className="fa fa-bars" />
                     </Link>
                     <Menu/>
@@ -114,7 +114,7 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }: Heade
                                     </Link>
                                 </div>
                                 <div className="main-menu__main-menu-box">
-                                    <Link onClick={handleMobileMenu} href="#" className="mobile-nav__toggler">
+                                    <Link onClick={handleMobileMenu} href="#" className="mobile-nav__toggler" aria-label="Open mobile menu">
                                         <i className="fa fa-bars" />
                                     </Link>
                                     <Menu/>

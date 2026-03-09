@@ -8,7 +8,7 @@ export default function Blog() {
           <div className="section-title text-center">
             <div className="section-title__tagline-box">
               <div className="section-title__tagline-icon">
-                <img src="assets/images/icon/section-title-icon.webp" alt="Section title icon" />
+                <img src="assets/images/icon/section-title-icon.webp" alt="Section title icon" width={20} height={30} />
               </div>
               <p className="section-title__tagline">Our Blog</p>
             </div>
@@ -26,7 +26,7 @@ export default function Blog() {
               <div className="blog-one__single">
                 <div className="blog-one__img-box">
                   <div className="blog-one__img">
-                    <img src="assets/images/blog/mining-operations.webp" alt="Mining Operations" />
+                    <img src="assets/images/blog/mining-operations.webp" alt="Mining Operations" width={600} height={400} />
                   </div>
                   <div className="blog-one__date">
                     <p>
@@ -77,7 +77,7 @@ export default function Blog() {
               <div className="blog-one__single">
                 <div className="blog-one__img-box">
                   <div className="blog-one__img">
-                    <img src="assets/images/blog/pharmaceutical-lab.webp" alt="Pharmaceutical Laboratory" />
+                    <img src="assets/images/blog/pharmaceutical-lab.webp" alt="Pharmaceutical Laboratory" width={600} height={400} />
                   </div>
                   <div className="blog-one__date">
                     <p>
@@ -128,7 +128,7 @@ export default function Blog() {
               <div className="blog-one__single">
                 <div className="blog-one__img-box">
                   <div className="blog-one__img">
-                    <img src="assets/images/blog/oil-gas-refinery.webp" alt="Oil & Gas Refinery" />
+                    <img src="assets/images/blog/oil-gas-refinery.webp" alt="Oil & Gas Refinery" width={600} height={400} />
                   </div>
                   <div className="blog-one__date">
                     <p>

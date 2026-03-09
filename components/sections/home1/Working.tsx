@@ -44,6 +44,8 @@ export default function Benefit() {
                       <img
                         src="assets/images/icon/section-title-icon.webp"
                         alt="Section title icon"
+                        width={20}
+                        height={30}
                       />
                     </div>
                     <p className="section-title__tagline">Our Benefits</p>

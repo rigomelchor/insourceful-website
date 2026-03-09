@@ -8,7 +8,7 @@ export default function Portfolio() {
           <div className="section-title text-center">
             <div className="section-title__tagline-box">
               <div className="section-title__tagline-icon">
-                <img src="assets/images/icon/section-title-icon.webp" alt="Section title icon" />
+                <img src="assets/images/icon/section-title-icon.webp" alt="Section title icon" width={20} height={30} />
               </div>
               <p className="section-title__tagline">Our Recent Work</p>
             </div>
