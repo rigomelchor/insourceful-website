@@ -17,7 +17,7 @@ export const metadata = {
         default: 'InSourceful - Enterprise Technology Consulting Services',
         template: '%s | InSourceful'
     },
-    description: 'Expert technology consulting services for enterprise businesses. We provide Oracle system integration, process optimization, and digital transformation solutions to drive growth and efficiency.',
+    description: 'Enterprise technology consulting: Oracle system integration, process optimisation, and digital transformation solutions.',
     keywords: ['technology consulting', 'enterprise software', 'Oracle consulting', 'business process optimization', 'digital transformation', 'system integration'],
     authors: [{ name: 'InSourceful' }],
     creator: 'InSourceful',

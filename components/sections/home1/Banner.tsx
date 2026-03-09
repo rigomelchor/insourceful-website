@@ -56,9 +56,9 @@ export default function Banner() {
                   <p className="main-slider__sub-title">
                     Oracle JD Edwards | Enterprise Consulting
                   </p>
-                  <h2 className="main-slider__title">
+                  <h1 className="main-slider__title">
                     Engineering Excellence <br /> for Asset-Intensive Enterprises
-                  </h2>
+                  </h1>
                   <p className="main-slider__text">
                     Expert Oracle JD Edwards consulting for Mining, Oil & Gas, Pharmaceuticals, and Utilities.
                   </p>
