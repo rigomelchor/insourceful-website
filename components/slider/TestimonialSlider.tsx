@@ -72,7 +72,7 @@ export default function TestimonialSlider1() {
                             </p>
                             <div className="testimonial-four__client-box">
                                 <div className="testimonial-four__client-img">
-                                    <img
+                                    <img loading="lazy"
                                         src="assets/images/testimonial/testimonial-1-1.webp"
                                         alt="Client testimonial photo"
                                     />
@@ -111,7 +111,7 @@ export default function TestimonialSlider1() {
                             </p>
                             <div className="testimonial-four__client-box">
                                 <div className="testimonial-four__client-img">
-                                    <img
+                                    <img loading="lazy"
                                         src="assets/images/testimonial/testimonial-1-2.webp"
                                         alt="Client testimonial photo"
                                     />
@@ -150,7 +150,7 @@ export default function TestimonialSlider1() {
                             </p>
                             <div className="testimonial-four__client-box">
                                 <div className="testimonial-four__client-img">
-                                    <img
+                                    <img loading="lazy"
                                         src="assets/images/testimonial/testimonial-1-1.webp"
                                         alt="Client testimonial photo"
                                     />
@@ -189,7 +189,7 @@ export default function TestimonialSlider1() {
                             </p>
                             <div className="testimonial-four__client-box">
                                 <div className="testimonial-four__client-img">
-                                    <img
+                                    <img loading="lazy"
                                         src="assets/images/testimonial/testimonial-1-2.webp"
                                         alt="Client testimonial photo"
                                     />

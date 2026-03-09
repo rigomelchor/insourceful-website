@@ -13,7 +13,7 @@ export default function About() {
                   data-aos="slide-left"
                   data-aos-delay="100"
                 >
-                  <img
+                  <img loading="lazy"
                     src="assets/images/resources/about-one-img-1.webp"
                     alt="Business professionals in meeting"
                     width={382}
@@ -24,7 +24,7 @@ export default function About() {
                   </div>
                   <div className="about-one__img-box">
                     <div className="about-one__img-2">
-                      <img
+                      <img loading="lazy"
                         src="assets/images/resources/about-one-img-2.webp"
                         alt="Team collaboration in office"
                         width={320}
@@ -59,7 +59,7 @@ export default function About() {
                 <div className="section-title text-left">
                   <div className="section-title__tagline-box">
                     <div className="section-title__tagline-icon">
-                      <img
+                      <img loading="lazy"
                         src="assets/images/icon/section-title-icon.webp"
                         alt="Section title icon"
                         width={20}
@@ -99,7 +99,7 @@ export default function About() {
                 </ul>
                 <div className="about-one__it-solution">
                   <div className="about-one__it-solution-img">
-                    <img
+                    <img loading="lazy"
                       src="assets/images/resources/about-one-it-solution-img.webp"
                       alt="Oracle JD Edwards system interface"
                       width={210}

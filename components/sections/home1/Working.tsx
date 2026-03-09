@@ -29,7 +29,7 @@ export default function Benefit() {
                   data-aos="slide-left"
                   data-aos-delay="100"
                 >
-                  <img
+                  <img loading="lazy"
                     src="assets/images/resources/benefits-one-img-1.webp"
                     alt="Business benefits illustration"
                     width={382}
@@ -43,7 +43,7 @@ export default function Benefit() {
                 <div className="section-title text-left">
                   <div className="section-title__tagline-box">
                     <div className="section-title__tagline-icon">
-                      <img
+                      <img loading="lazy"
                         src="assets/images/icon/section-title-icon.webp"
                         alt="Section title icon"
                         width={20}

@@ -14,7 +14,7 @@ export default function Home() {
                 <div className="portfolio-page__single">
                     <div className="portfolio-page__img-box">
                     <div className="portfolio-page__img">
-                        <img
+                        <img loading="lazy"
                         src="assets/images/project/portfolio-page-1-1.webp"
                         
                         />
@@ -44,7 +44,7 @@ export default function Home() {
                 <div className="portfolio-page__single">
                     <div className="portfolio-page__img-box">
                     <div className="portfolio-page__img">
-                        <img
+                        <img loading="lazy"
                         src="assets/images/project/portfolio-page-1-2.webp"
                         
                         />
@@ -74,7 +74,7 @@ export default function Home() {
                 <div className="portfolio-page__single">
                     <div className="portfolio-page__img-box">
                     <div className="portfolio-page__img">
-                        <img
+                        <img loading="lazy"
                         src="assets/images/project/portfolio-page-1-3.webp"
                         
                         />
@@ -104,7 +104,7 @@ export default function Home() {
                 <div className="portfolio-page__single">
                     <div className="portfolio-page__img-box">
                     <div className="portfolio-page__img">
-                        <img
+                        <img loading="lazy"
                         src="assets/images/project/portfolio-page-1-4.webp"
                         
                         />
@@ -134,7 +134,7 @@ export default function Home() {
                 <div className="portfolio-page__single">
                     <div className="portfolio-page__img-box">
                     <div className="portfolio-page__img">
-                        <img
+                        <img loading="lazy"
                         src="assets/images/project/portfolio-page-1-5.webp"
                         
                         />
@@ -164,7 +164,7 @@ export default function Home() {
                 <div className="portfolio-page__single">
                     <div className="portfolio-page__img-box">
                     <div className="portfolio-page__img">
-                        <img
+                        <img loading="lazy"
                         src="assets/images/project/portfolio-page-1-6.webp"
                         
                         />
@@ -194,7 +194,7 @@ export default function Home() {
                 <div className="portfolio-page__single">
                     <div className="portfolio-page__img-box">
                     <div className="portfolio-page__img">
-                        <img
+                        <img loading="lazy"
                         src="assets/images/project/portfolio-page-1-7.webp"
                         
                         />
@@ -224,7 +224,7 @@ export default function Home() {
                 <div className="portfolio-page__single">
                     <div className="portfolio-page__img-box">
                     <div className="portfolio-page__img">
-                        <img
+                        <img loading="lazy"
                         src="assets/images/project/portfolio-page-1-8.webp"
                         
                         />
@@ -254,7 +254,7 @@ export default function Home() {
                 <div className="portfolio-page__single">
                     <div className="portfolio-page__img-box">
                     <div className="portfolio-page__img">
-                        <img
+                        <img loading="lazy"
                         src="assets/images/project/portfolio-page-1-9.webp"
                         
                         />

@@ -18,7 +18,7 @@ export default function Home() {
                     <div className="blog-page__single">
                         <div className="blog-page__img-box">
                         <div className="blog-page__img">
-                            <img src="assets/images/blog/blog-page-1-1.webp" alt="Over Ride The Digital Divide With Additional" />
+                            <img loading="lazy" src="assets/images/blog/blog-page-1-1.webp" alt="Over Ride The Digital Divide With Additional" />
                         </div>
                         <div className="blog-page__date">
                             <p>
@@ -71,7 +71,7 @@ export default function Home() {
                     <div className="blog-page__single">
                         <div className="blog-page__img-box">
                         <div className="blog-page__img">
-                            <img src="assets/images/blog/blog-page-1-2.webp" alt="Leverage Frameworks To Provide A Robust" />
+                            <img loading="lazy" src="assets/images/blog/blog-page-1-2.webp" alt="Leverage Frameworks To Provide A Robust" />
                         </div>
                         <div className="blog-page__date">
                             <p>
@@ -124,7 +124,7 @@ export default function Home() {
                     <div className="blog-page__single">
                         <div className="blog-page__img-box">
                         <div className="blog-page__img">
-                            <img src="assets/images/blog/blog-page-1-3.webp" alt="Basic Rule Of Running Web Business" />
+                            <img loading="lazy" src="assets/images/blog/blog-page-1-3.webp" alt="Basic Rule Of Running Web Business" />
                         </div>
                         <div className="blog-page__date">
                             <p>
@@ -177,7 +177,7 @@ export default function Home() {
                     <div className="blog-page__single">
                         <div className="blog-page__img-box">
                         <div className="blog-page__img">
-                            <img src="assets/images/blog/blog-page-1-4.webp" alt="Over Ride The Digital Divide With Additional" />
+                            <img loading="lazy" src="assets/images/blog/blog-page-1-4.webp" alt="Over Ride The Digital Divide With Additional" />
                         </div>
                         <div className="blog-page__date">
                             <p>
@@ -306,7 +306,7 @@ export default function Home() {
                     <ul className="sidebar__post-list list-unstyled">
                         <li>
                         <div className="sidebar__post-image">
-                            <img src="assets/images/blog/blog-lp-1.webp" alt="Recent blog post thumbnail" />
+                            <img loading="lazy" src="assets/images/blog/blog-lp-1.webp" alt="Recent blog post thumbnail" />
                         </div>
                         <h3 className="sidebar__post-title">
                             <Link href="blog-details">
@@ -316,7 +316,7 @@ export default function Home() {
                         </li>
                         <li>
                         <div className="sidebar__post-image">
-                            <img src="assets/images/blog/blog-lp-2.webp" alt="Recent blog post thumbnail" />
+                            <img loading="lazy" src="assets/images/blog/blog-lp-2.webp" alt="Recent blog post thumbnail" />
                         </div>
                         <h3 className="sidebar__post-title">
                             <Link href="blog-details">
@@ -326,7 +326,7 @@ export default function Home() {
                         </li>
                         <li>
                         <div className="sidebar__post-image">
-                            <img src="assets/images/blog/blog-lp-3.webp" alt="Recent blog post thumbnail" />
+                            <img loading="lazy" src="assets/images/blog/blog-lp-3.webp" alt="Recent blog post thumbnail" />
                         </div>
                         <h3 className="sidebar__post-title">
                             <Link href="blog-details">

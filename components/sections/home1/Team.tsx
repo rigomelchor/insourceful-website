@@ -8,7 +8,7 @@ export default function Team() {
           <div className="section-title text-center">
             <div className="section-title__tagline-box">
               <div className="section-title__tagline-icon">
-                <img src="assets/images/icon/section-title-icon.webp" alt="Section title icon" width={20} height={30} />
+                <img loading="lazy" src="assets/images/icon/section-title-icon.webp" alt="Section title icon" width={20} height={30} />
               </div>
               <p className="section-title__tagline">Meet Our Team</p>
             </div>
@@ -24,7 +24,7 @@ export default function Team() {
               <div className="team-one__single">
                 <div className="team-one__img-box">
                   <div className="team-one__img">
-                    <img src="assets/images/team/team-1-1.webp" alt="Team member photo" />
+                    <img loading="lazy" src="assets/images/team/team-1-1.webp" alt="Team member photo" />
                     <div className="team-one__name-box">
                       <h3 className="team-one__name">
                         <Link href="team-details">Jecika Brown</Link>
@@ -67,7 +67,7 @@ export default function Team() {
               <div className="team-one__single">
                 <div className="team-one__img-box">
                   <div className="team-one__img">
-                    <img src="assets/images/team/team-1-2.webp" alt="Team member photo" />
+                    <img loading="lazy" src="assets/images/team/team-1-2.webp" alt="Team member photo" />
                     <div className="team-one__name-box">
                       <h3 className="team-one__name">
                         <Link href="team-details">Jhon Smith</Link>
@@ -110,7 +110,7 @@ export default function Team() {
               <div className="team-one__single">
                 <div className="team-one__img-box">
                   <div className="team-one__img">
-                    <img src="assets/images/team/team-1-3.webp" alt="Team member photo" />
+                    <img loading="lazy" src="assets/images/team/team-1-3.webp" alt="Team member photo" />
                     <div className="team-one__name-box">
                       <h3 className="team-one__name">
                         <Link href="team-details">Alisha Martin</Link>
@@ -153,7 +153,7 @@ export default function Team() {
               <div className="team-one__single">
                 <div className="team-one__img-box">
                   <div className="team-one__img">
-                    <img src="assets/images/team/team-1-4.webp" alt="Team member photo" />
+                    <img loading="lazy" src="assets/images/team/team-1-4.webp" alt="Team member photo" />
                     <div className="team-one__name-box">
                       <h3 className="team-one__name">
                         <Link href="team-details">David Kapor</Link>

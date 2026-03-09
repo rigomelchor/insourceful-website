@@ -15,7 +15,7 @@ export default function Home() {
                 <div className="blog-details__left">
                     <div className="blog-details__img-box">
                     <div className="blog-details__img">
-                        <img src="assets/images/blog/blog-details-img-1.webp" alt="Blog post featured image" />
+                        <img loading="lazy" src="assets/images/blog/blog-details-img-1.webp" alt="Blog post featured image" />
                     </div>
                     <div className="blog-details__date">
                         <p>
@@ -61,7 +61,7 @@ export default function Home() {
                     </Link>
                     </div>
                     <div className="blog-details__img-2">
-                    <img src="assets/images/blog/blog-details-img-2.webp" alt="Blog post content image" />
+                    <img loading="lazy" src="assets/images/blog/blog-details-img-2.webp" alt="Blog post content image" />
                     </div>
                     <p className="blog-details__text-3">
                     Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -159,7 +159,7 @@ export default function Home() {
                     </div>
                     <div className="author">
                     <div className="author__img">
-                        <img src="assets/images/blog/author-img.webp" alt="Moho Smith" />
+                        <img loading="lazy" src="assets/images/blog/author-img.webp" alt="Moho Smith" />
                     </div>
                     <div className="author__content">
                         <h4>Moho Smith</h4>
@@ -189,7 +189,7 @@ export default function Home() {
                         <h3 className="comment-one__title">Comments ( 2)</h3>
                         <div className="comment-one__single">
                         <div className="comment-one__image">
-                            <img src="assets/images/blog/comment-1-1.webp" alt="Strone Smith" />
+                            <img loading="lazy" src="assets/images/blog/comment-1-1.webp" alt="Strone Smith" />
                         </div>
                         <div className="comment-one__content">
                             <h3>Strone Smith</h3>
@@ -206,7 +206,7 @@ export default function Home() {
                         </div>
                         <div className="comment-one__single">
                         <div className="comment-one__image">
-                            <img src="assets/images/blog/comment-1-2.webp" alt="Jhon Smith" />
+                            <img loading="lazy" src="assets/images/blog/comment-1-2.webp" alt="Jhon Smith" />
                         </div>
                         <div className="comment-one__content">
                             <h3>Jhon Smith</h3>
@@ -324,7 +324,7 @@ export default function Home() {
                     <ul className="sidebar__post-list list-unstyled">
                         <li>
                         <div className="sidebar__post-image">
-                            <img src="assets/images/blog/blog-lp-1.webp" alt="Recent blog post thumbnail" />
+                            <img loading="lazy" src="assets/images/blog/blog-lp-1.webp" alt="Recent blog post thumbnail" />
                         </div>
                         <h3 className="sidebar__post-title">
                             <Link href="blog-details">
@@ -334,7 +334,7 @@ export default function Home() {
                         </li>
                         <li>
                         <div className="sidebar__post-image">
-                            <img src="assets/images/blog/blog-lp-2.webp" alt="Recent blog post thumbnail" />
+                            <img loading="lazy" src="assets/images/blog/blog-lp-2.webp" alt="Recent blog post thumbnail" />
                         </div>
                         <h3 className="sidebar__post-title">
                             <Link href="blog-details">
@@ -344,7 +344,7 @@ export default function Home() {
                         </li>
                         <li>
                         <div className="sidebar__post-image">
-                            <img src="assets/images/blog/blog-lp-3.webp" alt="Recent blog post thumbnail" />
+                            <img loading="lazy" src="assets/images/blog/blog-lp-3.webp" alt="Recent blog post thumbnail" />
                         </div>
                         <h3 className="sidebar__post-title">
                             <Link href="blog-details">

@@ -18,7 +18,7 @@ export default function Home() {
                 <div className="team-one__single">
                     <div className="team-one__img-box">
                     <div className="team-one__img">
-                        <img src="assets/images/team/team-1-1.webp" alt="Jecika Brown" />
+                        <img loading="lazy" src="assets/images/team/team-1-1.webp" alt="Jecika Brown" />
                         <div className="team-one__name-box">
                         <h3 className="team-one__name">
                             <Link href="team-details">Jecika Brown</Link>
@@ -60,7 +60,7 @@ export default function Home() {
                 <div className="team-one__single">
                     <div className="team-one__img-box">
                     <div className="team-one__img">
-                        <img src="assets/images/team/team-1-2.webp" alt="Jhon Smith" />
+                        <img loading="lazy" src="assets/images/team/team-1-2.webp" alt="Jhon Smith" />
                         <div className="team-one__name-box">
                         <h3 className="team-one__name">
                             <Link href="team-details">Jhon Smith</Link>
@@ -102,7 +102,7 @@ export default function Home() {
                 <div className="team-one__single">
                     <div className="team-one__img-box">
                     <div className="team-one__img">
-                        <img src="assets/images/team/team-1-3.webp" alt="Alisha Martin" />
+                        <img loading="lazy" src="assets/images/team/team-1-3.webp" alt="Alisha Martin" />
                         <div className="team-one__name-box">
                         <h3 className="team-one__name">
                             <Link href="team-details">Alisha Martin</Link>
@@ -144,7 +144,7 @@ export default function Home() {
                 <div className="team-one__single">
                     <div className="team-one__img-box">
                     <div className="team-one__img">
-                        <img src="assets/images/team/team-1-4.webp" alt="David Kapor" />
+                        <img loading="lazy" src="assets/images/team/team-1-4.webp" alt="David Kapor" />
                         <div className="team-one__name-box">
                         <h3 className="team-one__name">
                             <Link href="team-details">David Kapor</Link>
@@ -186,7 +186,7 @@ export default function Home() {
                 <div className="team-one__single">
                     <div className="team-one__img-box">
                     <div className="team-one__img">
-                        <img src="assets/images/team/team-1-5.webp" alt="David Warner" />
+                        <img loading="lazy" src="assets/images/team/team-1-5.webp" alt="David Warner" />
                         <div className="team-one__name-box">
                         <h3 className="team-one__name">
                             <Link href="team-details">David Warner</Link>
@@ -228,7 +228,7 @@ export default function Home() {
                 <div className="team-one__single">
                     <div className="team-one__img-box">
                     <div className="team-one__img">
-                        <img src="assets/images/team/team-1-6.webp" alt="David Piter" />
+                        <img loading="lazy" src="assets/images/team/team-1-6.webp" alt="David Piter" />
                         <div className="team-one__name-box">
                         <h3 className="team-one__name">
                             <Link href="team-details">David Piter</Link>
@@ -270,7 +270,7 @@ export default function Home() {
                 <div className="team-one__single">
                     <div className="team-one__img-box">
                     <div className="team-one__img">
-                        <img src="assets/images/team/team-1-7.webp" alt="Herny Mate" />
+                        <img loading="lazy" src="assets/images/team/team-1-7.webp" alt="Herny Mate" />
                         <div className="team-one__name-box">
                         <h3 className="team-one__name">
                             <Link href="team-details">Herny Mate</Link>
@@ -312,7 +312,7 @@ export default function Home() {
                 <div className="team-one__single">
                     <div className="team-one__img-box">
                     <div className="team-one__img">
-                        <img src="assets/images/team/team-1-8.webp" alt="David Wiese" />
+                        <img loading="lazy" src="assets/images/team/team-1-8.webp" alt="David Wiese" />
                         <div className="team-one__name-box">
                         <h3 className="team-one__name">
                             <Link href="team-details">David Wiese</Link>

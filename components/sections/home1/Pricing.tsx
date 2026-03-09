@@ -15,7 +15,7 @@ export default function Pricng() {
           <div className="section-title text-center">
             <div className="section-title__tagline-box">
               <div className="section-title__tagline-icon">
-                <img src="assets/images/icon/section-title-icon.webp" alt="Section title icon" width={20} height={30} />
+                <img loading="lazy" src="assets/images/icon/section-title-icon.webp" alt="Section title icon" width={20} height={30} />
               </div>
               <p className="section-title__tagline">Our Pricing</p>
             </div>
@@ -27,13 +27,13 @@ export default function Pricng() {
               <div className="pricing-one__single">
                 <div className="pricing-one__inner">
                   <div className="pricing-one__shape-1">
-                    <img
+                    <img loading="lazy"
                       src="assets/images/shapes/pricing-one-shape-1.webp"
                       
                     />
                   </div>
                   <div className="pricing-one__shape-2">
-                    <img
+                    <img loading="lazy"
                       src="assets/images/shapes/pricing-one-shape-2.webp"
                       
                     />
@@ -78,13 +78,13 @@ export default function Pricng() {
               <div className="pricing-one__single">
                 <div className="pricing-one__inner">
                   <div className="pricing-one__shape-1">
-                    <img
+                    <img loading="lazy"
                       src="assets/images/shapes/pricing-one-shape-1.webp"
                       
                     />
                   </div>
                   <div className="pricing-one__shape-2">
-                    <img
+                    <img loading="lazy"
                       src="assets/images/shapes/pricing-one-shape-2.webp"
                       
                     />
@@ -129,13 +129,13 @@ export default function Pricng() {
               <div className="pricing-one__single">
                 <div className="pricing-one__inner">
                   <div className="pricing-one__shape-1">
-                    <img
+                    <img loading="lazy"
                       src="assets/images/shapes/pricing-one-shape-1.webp"
                       
                     />
                   </div>
                   <div className="pricing-one__shape-2">
-                    <img
+                    <img loading="lazy"
                       src="assets/images/shapes/pricing-one-shape-2.webp"
                       
                     />

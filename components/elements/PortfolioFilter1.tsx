@@ -110,7 +110,7 @@ export default function PortfolioFilter1() {
                     >
                         <div className="portfolio-two__single">
                             <div className="portfolio-two__img">
-                                <img
+                                <img loading="lazy"
                                     src={`assets/images/project/${item.img}`}
                                     alt={item.title}
                                 />

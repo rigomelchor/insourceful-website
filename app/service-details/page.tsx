@@ -32,7 +32,7 @@ export default function Home() {
                 <div className="col-xl-8 col-lg-7">
                 <div className="services-details__left">
                     <div className="services-details__img">
-                    <img
+                    <img loading="lazy"
                         src="assets/images/services/services-details-img-1.webp"
                         
                     />
@@ -105,7 +105,7 @@ export default function Home() {
                     </li>
                     </ul>
                     <div className="services-details__img-2">
-                    <img
+                    <img loading="lazy"
                         src="assets/images/services/services-details-img-2.webp"
                         
                     />
@@ -127,7 +127,7 @@ export default function Home() {
                     </p>
                     <div className="services-details__img-and-points-box">
                     <div className="services-details__points-img">
-                        <img
+                        <img loading="lazy"
                         src="assets/images/services/services-details-img-3.webp"
                         
                         />

@@ -67,7 +67,7 @@ export default function Home() {
                 <div className="portfolio-details__left">
                     <div className="portfolio-details__content-box-one">
                     <div className="portfolio-details__content-one-img">
-                        <img
+                        <img loading="lazy"
                         src="assets/images/project/portfolio-details-content-one-img-1.webp"
                         alt="Financial project showcase"
                         />
@@ -94,7 +94,7 @@ export default function Home() {
                         <div className="col-xl-5">
                         <div className="portfolio-details__planing-left">
                             <div className="portfolio-details__planing-img">
-                            <img
+                            <img loading="lazy"
                                 src="assets/images/project/portfolio-details-planing-img-1.webp"
                                 alt="Financial planning project"
                             />
@@ -205,7 +205,7 @@ export default function Home() {
                     </ul>
                     </div>
                     <div className="portfolio-details__sidebar-img">
-                    <img
+                    <img loading="lazy"
                         src="assets/images/project/portfolio-details-sidebar-img.webp"
                         alt="Project details sidebar"
                     />
@@ -227,7 +227,7 @@ export default function Home() {
                 <div className="item">
                 <div className="gallery-one__single">
                     <div className="gallery-one__img">
-                    <img src="assets/images/gallery/gallery-one-1-1.webp" alt="Platform Integration project" />
+                    <img loading="lazy" src="assets/images/gallery/gallery-one-1-1.webp" alt="Platform Integration project" />
                     <div className="gallery-one__title-box">
                         <h4>Platform Integration</h4>
                     </div>
@@ -241,7 +241,7 @@ export default function Home() {
                 <div className="item">
                 <div className="gallery-one__single">
                     <div className="gallery-one__img">
-                    <img src="assets/images/gallery/gallery-one-1-2.webp" alt="Platform Integration project" />
+                    <img loading="lazy" src="assets/images/gallery/gallery-one-1-2.webp" alt="Platform Integration project" />
                     <div className="gallery-one__title-box">
                         <h4>Platform Integration</h4>
                     </div>
@@ -255,7 +255,7 @@ export default function Home() {
                 <div className="item">
                 <div className="gallery-one__single">
                     <div className="gallery-one__img">
-                    <img src="assets/images/gallery/gallery-one-1-3.webp" alt="Platform Integration project" />
+                    <img loading="lazy" src="assets/images/gallery/gallery-one-1-3.webp" alt="Platform Integration project" />
                     <div className="gallery-one__title-box">
                         <h4>Platform Integration</h4>
                     </div>

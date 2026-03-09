@@ -51,7 +51,7 @@ export default function Testimonial() {
             <div className="section-title text-center">
               <div className="section-title__tagline-box">
                 <div className="section-title__tagline-icon">
-                  <img src="assets/images/icon/section-title-icon.webp" alt="Section title icon" width={20} height={30} />
+                  <img loading="lazy" src="assets/images/icon/section-title-icon.webp" alt="Section title icon" width={20} height={30} />
                 </div>
                 <p className="section-title__tagline">Our Testimonial</p>
               </div>
@@ -84,7 +84,7 @@ export default function Testimonial() {
                             </p>
                             <div className="testimonial-one__client-box">
                               <div className="testimonial-one__client-img">
-                                <img
+                                <img loading="lazy"
                                   src="assets/images/testimonial/testimonial-1-1.webp"
                                   
                                 />
@@ -126,7 +126,7 @@ export default function Testimonial() {
                             </p>
                             <div className="testimonial-one__client-box">
                               <div className="testimonial-one__client-img">
-                                <img
+                                <img loading="lazy"
                                   src="assets/images/testimonial/testimonial-1-2.webp"
                                   
                                 />
@@ -157,7 +157,7 @@ export default function Testimonial() {
                 <div className="col-xl-6 col-lg-6">
                   <div className="testimonial-one__right">
                     <div className="testimonial-one__img">
-                      <img
+                      <img loading="lazy"
                         src="assets/images/testimonial/testimonial-one-img-1.webp"
                         
                       />

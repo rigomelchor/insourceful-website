@@ -53,7 +53,7 @@ export default function Faq() {
                 <div className="section-title text-left">
                   <div className="section-title__tagline-box">
                     <div className="section-title__tagline-icon">
-                      <img
+                      <img loading="lazy"
                         src="assets/images/icon/section-title-icon.webp"
                         alt="Section title icon"
                         width={20}
@@ -76,7 +76,7 @@ export default function Faq() {
                 </p>
                 <div className="faq-one__img-and-system">
                   <div className="faq-one__img">
-                    <img src="assets/images/resources/oracle-jd-edwards.webp" alt="Oracle JD Edwards system interface" width={225} height={300} />
+                    <img loading="lazy" src="assets/images/resources/oracle-jd-edwards.webp" alt="Oracle JD Edwards system interface" width={225} height={300} />
                   </div>
                   <div className="faq-one__system">
                     <h3 className="faq-one__system-title">

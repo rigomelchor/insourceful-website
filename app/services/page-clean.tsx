@@ -54,49 +54,49 @@ export default function Home() {
                             <SwiperSlide>
                                 <div className="brand-one__single">
                                     <div className="brand-one__img">
-                                        <img src="assets/images/brand/brand-1-1.webp" alt="" />
+                                        <img loading="lazy" src="assets/images/brand/brand-1-1.webp" alt="" />
                                     </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="brand-one__single">
                                     <div className="brand-one__img">
-                                        <img src="assets/images/brand/brand-1-2.webp" alt="" />
+                                        <img loading="lazy" src="assets/images/brand/brand-1-2.webp" alt="" />
                                     </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="brand-one__single">
                                     <div className="brand-one__img">
-                                        <img src="assets/images/brand/brand-1-3.webp" alt="" />
+                                        <img loading="lazy" src="assets/images/brand/brand-1-3.webp" alt="" />
                                     </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="brand-one__single">
                                     <div className="brand-one__img">
-                                        <img src="assets/images/brand/brand-1-4.webp" alt="" />
+                                        <img loading="lazy" src="assets/images/brand/brand-1-4.webp" alt="" />
                                     </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="brand-one__single">
                                     <div className="brand-one__img">
-                                        <img src="assets/images/brand/brand-1-5.webp" alt="" />
+                                        <img loading="lazy" src="assets/images/brand/brand-1-5.webp" alt="" />
                                     </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="brand-one__single">
                                     <div className="brand-one__img">
-                                        <img src="assets/images/brand/brand-1-4.webp" alt="" />
+                                        <img loading="lazy" src="assets/images/brand/brand-1-4.webp" alt="" />
                                     </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="brand-one__single">
                                     <div className="brand-one__img">
-                                        <img src="assets/images/brand/brand-1-5.webp" alt="" />
+                                        <img loading="lazy" src="assets/images/brand/brand-1-5.webp" alt="" />
                                     </div>
                                 </div>
                             </SwiperSlide>

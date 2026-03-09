@@ -78,49 +78,49 @@ export default function Home() {
               <SwiperSlide>
                 <div className="brand-one__single">
                   <div className="brand-one__img">
-                    <img src="assets/images/brand/brand-1-1.webp" alt="Brand partner logo" />
+                    <img loading="lazy" src="assets/images/brand/brand-1-1.webp" alt="Brand partner logo" />
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="brand-one__single">
                   <div className="brand-one__img">
-                    <img src="assets/images/brand/brand-1-2.webp" alt="Brand partner logo" />
+                    <img loading="lazy" src="assets/images/brand/brand-1-2.webp" alt="Brand partner logo" />
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="brand-one__single">
                   <div className="brand-one__img">
-                    <img src="assets/images/brand/brand-1-3.webp" alt="Brand partner logo" />
+                    <img loading="lazy" src="assets/images/brand/brand-1-3.webp" alt="Brand partner logo" />
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="brand-one__single">
                   <div className="brand-one__img">
-                    <img src="assets/images/brand/brand-1-4.webp" alt="Brand partner logo" />
+                    <img loading="lazy" src="assets/images/brand/brand-1-4.webp" alt="Brand partner logo" />
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="brand-one__single">
                   <div className="brand-one__img">
-                    <img src="assets/images/brand/brand-1-5.webp"  />
+                    <img loading="lazy" src="assets/images/brand/brand-1-5.webp"  />
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="brand-one__single">
                   <div className="brand-one__img">
-                    <img src="assets/images/brand/brand-1-4.webp" alt="Brand partner logo" />
+                    <img loading="lazy" src="assets/images/brand/brand-1-4.webp" alt="Brand partner logo" />
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="brand-one__single">
                   <div className="brand-one__img">
-                    <img src="assets/images/brand/brand-1-5.webp"  />
+                    <img loading="lazy" src="assets/images/brand/brand-1-5.webp"  />
                   </div>
                 </div>
               </SwiperSlide>
@@ -219,7 +219,7 @@ export default function Home() {
             <div className="section-title text-center">
               <div className="section-title__tagline-box">
                 <div className="section-title__tagline-icon">
-                  <img
+                  <img loading="lazy"
                     src="assets/images/icon/section-title-icon-2.webp"
                     
                   />
@@ -335,7 +335,7 @@ export default function Home() {
                   <div className="section-title text-left">
                     <div className="section-title__tagline-box">
                       <div className="section-title__tagline-icon">
-                        <img
+                        <img loading="lazy"
                           src="assets/images/icon/section-title-icon.webp"
                           alt="Section title icon"
                           width={20}
@@ -356,7 +356,7 @@ export default function Home() {
                   </p>
                   <div className="faq-one__img-and-system">
                     <div className="faq-one__img">
-                      <img
+                      <img loading="lazy"
                         src="assets/images/resources/oracle-rect-logo.webp"
                         
                       />
@@ -472,7 +472,7 @@ export default function Home() {
             <div className="section-title text-center">
               <div className="section-title__tagline-box">
                 <div className="section-title__tagline-icon">
-                  <img src="assets/images/icon/section-title-icon.webp"  />
+                  <img loading="lazy" src="assets/images/icon/section-title-icon.webp"  />
                 </div>
                 <p className="section-title__tagline">Meet Our Team</p>
               </div>
@@ -486,7 +486,7 @@ export default function Home() {
                 <div className="team-one__single">
                   <div className="team-one__img-box">
                     <div className="team-one__img">
-                      <img src="assets/images/team/team-1-1.webp"  />
+                      <img loading="lazy" src="assets/images/team/team-1-1.webp"  />
                       <div className="team-one__name-box">
                         <h3 className="team-one__name">
                           <Link href="team-details">Jecika Brown</Link>
@@ -526,7 +526,7 @@ export default function Home() {
                 <div className="team-one__single">
                   <div className="team-one__img-box">
                     <div className="team-one__img">
-                      <img src="assets/images/team/team-1-2.webp"  />
+                      <img loading="lazy" src="assets/images/team/team-1-2.webp"  />
                       <div className="team-one__name-box">
                         <h3 className="team-one__name">
                           <Link href="team-details">Jhon Smith</Link>
@@ -566,7 +566,7 @@ export default function Home() {
                 <div className="team-one__single">
                   <div className="team-one__img-box">
                     <div className="team-one__img">
-                      <img src="assets/images/team/team-1-3.webp"  />
+                      <img loading="lazy" src="assets/images/team/team-1-3.webp"  />
                       <div className="team-one__name-box">
                         <h3 className="team-one__name">
                           <Link href="team-details">Alisha Martin</Link>
@@ -606,7 +606,7 @@ export default function Home() {
                 <div className="team-one__single">
                   <div className="team-one__img-box">
                     <div className="team-one__img">
-                      <img src="assets/images/team/team-1-4.webp"  />
+                      <img loading="lazy" src="assets/images/team/team-1-4.webp"  />
                       <div className="team-one__name-box">
                         <h3 className="team-one__name">
                           <Link href="team-details">David Kapor</Link>
@@ -652,7 +652,7 @@ export default function Home() {
               <div className="section-title text-center">
                 <div className="section-title__tagline-box">
                   <div className="section-title__tagline-icon">
-                    <img
+                    <img loading="lazy"
                       src="assets/images/icon/section-title-icon.webp"
                       
                     />
@@ -677,7 +677,7 @@ export default function Home() {
             <div className="section-title text-center">
               <div className="section-title__tagline-box">
                 <div className="section-title__tagline-icon">
-                  <img src="assets/images/icon/section-title-icon.webp"  />
+                  <img loading="lazy" src="assets/images/icon/section-title-icon.webp"  />
                 </div>
                 <p className="section-title__tagline">Our Blog</p>
               </div>
@@ -693,7 +693,7 @@ export default function Home() {
                 <div className="blog-one__single">
                   <div className="blog-one__img-box">
                     <div className="blog-one__img">
-                      <img src="assets/images/blog/blog-1-1.webp"  />
+                      <img loading="lazy" src="assets/images/blog/blog-1-1.webp"  />
                     </div>
                     <div className="blog-one__date">
                       <p>
@@ -742,7 +742,7 @@ export default function Home() {
                 <div className="blog-one__single">
                   <div className="blog-one__img-box">
                     <div className="blog-one__img">
-                      <img src="assets/images/blog/blog-1-2.webp"  />
+                      <img loading="lazy" src="assets/images/blog/blog-1-2.webp"  />
                     </div>
                     <div className="blog-one__date">
                       <p>
@@ -791,7 +791,7 @@ export default function Home() {
                 <div className="blog-one__single">
                   <div className="blog-one__img-box">
                     <div className="blog-one__img">
-                      <img src="assets/images/blog/blog-1-3.webp"  />
+                      <img loading="lazy" src="assets/images/blog/blog-1-3.webp"  />
                     </div>
                     <div className="blog-one__date">
                       <p>
