@@ -38,7 +38,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }: MobileMenuPr
                     <span className="mobile-nav__close mobile-nav__toggler" onClick={handleMobileMenu} ><i className="fa fa-times"></i></span>
 
                     <div className="logo-box">
-                        <Link href="/" aria-label="logo image"><img src="assets/images/resources/insourceful-consulting-white.webp" width="750" alt="InSourceful Logo" /></Link>
+                        <Link href="/" aria-label="logo image"><img src="assets/images/resources/insourceful-consulting-white.webp" width={252} height={88} alt="InSourceful Logo" /></Link>
                     </div>
 
                     <div className="mobile-nav__container">

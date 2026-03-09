@@ -83,6 +83,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     rel="preload"
                     as="image"
                     href="/assets/images/backgrounds/hero.webp"
+                    fetchPriority="high"
                 />
                 {/* Performance optimization meta */}
                 <meta name="viewport" content="width=device-width, initial-scale=1" />

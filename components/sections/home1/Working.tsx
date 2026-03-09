@@ -32,6 +32,8 @@ export default function Benefit() {
                   <img
                     src="assets/images/resources/benefits-one-img-1.webp"
                     alt="Business benefits illustration"
+                    width={440}
+                    height={340}
                   />
                 </div>
               </div>

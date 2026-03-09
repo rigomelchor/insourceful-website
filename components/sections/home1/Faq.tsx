@@ -76,7 +76,7 @@ export default function Faq() {
                 </p>
                 <div className="faq-one__img-and-system">
                   <div className="faq-one__img">
-                    <img src="assets/images/resources/oracle-jd-edwards.webp" alt="Oracle JD Edwards system interface" />
+                    <img src="assets/images/resources/oracle-jd-edwards.webp" alt="Oracle JD Edwards system interface" width={225} height={300} />
                   </div>
                   <div className="faq-one__system">
                     <h3 className="faq-one__system-title">
