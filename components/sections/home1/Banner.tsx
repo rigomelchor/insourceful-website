@@ -1,5 +1,4 @@
 "use client";
-import { useState } from "react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -24,10 +23,9 @@ const swiperOptions = {
 };
 
 export default function Banner() {
-  const [isOpen, setOpen] = useState(false);
   return (
     <>
-      {/* Main Sllider Start */}
+      {/* Main Slider Start */}
       <section className="main-slider">
         <Swiper
           {...swiperOptions}
@@ -45,20 +43,12 @@ export default function Banner() {
                     src="/assets/images/backgrounds/hero.webp"
                     alt="Engineering Excellence for Asset-Intensive Enterprises"
                     fetchPriority="high"
-                    decoding="async"
+                    decoding="sync"
                     style={{ position: "absolute", width: "100%", height: "100%", inset: 0, objectFit: "cover" }}
                   />
                 </picture>
               </div>
-              {/* /.slider-one__bg */}
               <div className="main-slider__shape-1" />
-              <div className="main-slider__shape-2 float-bob-y">
-                <img
-                  src="assets/images/shapes/main-slider-shape-2.webp"
-                  alt="Decorative slider shape"
-                />
-              </div>
-              {/* dot overlay hidden for cleaner hero */}
               <div className="container">
                 <div className="main-slider__content">
                   <p className="main-slider__sub-title">
@@ -89,54 +79,7 @@ export default function Banner() {
                     "url(assets/images/backgrounds/hero.webp)",
                 }}
               ></div>
-              {/* /.slider-one__bg */}
               <div className="main-slider__shape-1" />
-              <div className="main-slider__shape-2 float-bob-y">
-                <img
-                  src="assets/images/shapes/main-slider-shape-2.webp"
-                  alt="Decorative slider shape"
-                />
-              </div>
-              {/* dot overlay hidden for cleaner hero */}
-              <div className="container">
-                <div className="main-slider__content">
-                  <p className="main-slider__sub-title">
-                    Oracle JD Edwards | Enterprise Consulting
-                  </p>
-                  <h2 className="main-slider__title">
-                    Engineering Excellence <br /> for Asset-Intensive Enterprises
-                  </h2>
-                  <p className="main-slider__text">
-                    Expert Oracle JD Edwards consulting for Mining, Oil & Gas, Pharmaceuticals, and Utilities.
-                  </p>
-                  <div className="main-slider__btn-box">
-                    <a href="contact" className="thm-btn main-slider__btn">
-                      Schedule Consultation
-                      <span className="fa fa-plus" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="item main-slider__slide-3">
-              <div
-                className="main-slider__bg"
-                style={{
-                  backgroundImage:
-                    "url(assets/images/backgrounds/slider-1-3.webp)",
-                }}
-              ></div>
-              {/* /.slider-one__bg */}
-              <div className="main-slider__shape-1" />
-              <div className="main-slider__shape-2 float-bob-y">
-                <img
-                  src="assets/images/shapes/main-slider-shape-2.webp"
-                  alt="Decorative slider shape"
-                />
-              </div>
-              {/* dot overlay hidden for cleaner hero */}
               <div className="container">
                 <div className="main-slider__content">
                   <p className="main-slider__sub-title">
@@ -160,7 +103,7 @@ export default function Banner() {
           </SwiperSlide>
         </Swiper>
       </section>
-      {/*Main Sllider Start */}
+      {/* Main Slider End */}
     </>
   );
 }
