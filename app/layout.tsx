@@ -84,6 +84,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     href="/assets/images/backgrounds/hero.webp"
                     fetchPriority="high"
                 />
+                {/* Preload icon fonts to avoid CSS→font waterfall */}
+                <link
+                    rel="preload"
+                    as="font"
+                    type="font/woff2"
+                    href="/assets/vendors/fontawesome/webfonts/fa-solid-900.woff2"
+                    crossOrigin="anonymous"
+                />
+                <link
+                    rel="preload"
+                    as="font"
+                    type="font/woff2"
+                    href="/assets/vendors/fontawesome/webfonts/fa-brands-400.woff2"
+                    crossOrigin="anonymous"
+                />
                 {/* Performance optimization meta */}
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="theme-color" content="#0066cc" />
