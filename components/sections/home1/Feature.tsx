@@ -4,6 +4,7 @@ export default function Feature() {
     <>
       {/*Feature One Start*/}
       <section className="feature-one">
+        <h2 className="sr-only">Our Services</h2>
         <div className="container">
           <div className="row">
             {/*Feature One Single Start*/}

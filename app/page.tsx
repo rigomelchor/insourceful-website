@@ -3,7 +3,6 @@ import Banner from "@/components/sections/home1/Banner"
 import About from "@/components/sections/home1/About"
 import Service from "@/components/sections/home1/Service"
 import Cta from "@/components/sections/home1/Cta"
-import Blog from "@/components/sections/home1/Blog"
 import Working from "@/components/sections/home1/Working"
 import Faq from "@/components/sections/home1/Faq"
 import Brand from "@/components/sections/home1/Brand"
@@ -30,7 +29,6 @@ export default function Home() {
                 <Faq />
                 <Cta />
                 <Funfact />
-                <Blog />
                 <Newsletter />
             </Layout>
         </div>
