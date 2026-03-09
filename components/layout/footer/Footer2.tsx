@@ -10,13 +10,13 @@ export default function Footer2() {
             <div
             className="site-footer__bg-3 float-bob-y"
             style={{
-                backgroundImage: "url(assets/images/backgrounds/site-footer-bg-3.png)"
+                backgroundImage: "url(assets/images/backgrounds/site-footer-bg-3.webp)"
             }}
             />
             <div
             className="site-footer__bg"
             style={{
-                backgroundImage: "url(assets/images/backgrounds/site-footer-bg.jpg)"
+                backgroundImage: "url(assets/images/backgrounds/site-footer-bg.webp)"
             }}
             ></div>
             <div className="site-footer__top">

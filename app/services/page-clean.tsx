@@ -54,49 +54,49 @@ export default function Home() {
                             <SwiperSlide>
                                 <div className="brand-one__single">
                                     <div className="brand-one__img">
-                                        <img src="assets/images/brand/brand-1-1.png" alt="" />
+                                        <img src="assets/images/brand/brand-1-1.webp" alt="" />
                                     </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="brand-one__single">
                                     <div className="brand-one__img">
-                                        <img src="assets/images/brand/brand-1-2.png" alt="" />
+                                        <img src="assets/images/brand/brand-1-2.webp" alt="" />
                                     </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="brand-one__single">
                                     <div className="brand-one__img">
-                                        <img src="assets/images/brand/brand-1-3.png" alt="" />
+                                        <img src="assets/images/brand/brand-1-3.webp" alt="" />
                                     </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="brand-one__single">
                                     <div className="brand-one__img">
-                                        <img src="assets/images/brand/brand-1-4.png" alt="" />
+                                        <img src="assets/images/brand/brand-1-4.webp" alt="" />
                                     </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="brand-one__single">
                                     <div className="brand-one__img">
-                                        <img src="assets/images/brand/brand-1-5.png" alt="" />
+                                        <img src="assets/images/brand/brand-1-5.webp" alt="" />
                                     </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="brand-one__single">
                                     <div className="brand-one__img">
-                                        <img src="assets/images/brand/brand-1-4.png" alt="" />
+                                        <img src="assets/images/brand/brand-1-4.webp" alt="" />
                                     </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="brand-one__single">
                                     <div className="brand-one__img">
-                                        <img src="assets/images/brand/brand-1-5.png" alt="" />
+                                        <img src="assets/images/brand/brand-1-5.webp" alt="" />
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -114,7 +114,7 @@ export default function Home() {
                             <div
                                 className="newsletter-one__bg float-bob-y"
                                 style={{
-                                    backgroundImage: "url(assets/images/backgrounds/newsletter-one-bg.jpg)"
+                                    backgroundImage: "url(assets/images/backgrounds/newsletter-one-bg.webp)"
                                 }}
                             ></div>
                             <h3 className="newsletter-one__title">Newsletter</h3>

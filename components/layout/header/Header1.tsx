@@ -43,17 +43,17 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }: Heade
                     </p>
                 </div>
                 <div className="main-header__top-social">
-                    <Link href="#">
+                    <Link href="https://twitter.com/insourceful" aria-label="Follow us on Twitter" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-twitter" />
                     </Link>
-                    <Link href="#">
+                    <Link href="https://facebook.com/insourceful" aria-label="Follow us on Facebook" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-facebook" />
                     </Link>
-                    <Link href="#">
-                    <i className="fab fa-pinterest-p" />
+                    <Link href="https://linkedin.com/company/insourceful" aria-label="Connect on LinkedIn" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-linkedin" />
                     </Link>
-                    <Link href="#">
-                    <i className="fab fa-instagram" />
+                    <Link href="mailto:info@insourceful.ai" aria-label="Email us">
+                    <i className="fab fa-envelope" />
                     </Link>
                 </div>
                 </div>

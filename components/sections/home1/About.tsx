@@ -56,7 +56,7 @@ export default function About() {
                   <div className="section-title__tagline-box">
                     <div className="section-title__tagline-icon">
                       <img
-                        src="assets/images/icon/section-title-icon.png"
+                        src="assets/images/icon/section-title-icon.webp"
                         alt="Section title icon"
                       />
                     </div>

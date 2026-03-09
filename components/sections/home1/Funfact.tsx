@@ -8,21 +8,21 @@ export default function Funfact() {
           className="counter-one__bg img-bounce"
           style={{
             backgroundImage:
-              "url(assets/images/backgrounds/counter-one-bg.png)",
+              "url(assets/images/backgrounds/counter-one-bg.webp)",
           }}
         ></div>
         <div
           className="counter-one__bg-two"
           style={{
             backgroundImage:
-              "url(assets/images/backgrounds/counter-one-bg-two.jpg)",
+              "url(assets/images/backgrounds/counter-one-bg-two.webp)",
           }}
         />
         <div
           className="counter-one__bg-three"
           style={{
             backgroundImage:
-              "url(assets/images/backgrounds/counter-one-bg-three.jpg)",
+              "url(assets/images/backgrounds/counter-one-bg-three.webp)",
           }}
         />
         <div className="container">

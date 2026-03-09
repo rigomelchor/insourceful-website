@@ -8,14 +8,14 @@ export default function Pricng() {
           className="pricing-one__bg"
           style={{
             backgroundImage:
-              "url(assets/images/backgrounds/pricing-one-bg.jpg)",
+              "url(assets/images/backgrounds/pricing-one-bg.webp)",
           }}
         ></div>
         <div className="container">
           <div className="section-title text-center">
             <div className="section-title__tagline-box">
               <div className="section-title__tagline-icon">
-                <img src="assets/images/icon/section-title-icon.png" alt="Section title icon" />
+                <img src="assets/images/icon/section-title-icon.webp" alt="Section title icon" />
               </div>
               <p className="section-title__tagline">Our Pricing</p>
             </div>
@@ -28,13 +28,13 @@ export default function Pricng() {
                 <div className="pricing-one__inner">
                   <div className="pricing-one__shape-1">
                     <img
-                      src="assets/images/shapes/pricing-one-shape-1.png"
+                      src="assets/images/shapes/pricing-one-shape-1.webp"
                       
                     />
                   </div>
                   <div className="pricing-one__shape-2">
                     <img
-                      src="assets/images/shapes/pricing-one-shape-2.png"
+                      src="assets/images/shapes/pricing-one-shape-2.webp"
                       
                     />
                   </div>
@@ -79,13 +79,13 @@ export default function Pricng() {
                 <div className="pricing-one__inner">
                   <div className="pricing-one__shape-1">
                     <img
-                      src="assets/images/shapes/pricing-one-shape-1.png"
+                      src="assets/images/shapes/pricing-one-shape-1.webp"
                       
                     />
                   </div>
                   <div className="pricing-one__shape-2">
                     <img
-                      src="assets/images/shapes/pricing-one-shape-2.png"
+                      src="assets/images/shapes/pricing-one-shape-2.webp"
                       
                     />
                   </div>
@@ -130,13 +130,13 @@ export default function Pricng() {
                 <div className="pricing-one__inner">
                   <div className="pricing-one__shape-1">
                     <img
-                      src="assets/images/shapes/pricing-one-shape-1.png"
+                      src="assets/images/shapes/pricing-one-shape-1.webp"
                       
                     />
                   </div>
                   <div className="pricing-one__shape-2">
                     <img
-                      src="assets/images/shapes/pricing-one-shape-2.png"
+                      src="assets/images/shapes/pricing-one-shape-2.webp"
                       
                     />
                   </div>

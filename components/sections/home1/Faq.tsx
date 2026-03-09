@@ -1,6 +1,28 @@
 "use client";
 import { useState } from "react";
+import FAQSchema from "@/components/seo/FAQSchema";
+
 export default function Faq() {
+  // FAQ data for structured data
+  const faqData = [
+    {
+      question: "Industries We Serve",
+      answer: "Mining & Metals | Oil, Gas & Energy | Pharmaceutical Manufacturing | Utilities & Infrastructure | Transportation & Logistics with deep expertise in asset-intensive operations."
+    },
+    {
+      question: "Our Certifications",
+      answer: "Oracle JDE Certified (Finance, CAM, Distribution) | SAP Certified Consultants | SOX Compliance Experts | CIPP/CIPM Data Privacy (In Progress)"
+    },
+    {
+      question: "Why Choose InSourceful?",
+      answer: "25+ years experience | 100+ global implementations | 88 countries served | Deep industry expertise in asset-intensive sectors with proven ROI results."
+    },
+    {
+      question: "Implementation Methodology",
+      answer: "Assess current state | Design solution architecture | Implement with phased rollout | Optimize with post-go-live support and continuous improvement."
+    }
+  ];
+
   const [isActive, setIsActive] = useState({
     status: false,
     key: 1,
@@ -21,6 +43,7 @@ export default function Faq() {
   };
   return (
     <>
+      <FAQSchema faqs={faqData} />
       {/*FAQ One Start*/}
       <section className="faq-one">
         <div className="container">
@@ -31,7 +54,7 @@ export default function Faq() {
                   <div className="section-title__tagline-box">
                     <div className="section-title__tagline-icon">
                       <img
-                        src="assets/images/icon/section-title-icon.png"
+                        src="assets/images/icon/section-title-icon.webp"
                         alt="Section title icon"
                       />
                     </div>

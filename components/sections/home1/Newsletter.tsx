@@ -11,7 +11,7 @@ export default function Newsletter() {
               className="newsletter-one__bg float-bob-y"
               style={{
                 backgroundImage:
-                  "url(assets/images/backgrounds/newsletter-one-bg.jpg)",
+                  "url(assets/images/backgrounds/newsletter-one-bg.webp)",
               }}
             />
             <h3 className="newsletter-one__title">Newsletter</h3>

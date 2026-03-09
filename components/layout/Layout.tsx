@@ -51,8 +51,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
 
     useEffect(() => {
         // Initialize AOS (Animate On Scroll) animations
-        // Temporarily disabled to fix originalFactory.call error
-        // initAOS()
+        initAOS()
     }, [])
 
     useEffect(() => {

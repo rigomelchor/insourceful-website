@@ -68,8 +68,8 @@ export default function Home() {
                     <div className="portfolio-details__content-box-one">
                     <div className="portfolio-details__content-one-img">
                         <img
-                        src="assets/images/project/portfolio-details-content-one-img-1.jpg"
-                        
+                        src="assets/images/project/portfolio-details-content-one-img-1.webp"
+                        alt="Financial project showcase"
                         />
                     </div>
                     <div className="portfolio-details__content-one">
@@ -95,8 +95,8 @@ export default function Home() {
                         <div className="portfolio-details__planing-left">
                             <div className="portfolio-details__planing-img">
                             <img
-                                src="assets/images/project/portfolio-details-planing-img-1.jpg"
-                                
+                                src="assets/images/project/portfolio-details-planing-img-1.webp"
+                                alt="Financial planning project"
                             />
                             </div>
                         </div>
@@ -206,8 +206,8 @@ export default function Home() {
                     </div>
                     <div className="portfolio-details__sidebar-img">
                     <img
-                        src="assets/images/project/portfolio-details-sidebar-img.jpg"
-                        
+                        src="assets/images/project/portfolio-details-sidebar-img.webp"
+                        alt="Project details sidebar"
                     />
                     </div>
                 </div>
@@ -227,7 +227,7 @@ export default function Home() {
                 <div className="item">
                 <div className="gallery-one__single">
                     <div className="gallery-one__img">
-                    <img src="assets/images/gallery/gallery-one-1-1.jpg"  />
+                    <img src="assets/images/gallery/gallery-one-1-1.webp" alt="Platform Integration project" />
                     <div className="gallery-one__title-box">
                         <h4>Platform Integration</h4>
                     </div>
@@ -241,7 +241,7 @@ export default function Home() {
                 <div className="item">
                 <div className="gallery-one__single">
                     <div className="gallery-one__img">
-                    <img src="assets/images/gallery/gallery-one-1-2.jpg"  />
+                    <img src="assets/images/gallery/gallery-one-1-2.webp" alt="Platform Integration project" />
                     <div className="gallery-one__title-box">
                         <h4>Platform Integration</h4>
                     </div>
@@ -255,7 +255,7 @@ export default function Home() {
                 <div className="item">
                 <div className="gallery-one__single">
                     <div className="gallery-one__img">
-                    <img src="assets/images/gallery/gallery-one-1-3.jpg"  />
+                    <img src="assets/images/gallery/gallery-one-1-3.webp" alt="Platform Integration project" />
                     <div className="gallery-one__title-box">
                         <h4>Platform Integration</h4>
                     </div>
@@ -276,7 +276,7 @@ export default function Home() {
                 className="newsletter-one__bg float-bob-y"
                 style={{
                     backgroundImage:
-                    "url(assets/images/backgrounds/newsletter-one-bg.jpg)"
+                    "url(assets/images/backgrounds/newsletter-one-bg.webp)"
                 }}
                 />
                 <h3 className="newsletter-one__title">Newsletter</h3>

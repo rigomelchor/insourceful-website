@@ -9,7 +9,7 @@ export default function Error404() {
             <div className="container">
                 <div className="error-page__inner text-center">
                     <div className="error-page__img float-bob-y">
-                        <img src="assets/images/resources/error-page-img1.png" />
+                        <img src="assets/images/resources/error-page-img1.webp" alt="Page not found illustration" />
                     </div>
 
                     <div className="error-page__content">

@@ -51,7 +51,7 @@ export default function Testimonial() {
             <div className="section-title text-center">
               <div className="section-title__tagline-box">
                 <div className="section-title__tagline-icon">
-                  <img src="assets/images/icon/section-title-icon.png" alt="Section title icon" />
+                  <img src="assets/images/icon/section-title-icon.webp" alt="Section title icon" />
                 </div>
                 <p className="section-title__tagline">Our Testimonial</p>
               </div>
@@ -85,7 +85,7 @@ export default function Testimonial() {
                             <div className="testimonial-one__client-box">
                               <div className="testimonial-one__client-img">
                                 <img
-                                  src="assets/images/testimonial/testimonial-1-1.jpg"
+                                  src="assets/images/testimonial/testimonial-1-1.webp"
                                   
                                 />
                               </div>
@@ -127,7 +127,7 @@ export default function Testimonial() {
                             <div className="testimonial-one__client-box">
                               <div className="testimonial-one__client-img">
                                 <img
-                                  src="assets/images/testimonial/testimonial-1-2.jpg"
+                                  src="assets/images/testimonial/testimonial-1-2.webp"
                                   
                                 />
                               </div>
@@ -158,7 +158,7 @@ export default function Testimonial() {
                   <div className="testimonial-one__right">
                     <div className="testimonial-one__img">
                       <img
-                        src="assets/images/testimonial/testimonial-one-img-1.jpg"
+                        src="assets/images/testimonial/testimonial-one-img-1.webp"
                         
                       />
                     </div>

@@ -8,7 +8,7 @@ export default function Benefit() {
             className="benefits-one__shape-bg"
             style={{
               backgroundImage:
-                "url(assets/images/backgrounds/benefits-one-shape-bg.png)",
+                "url(assets/images/backgrounds/benefits-one-shape-bg.webp)",
             }}
           />
         </div>
@@ -16,7 +16,7 @@ export default function Benefit() {
           className="benefits-one__bg-one"
           style={{
             backgroundImage:
-              "url(assets/images/backgrounds/benefits-one-bg-one.jpg)",
+              "url(assets/images/backgrounds/benefits-one-bg-one.webp)",
           }}
         />
         <div className="benefits-one__overly" />
@@ -42,7 +42,7 @@ export default function Benefit() {
                   <div className="section-title__tagline-box">
                     <div className="section-title__tagline-icon">
                       <img
-                        src="assets/images/icon/section-title-icon.png"
+                        src="assets/images/icon/section-title-icon.webp"
                         alt="Section title icon"
                       />
                     </div>

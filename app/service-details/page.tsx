@@ -33,7 +33,7 @@ export default function Home() {
                 <div className="services-details__left">
                     <div className="services-details__img">
                     <img
-                        src="assets/images/services/services-details-img-1.jpg"
+                        src="assets/images/services/services-details-img-1.webp"
                         
                     />
                     </div>
@@ -106,7 +106,7 @@ export default function Home() {
                     </ul>
                     <div className="services-details__img-2">
                     <img
-                        src="assets/images/services/services-details-img-2.jpg"
+                        src="assets/images/services/services-details-img-2.webp"
                         
                     />
                     </div>
@@ -128,7 +128,7 @@ export default function Home() {
                     <div className="services-details__img-and-points-box">
                     <div className="services-details__points-img">
                         <img
-                        src="assets/images/services/services-details-img-3.jpg"
+                        src="assets/images/services/services-details-img-3.webp"
                         
                         />
                     </div>
@@ -308,7 +308,7 @@ export default function Home() {
                         className="services-details__banner-bg"
                         style={{
                         backgroundImage:
-                            "url(assets/images/backgrounds/services-details-banner-bg.jpg)"
+                            "url(assets/images/backgrounds/services-details-banner-bg.webp)"
                         }}
                     ></div>
                     <h3 className="services-details__banner-title">
@@ -338,7 +338,7 @@ export default function Home() {
                 className="newsletter-one__bg float-bob-y"
                 style={{
                     backgroundImage:
-                    "url(assets/images/backgrounds/newsletter-one-bg.jpg)"
+                    "url(assets/images/backgrounds/newsletter-one-bg.webp)"
                 }}
                 />
                 <h3 className="newsletter-one__title">Newsletter</h3>

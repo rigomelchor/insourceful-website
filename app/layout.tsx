@@ -1,4 +1,4 @@
-import "../public/assets/css/zeena.css"
+import "../public/assets/css/zeena.min.css"
 import "../public/assets/css/logo-sizing.css"
 import "../public/assets/css/contact-form.css"
 import "../public/assets/css/sticky-header-fix.css"
@@ -64,11 +64,12 @@ export const metadata = {
             'max-snippet': -1,
         },
     },
-    verification: {
-        google: 'verification_code_here',
-        yandex: 'verification_code_here',
-        yahoo: 'verification_code_here',
-    },
+    // Add verification codes when ready to submit to search engines
+    // verification: {
+    //     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+    //     // yandex: process.env.NEXT_PUBLIC_YANDEX_VERIFICATION,
+    //     // yahoo: process.env.NEXT_PUBLIC_YAHOO_VERIFICATION,
+    // },
 }
 
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID

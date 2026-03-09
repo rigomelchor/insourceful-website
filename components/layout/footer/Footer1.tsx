@@ -9,13 +9,13 @@ export default function Footer1() {
             <div
             className="site-footer__bg-3 float-bob-y"
             style={{
-                backgroundImage: "url(assets/images/backgrounds/site-footer-bg-3.png)"
+                backgroundImage: "url(assets/images/backgrounds/site-footer-bg-3.webp)"
             }}
             />
             <div
             className="site-footer__bg"
             style={{
-                backgroundImage: "url(assets/images/backgrounds/site-footer-bg.jpg)"
+                backgroundImage: "url(assets/images/backgrounds/site-footer-bg.webp)"
             }}
             ></div>
             <div className="site-footer__top">
@@ -148,16 +148,16 @@ export default function Footer1() {
                         </li>
                     </ul>
                     <div className="footer-widget__social">
-                        <Link href="#" aria-label="Facebook">
+                        <Link href="https://facebook.com/insourceful" aria-label="Follow us on Facebook" target="_blank" rel="noopener noreferrer">
                         <span className="fab fa-facebook-f" />
                         </Link>
-                        <Link href="#" aria-label="Twitter">
+                        <Link href="https://twitter.com/insourceful" aria-label="Follow us on Twitter" target="_blank" rel="noopener noreferrer">
                         <span className="fab fa-twitter" />
                         </Link>
-                        <Link href="#" aria-label="LinkedIn">
+                        <Link href="https://linkedin.com/company/insourceful" aria-label="Connect on LinkedIn" target="_blank" rel="noopener noreferrer">
                         <span className="fab fa-linkedin-in" />
                         </Link>
-                        <Link href="#" aria-label="YouTube">
+                        <Link href="https://youtube.com/@insourceful" aria-label="Subscribe on YouTube" target="_blank" rel="noopener noreferrer">
                         <span className="fab fa-youtube" />
                         </Link>
                     </div>

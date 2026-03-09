@@ -15,7 +15,7 @@ export default function Home() {
                     <div className="portfolio-page__img-box">
                     <div className="portfolio-page__img">
                         <img
-                        src="assets/images/project/portfolio-page-1-1.jpg"
+                        src="assets/images/project/portfolio-page-1-1.webp"
                         
                         />
                     </div>
@@ -28,7 +28,7 @@ export default function Home() {
                         </div>
                         <div className="portfolio-page__arrow">
                         <Link
-                            href="assets/images/project/portfolio-page-1-1.jpg"
+                            href="assets/images/project/portfolio-page-1-1.webp"
                             className="img-popup"
                         >
                             <span className="icon-back" />
@@ -45,7 +45,7 @@ export default function Home() {
                     <div className="portfolio-page__img-box">
                     <div className="portfolio-page__img">
                         <img
-                        src="assets/images/project/portfolio-page-1-2.jpg"
+                        src="assets/images/project/portfolio-page-1-2.webp"
                         
                         />
                     </div>
@@ -58,7 +58,7 @@ export default function Home() {
                         </div>
                         <div className="portfolio-page__arrow">
                         <Link
-                            href="assets/images/project/portfolio-page-1-2.jpg"
+                            href="assets/images/project/portfolio-page-1-2.webp"
                             className="img-popup"
                         >
                             <span className="icon-back" />
@@ -75,7 +75,7 @@ export default function Home() {
                     <div className="portfolio-page__img-box">
                     <div className="portfolio-page__img">
                         <img
-                        src="assets/images/project/portfolio-page-1-3.jpg"
+                        src="assets/images/project/portfolio-page-1-3.webp"
                         
                         />
                     </div>
@@ -88,7 +88,7 @@ export default function Home() {
                         </div>
                         <div className="portfolio-page__arrow">
                         <Link
-                            href="assets/images/project/portfolio-page-1-3.jpg"
+                            href="assets/images/project/portfolio-page-1-3.webp"
                             className="img-popup"
                         >
                             <span className="icon-back" />
@@ -105,7 +105,7 @@ export default function Home() {
                     <div className="portfolio-page__img-box">
                     <div className="portfolio-page__img">
                         <img
-                        src="assets/images/project/portfolio-page-1-4.jpg"
+                        src="assets/images/project/portfolio-page-1-4.webp"
                         
                         />
                     </div>
@@ -118,7 +118,7 @@ export default function Home() {
                         </div>
                         <div className="portfolio-page__arrow">
                         <Link
-                            href="assets/images/project/portfolio-page-1-4.jpg"
+                            href="assets/images/project/portfolio-page-1-4.webp"
                             className="img-popup"
                         >
                             <span className="icon-back" />
@@ -135,7 +135,7 @@ export default function Home() {
                     <div className="portfolio-page__img-box">
                     <div className="portfolio-page__img">
                         <img
-                        src="assets/images/project/portfolio-page-1-5.jpg"
+                        src="assets/images/project/portfolio-page-1-5.webp"
                         
                         />
                     </div>
@@ -148,7 +148,7 @@ export default function Home() {
                         </div>
                         <div className="portfolio-page__arrow">
                         <Link
-                            href="assets/images/project/portfolio-page-1-5.jpg"
+                            href="assets/images/project/portfolio-page-1-5.webp"
                             className="img-popup"
                         >
                             <span className="icon-back" />
@@ -165,7 +165,7 @@ export default function Home() {
                     <div className="portfolio-page__img-box">
                     <div className="portfolio-page__img">
                         <img
-                        src="assets/images/project/portfolio-page-1-6.jpg"
+                        src="assets/images/project/portfolio-page-1-6.webp"
                         
                         />
                     </div>
@@ -178,7 +178,7 @@ export default function Home() {
                         </div>
                         <div className="portfolio-page__arrow">
                         <Link
-                            href="assets/images/project/portfolio-page-1-6.jpg"
+                            href="assets/images/project/portfolio-page-1-6.webp"
                             className="img-popup"
                         >
                             <span className="icon-back" />
@@ -195,7 +195,7 @@ export default function Home() {
                     <div className="portfolio-page__img-box">
                     <div className="portfolio-page__img">
                         <img
-                        src="assets/images/project/portfolio-page-1-7.jpg"
+                        src="assets/images/project/portfolio-page-1-7.webp"
                         
                         />
                     </div>
@@ -208,7 +208,7 @@ export default function Home() {
                         </div>
                         <div className="portfolio-page__arrow">
                         <Link
-                            href="assets/images/project/portfolio-page-1-7.jpg"
+                            href="assets/images/project/portfolio-page-1-7.webp"
                             className="img-popup"
                         >
                             <span className="icon-back" />
@@ -225,7 +225,7 @@ export default function Home() {
                     <div className="portfolio-page__img-box">
                     <div className="portfolio-page__img">
                         <img
-                        src="assets/images/project/portfolio-page-1-8.jpg"
+                        src="assets/images/project/portfolio-page-1-8.webp"
                         
                         />
                     </div>
@@ -238,7 +238,7 @@ export default function Home() {
                         </div>
                         <div className="portfolio-page__arrow">
                         <Link
-                            href="assets/images/project/portfolio-page-1-8.jpg"
+                            href="assets/images/project/portfolio-page-1-8.webp"
                             className="img-popup"
                         >
                             <span className="icon-back" />
@@ -255,7 +255,7 @@ export default function Home() {
                     <div className="portfolio-page__img-box">
                     <div className="portfolio-page__img">
                         <img
-                        src="assets/images/project/portfolio-page-1-9.jpg"
+                        src="assets/images/project/portfolio-page-1-9.webp"
                         
                         />
                     </div>
@@ -268,7 +268,7 @@ export default function Home() {
                         </div>
                         <div className="portfolio-page__arrow">
                         <Link
-                            href="assets/images/project/portfolio-page-1-9.jpg"
+                            href="assets/images/project/portfolio-page-1-9.webp"
                             className="img-popup"
                         >
                             <span className="icon-back" />
@@ -292,7 +292,7 @@ export default function Home() {
                 className="newsletter-one__bg float-bob-y"
                 style={{
                     backgroundImage:
-                    "url(assets/images/backgrounds/newsletter-one-bg.jpg)"
+                    "url(assets/images/backgrounds/newsletter-one-bg.webp)"
                 }}
                 />
                 <h3 className="newsletter-one__title">Newsletter</h3>

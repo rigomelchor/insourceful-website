@@ -9,14 +9,14 @@ export default function Home() {
         {/*Team Details Start */}
         <section className="team-details">
             <div className="team-details__shape-1 float-bob-y">
-            <img src="assets/images/shapes/team-details-shape-1.png"  />
+            <img src="assets/images/shapes/team-details-shape-1.webp" alt="" />
             </div>
             <div className="container">
             <div className="row">
                 <div className="col-xl-5 col-lg-5">
                 <div className="team-details__left">
                     <div className="team-details__img">
-                    <img src="assets/images/team/rigo-melchor-1.png" />
+                    <img src="assets/images/team/rigo-melchor-1.webp" alt="Rigoberto Melchor, Senior Consultant" />
                     <div className="team-details__content">
                         <h3>Rigoberto Melchor</h3>
                         <p>Senior Consultant</p>
@@ -260,8 +260,8 @@ export default function Home() {
                 <div className="why-choose-one__right">
                     <div className="why-choose-one__img">
                     <img
-                        src="assets/images/team/rigo-melchor-2.png"
-                        
+                        src="assets/images/team/rigo-melchor-2.webp"
+                        alt="Rigoberto Melchor consulting"
                     />
                     </div>
                 </div>
@@ -279,7 +279,7 @@ export default function Home() {
                 className="newsletter-one__bg float-bob-y"
                 style={{
                     backgroundImage:
-                    "url(assets/images/backgrounds/newsletter-one-bg.jpg)"
+                    "url(assets/images/backgrounds/newsletter-one-bg.webp)"
                 }}
                 />
                 <h3 className="newsletter-one__title">Newsletter</h3>

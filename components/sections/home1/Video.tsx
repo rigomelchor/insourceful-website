@@ -6,28 +6,28 @@ export default function Video() {
         <div
           className="video-one__bg"
           style={{
-            backgroundImage: "url(assets/images/backgrounds/video-one-bg.jpg)",
+            backgroundImage: "url(assets/images/backgrounds/video-one-bg.webp)",
           }}
         />
         <div
           className="video-one__bg-2"
           style={{
             backgroundImage:
-              "url(assets/images/backgrounds/video-one-bg-2.jpg)",
+              "url(assets/images/backgrounds/video-one-bg-2.webp)",
           }}
         ></div>
         <div
           className="video-one__bg-3"
           style={{
             backgroundImage:
-              "url(assets/images/backgrounds/video-one-bg-3.png)",
+              "url(assets/images/backgrounds/video-one-bg-3.webp)",
           }}
         ></div>
         <div
           className="video-one__bg-4"
           style={{
             backgroundImage:
-              "url(assets/images/backgrounds/video-one-bg-4.png)",
+              "url(assets/images/backgrounds/video-one-bg-4.webp)",
           }}
         ></div>
         <div className="container">
