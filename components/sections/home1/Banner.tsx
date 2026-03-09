@@ -42,6 +42,7 @@ export default function Banner() {
                   alt="Engineering Excellence for Asset-Intensive Enterprises"
                   fill
                   priority
+                  fetchPriority="high"
                   sizes="100vw"
                   style={{ objectFit: "cover" }}
                 />
