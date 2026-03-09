@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
 
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
@@ -35,13 +36,16 @@ export default function Banner() {
         >
           <SwiperSlide>
             <div className="item main-slider__slide-1">
-              <div
-                className="main-slider__bg"
-                style={{
-                  backgroundImage:
-                    "url(assets/images/backgrounds/hero.webp)",
-                }}
-              ></div>
+              <div className="main-slider__bg">
+                <Image
+                  src="/assets/images/backgrounds/hero.webp"
+                  alt="Engineering Excellence for Asset-Intensive Enterprises"
+                  fill
+                  priority
+                  sizes="100vw"
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
               {/* /.slider-one__bg */}
               <div className="main-slider__shape-1" />
               <div className="main-slider__shape-2 float-bob-y">

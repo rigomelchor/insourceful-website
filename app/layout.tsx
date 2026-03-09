@@ -77,13 +77,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="en" className={`${openSans.variable} ${poppins.variable}`}>
             <head>
-                {/* Preload critical LCP image */}
-                <link
-                    rel="preload"
-                    as="image"
-                    href="/assets/images/backgrounds/hero.webp"
-                    fetchPriority="high"
-                />
                 {/* Preload icon fonts to avoid CSS→font waterfall */}
                 <link
                     rel="preload"
