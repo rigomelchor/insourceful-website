@@ -4,7 +4,6 @@ import "../public/assets/css/contact-form.css"
 import "../public/assets/css/sticky-header-fix.css"
 // ACCESSIBILITY FIXES - MUST BE LAST TO OVERRIDE ALL OTHER STYLES
 import "../public/assets/css/accessibility-fixes.css"
-// import "../public/assets/css/insourceful-theme.css"
 import 'swiper/css'
 // import "swiper/css/navigation"
 import "swiper/css/pagination"
