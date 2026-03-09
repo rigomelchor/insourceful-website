@@ -10477,6 +10477,7 @@ ul {
 
 .why-choose-one__img img {
   width: 100%;
+  height: auto;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
@@ -13607,6 +13608,7 @@ section.error-page p {
     .why-choose-one__right {
         max-width: 600px;
         margin: 50px auto 0;
+        margin-right: auto;
     }
 
     .page-header__shape-1 {
@@ -13669,11 +13671,11 @@ section.error-page p {
 
     .about-one__right {
         max-width: 600px;
-        margin: 350px auto 0;
+        margin: 80px auto 0;
     }
 
     .about-one__img-box {
-        right: -35px;
+        right: 0;
     }
 
     .about-one {
