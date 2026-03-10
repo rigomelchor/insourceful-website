@@ -1,3 +1,4 @@
+import "../public/assets/css/zeena.min.css"
 import "../public/assets/css/logo-sizing.css"
 import "../public/assets/css/contact-form.css"
 import "../public/assets/css/sticky-header-fix.css"
@@ -10,14 +11,7 @@ import 'swiper/css/free-mode';
 import { openSans, poppins } from '@/lib/font'
 import StructuredData from '@/components/seo/StructuredData'
 import Script from 'next/script'
-import { readFileSync } from 'fs'
-import { join } from 'path'
 
-// Read critical CSS at build time (server component)
-const criticalCSS = readFileSync(
-    join(process.cwd(), 'public/assets/css/critical.css'),
-    'utf-8'
-)
 export const metadata = {
     title: {
         default: 'InSourceful - Enterprise Technology Consulting Services',
@@ -70,12 +64,6 @@ export const metadata = {
             'max-snippet': -1,
         },
     },
-    // Add verification codes when ready to submit to search engines
-    // verification: {
-    //     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
-    //     // yandex: process.env.NEXT_PUBLIC_YANDEX_VERIFICATION,
-    //     // yahoo: process.env.NEXT_PUBLIC_YAHOO_VERIFICATION,
-    // },
 }
 
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID?.trim()
@@ -84,13 +72,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="en" className={`${openSans.variable} ${poppins.variable}`}>
             <head>
-                {/* Inline critical CSS for instant hero render */}
-                <style dangerouslySetInnerHTML={{ __html: criticalCSS }} />
-                {/* Preload full CSS — starts downloading immediately but non-render-blocking */}
-                <link rel="preload" href="/assets/css/zeena.min.css" as="style" />
-                <noscript>
-                    <link rel="stylesheet" href="/assets/css/zeena.min.css" />
-                </noscript>
                 {/* Preload icon fonts to avoid CSS→font waterfall */}
                 <link
                     rel="preload"
@@ -127,11 +108,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <body>
                 <StructuredData />
                 {children}
-                
-                {/* Apply full CSS after first paint */}
-                <Script id="async-css" strategy="beforeInteractive">
-                    {`var l=document.createElement('link');l.rel='stylesheet';l.href='/assets/css/zeena.min.css';document.head.appendChild(l)`}
-                </Script>
 
                 {/* Google Analytics */}
                 {GA_MEASUREMENT_ID && (
