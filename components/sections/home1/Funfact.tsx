@@ -21,8 +21,7 @@ export default function Funfact() {
         <div
           className="counter-one__bg-three"
           style={{
-            backgroundImage:
-              "url(assets/images/backgrounds/counter-one-bg-three.webp)",
+            backgroundColor: "#000",
           }}
         />
         <div className="container">

@@ -27,7 +27,7 @@ export default function Team() {
                     <img loading="lazy" src="assets/images/team/team-1-1.webp" alt="Team member photo" />
                     <div className="team-one__name-box">
                       <h3 className="team-one__name">
-                        <Link href="team-details">Jecika Brown</Link>
+                        <Link href="team">Jecika Brown</Link>
                       </h3>
                       <p className="team-one__sub-title">Web Designer</p>
                     </div>
@@ -70,7 +70,7 @@ export default function Team() {
                     <img loading="lazy" src="assets/images/team/team-1-2.webp" alt="Team member photo" />
                     <div className="team-one__name-box">
                       <h3 className="team-one__name">
-                        <Link href="team-details">Jhon Smith</Link>
+                        <Link href="team">Jhon Smith</Link>
                       </h3>
                       <p className="team-one__sub-title">Web Designer</p>
                     </div>
@@ -113,7 +113,7 @@ export default function Team() {
                     <img loading="lazy" src="assets/images/team/team-1-3.webp" alt="Team member photo" />
                     <div className="team-one__name-box">
                       <h3 className="team-one__name">
-                        <Link href="team-details">Alisha Martin</Link>
+                        <Link href="team">Alisha Martin</Link>
                       </h3>
                       <p className="team-one__sub-title">Web Designer</p>
                     </div>
@@ -156,7 +156,7 @@ export default function Team() {
                     <img loading="lazy" src="assets/images/team/team-1-4.webp" alt="Team member photo" />
                     <div className="team-one__name-box">
                       <h3 className="team-one__name">
-                        <Link href="team-details">David Kapor</Link>
+                        <Link href="team">David Kapor</Link>
                       </h3>
                       <p className="team-one__sub-title">Web Designer</p>
                     </div>

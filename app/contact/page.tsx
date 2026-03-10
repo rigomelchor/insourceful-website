@@ -1,7 +1,6 @@
 
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
-import NewsletterForm from "@/components/forms/NewsletterForm"
 export default function Home() {
 
     return (
@@ -23,10 +22,10 @@ export default function Home() {
             {/*Contact Page Start*/}
             <section className="contact-page">
                 <div className="container">
+                <h3 className="contact-page__title">Get In Touch</h3>
                 <div className="row">
-                    <div className="col-xl-12">
+                    <div className="col-xl-4 col-lg-4 col-md-4">
                     <div className="contact-page__left">
-                        <h3 className="contact-page__title">Get In Touch</h3>
                         <ul className="contact-page__points list-unstyled">
                         <li>
                             <div className="icon">
@@ -40,6 +39,12 @@ export default function Home() {
                             </p>
                             </div>
                         </li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-4">
+                    <div className="contact-page__left">
+                        <ul className="contact-page__points list-unstyled">
                         <li>
                             <div className="icon">
                             <span className="icon-telephone" />
@@ -54,6 +59,12 @@ export default function Home() {
                             </p>
                             </div>
                         </li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-4 col-md-4">
+                    <div className="contact-page__left">
+                        <ul className="contact-page__points list-unstyled">
                         <li>
                             <div className="icon">
                             <span className="icon-open-mail" />
@@ -74,24 +85,20 @@ export default function Home() {
                 </div>
             </section>
             {/*Contact Page End*/}
-            {/*Newsletter One Start*/}
-            <section className="newsletter-one">
+            {/*CTA Start*/}
+            <section className="cta-one">
                 <div className="container">
-                <div className="newsletter-one__inner">
-                    <div
-                    className="newsletter-one__bg float-bob-y"
-                    style={{
-                        backgroundImage:
-                        "url(assets/images/backgrounds/newsletter-one-bg.webp)"
-                    }}
-                    />
-                    <h3 className="newsletter-one__title">Newsletter</h3>
-                    <p className="newsletter-one__sub-title">Stay updated</p>
-                    <NewsletterForm />
+                <div className="cta-one__inner">
+                    <h3 className="cta-one__title">Ready to Start a Conversation?</h3>
+                    <div className="cta-one__btn-box">
+                    <Link href="mailto:info@insourceful.ai" className="thm-btn cta-one__btn">
+                        Email Us <span className="icon-open-mail" />
+                    </Link>
+                    </div>
                 </div>
                 </div>
             </section>
-            {/*Newsletter One End*/}
+            {/*CTA End*/}
 
         </Layout>
         </>
