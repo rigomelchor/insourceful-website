@@ -14,8 +14,7 @@ export default function Funfact() {
         <div
           className="counter-one__bg-two"
           style={{
-            backgroundImage:
-              "url(assets/images/backgrounds/counter-one-bg-two.webp)",
+            backgroundColor: "#000",
           }}
         />
         <div

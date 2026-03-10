@@ -20,68 +20,58 @@ export default function Home() {
             {/*Google Map End*/}
 
             {/*Contact Page Start*/}
-            <section className="contact-page">
+            <section className="feature-one" style={{ marginTop: 0, padding: "80px 0 300px" }}>
                 <div className="container">
-                <h3 className="contact-page__title">Get In Touch</h3>
-                <div className="row">
-                    <div className="col-xl-4 col-lg-4 col-md-4">
-                    <div className="contact-page__left">
-                        <ul className="contact-page__points list-unstyled">
-                        <li>
-                            <div className="icon">
-                            <span className="icon-location" />
-                            </div>
-                            <div className="content">
-                            <h3>Address</h3>
-                            <p>
-                                6558 Tuscany Ridge Dr
-                                <br /> El Paso TX, USA
-                            </p>
-                            </div>
-                        </li>
-                        </ul>
+                    <div className="section-title text-center" style={{ marginBottom: "50px" }}>
+                        <h2 className="section-title__title">Get In Touch</h2>
                     </div>
-                    </div>
-                    <div className="col-xl-4 col-lg-4 col-md-4">
-                    <div className="contact-page__left">
-                        <ul className="contact-page__points list-unstyled">
-                        <li>
-                            <div className="icon">
-                            <span className="icon-telephone" />
+                    <div className="row" style={{ justifyContent: "center" }}>
+                        <div className="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                            <div className="feature-one__single">
+                                <div className="feature-one__icon">
+                                    <span className="icon-location" />
+                                </div>
+                                <div className="feature-one__content">
+                                    <h3 className="feature-one__title">Address</h3>
+                                    <p className="feature-one__text">
+                                        6558 Tuscany Ridge Dr
+                                        <br /> El Paso TX, USA
+                                    </p>
+                                </div>
                             </div>
-                            <div className="content">
-                            <h3>Phone</h3>
-                            <p>
-                                <Link href="tel:+17208788654">+1.720.878.8654</Link>
-                            </p>
-                            <p>
-                                <Link href="tel:+34671445275">+34.671.445.275</Link>
-                            </p>
+                        </div>
+                        <div className="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                            <div className="feature-one__single">
+                                <div className="feature-one__icon">
+                                    <span className="icon-telephone" />
+                                </div>
+                                <div className="feature-one__content">
+                                    <h3 className="feature-one__title">Phone</h3>
+                                    <p className="feature-one__text">
+                                        <Link href="tel:+17208788654">+1.720.878.8654</Link>
+                                    </p>
+                                    <p className="feature-one__text">
+                                        <Link href="tel:+34671445275">+34.671.445.275</Link>
+                                    </p>
+                                </div>
                             </div>
-                        </li>
-                        </ul>
-                    </div>
-                    </div>
-                    <div className="col-xl-4 col-lg-4 col-md-4">
-                    <div className="contact-page__left">
-                        <ul className="contact-page__points list-unstyled">
-                        <li>
-                            <div className="icon">
-                            <span className="icon-open-mail" />
+                        </div>
+                        <div className="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                            <div className="feature-one__single">
+                                <div className="feature-one__icon">
+                                    <span className="icon-open-mail" />
+                                </div>
+                                <div className="feature-one__content">
+                                    <h3 className="feature-one__title">Email</h3>
+                                    <p className="feature-one__text">
+                                        <Link href="mailto:info@insourceful.ai">
+                                            info@insourceful.ai
+                                        </Link>
+                                    </p>
+                                </div>
                             </div>
-                            <div className="content">
-                            <h3>Email</h3>
-                            <p>
-                                <Link href="mailto:info@insourceful.ai">
-                                info@insourceful.ai
-                                </Link>
-                            </p>
-                            </div>
-                        </li>
-                        </ul>
+                        </div>
                     </div>
-                    </div>
-                </div>
                 </div>
             </section>
             {/*Contact Page End*/}

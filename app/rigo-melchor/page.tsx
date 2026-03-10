@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Layout from "@/components/layout/Layout"
+import Newsletter from "@/components/sections/home1/Newsletter"
 export default function Home() {
 
     return (
@@ -7,22 +8,22 @@ export default function Home() {
         <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Team Details">
       
         {/*Team Details Start */}
-        <section className="team">
-            <div className="team__shape-1 float-bob-y">
-            <img loading="lazy" src="assets/images/shapes/team-shape-1.webp" alt="" />
+        <section className="team-details">
+            <div className="team-details__shape-1 float-bob-y">
+            <img loading="lazy" src="assets/images/shapes/team-details-shape-1.webp" alt="" />
             </div>
             <div className="container">
             <div className="row">
                 <div className="col-xl-5 col-lg-5">
-                <div className="team__left">
-                    <div className="team__img">
+                <div className="team-details__left">
+                    <div className="team-details__img">
                     <img loading="lazy" src="assets/images/team/rigo-melchor-1.webp" alt="Rigoberto Melchor, Senior Consultant" />
-                    <div className="team__content">
+                    <div className="team-details__content">
                         <h3>Rigoberto Melchor</h3>
                         <p>Senior Consultant</p>
                     </div>
-                    <div className="team__social-box">
-                        <ul className="list-unstyled team__social">
+                    <div className="team-details__social-box">
+                        <ul className="list-unstyled team-details__social">
                         <li>
                             <Link href="#">
                             <i className="fab fa-facebook-f" />
@@ -54,15 +55,15 @@ export default function Home() {
                 </div>
                 </div>
                 <div className="col-xl-7 col-lg-7">
-                <div className="team__right">
-                    <h3 className="team__title">Member Information</h3>
-                    <p className="team__text">
+                <div className="team-details__right">
+                    <h3 className="team-details__title">Member Information</h3>
+                    <p className="team-details__text">
                     For over 25 years, Rigoberto "Rigo" Melchor has successfully led digital transformation 
                     projects for diverse organizations around the globe. His expertise as a business consultant, 
                     Solution Architect, and leader in Enterprise Solutions has allowed Rigo to partner with 
                     organizations in asset-intensive and life science industries.
                     </p>
-                    <ul className="team__points list-unstyled">
+                    <ul className="team-details__points list-unstyled">
                     <li>
                         <div className="icon">
                         <span className="icon-check" />
@@ -84,8 +85,8 @@ export default function Home() {
                         </div>
                     </li>
                     </ul>
-                    <div className="team__points-box">
-                    <ul className="team__points-2 list-unstyled">
+                    <div className="team-details__points-box">
+                    <ul className="team-details__points-2 list-unstyled">
                         <li>
                         <h4>Phone : </h4>
                         <p>
@@ -103,7 +104,7 @@ export default function Home() {
                         <p>Male</p>
                         </li>
                     </ul>
-                    <ul className="team__points-2 team__points-3 list-unstyled">
+                    <ul className="team-details__points-2 team-details__points-3 list-unstyled">
                         <li>
                         <h4>Website : </h4>
                         <p>
@@ -271,35 +272,7 @@ export default function Home() {
         </section>
         {/*why Choose One End */}
 
-        {/*Newsletter One Start*/}
-        <section className="newsletter-one">
-            <div className="container">
-            <div className="newsletter-one__inner">
-                <div
-                className="newsletter-one__bg float-bob-y"
-                style={{
-                    backgroundImage:
-                    "url(assets/images/backgrounds/newsletter-one-bg.webp)"
-                }}
-                />
-                <h3 className="newsletter-one__title">Newsletter</h3>
-                <p className="newsletter-one__sub-title">Stay updated</p>
-                <div className="newsletter-one__form mc-form" data-url="MC_FORM_URL">
-                <input type="email" name="EMAIL" placeholder="Email address" />
-                <button type="submit" className="newsletter-one__btn">
-                    <span>
-                    Subscribe
-                    <i className="icon-arrow" />
-                    </span>
-                </button>
-                </div>
-                {/* /.subscribe-one__form */}
-                <div className="mc-form__response" />
-                {/* /.mc-form__response */}
-            </div>
-            </div>
-        </section>
-        {/*Newsletter One End*/}
+        <Newsletter />
 
         </Layout>
         </>

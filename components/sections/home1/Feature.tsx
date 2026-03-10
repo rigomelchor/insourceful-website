@@ -15,10 +15,10 @@ export default function Feature() {
                 </div>
                 <div className="feature-one__content">
                   <h3 className="feature-one__title">
-                    <Link href="services-details">Managed IT Services</Link>
+                    <Link href="service-details">Oracle JD Edwards</Link>
                   </h3>
                   <p className="feature-one__text">
-                    End-to-end ERP support to maintain, monitor, and optimize enterprise applications worldwide.
+                    Full-lifecycle JDE support — implementations, upgrades, and managed services across EnterpriseOne and World.
                   </p>
                 </div>
               </div>
@@ -32,10 +32,10 @@ export default function Feature() {
                 </div>
                 <div className="feature-one__content">
                   <h3 className="feature-one__title">
-                    <Link href="services-details">Digital Innovation</Link>
+                    <Link href="service-details">Oracle Cloud ERP</Link>
                   </h3>
                   <p className="feature-one__text">
-                    Enhance business agility with IoT, automation, analytics, and user experience improvements.
+                    Cloud migration strategy, Fusion implementation, and integration with legacy Oracle on-premise systems.
                   </p>
                 </div>
               </div>
@@ -45,14 +45,14 @@ export default function Feature() {
             <div className="col-xl-3 col-lg-6 col-md-6">
               <div className="feature-one__single">
                 <div className="feature-one__icon">
-                  <span className="icon-cyber-security" />
+                  <span className="icon-coding" />
                 </div>
                 <div className="feature-one__content">
                   <h3 className="feature-one__title">
-                    <Link href="services-details">Cyber Security</Link>
+                    <Link href="service-details">System Integration</Link>
                   </h3>
                   <p className="feature-one__text">
-                    Safeguard ERP systems with compliance frameworks, access controls, and proactive threat monitoring.
+                    Connect Oracle ERP with third-party platforms, data warehouses, and business intelligence tools.
                   </p>
                 </div>
               </div>
@@ -66,10 +66,10 @@ export default function Feature() {
                 </div>
                 <div className="feature-one__content">
                   <h3 className="feature-one__title">
-                    <Link href="services-details">Deployment Services</Link>
+                    <Link href="service-details">Operational Advisory</Link>
                   </h3>
                   <p className="feature-one__text">
-                    Seamless ERP rollouts, cloud migrations, and upgrades aligned to industry best practices.
+                    Strategic consulting to align Oracle investments with business objectives and drive measurable ROI.
                   </p>
                 </div>
               </div>
