@@ -11,7 +11,7 @@ export default function Cta() {
               <span className="icon-phone" />
             </div>
             <div className="cta-one__content">
-              <p className="cta-one__text">Lorem ipsum dolor sit am cons sid</p>
+              <p className="cta-one__text">We&apos;re here to help with your next project</p>
               <p className="cta-one__number">
                 <Link href="tel:+17208788654">+1 (720) 878-8654</Link>
               </p>

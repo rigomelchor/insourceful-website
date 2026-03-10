@@ -1,14 +1,13 @@
 
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
-import ContactForm from "@/components/forms/ContactForm"
 import NewsletterForm from "@/components/forms/NewsletterForm"
 export default function Home() {
 
     return (
         <>
         <Layout headerStyle={2} footerStyle={1} headTitle="Contact" breadcrumbTitle="Contact" wrapperCls="">
-     
+
             {/*Google Map Start*/}
             <section className="google-map-one">
                 <div className="container">
@@ -25,7 +24,7 @@ export default function Home() {
             <section className="contact-page">
                 <div className="container">
                 <div className="row">
-                    <div className="col-xl-4 col-lg-5">
+                    <div className="col-xl-12">
                     <div className="contact-page__left">
                         <h3 className="contact-page__title">Get In Touch</h3>
                         <ul className="contact-page__points list-unstyled">
@@ -69,11 +68,6 @@ export default function Home() {
                             </div>
                         </li>
                         </ul>
-                    </div>
-                    </div>
-                    <div className="col-xl-8 col-lg-7">
-                    <div className="contact-page__right">
-                        <ContactForm />
                     </div>
                     </div>
                 </div>
