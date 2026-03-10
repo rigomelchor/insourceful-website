@@ -26,17 +26,17 @@ export default function Home() {
                     </div>
                     <ul className="list-unstyled blog-details__meta">
                     <li>
-                        <Link href="blog-details">
+                        <Link href="/blog-details">
                         <i className="fas fa-user-circle" /> Jhon Albert
                         </Link>
                     </li>
                     <li>
-                        <Link href="blog-details">
+                        <Link href="/blog-details">
                         <i className="fas fa-comments" /> 0 Comment
                         </Link>
                     </li>
                     <li>
-                        <Link href="blog-details">
+                        <Link href="/blog-details">
                         <i className="fas fa-heart" /> 0 Like
                         </Link>
                     </li>
@@ -200,7 +200,7 @@ export default function Home() {
                             dolor mesurement good.
                             </p>
                             <span>February 03. 2021</span>
-                            <Link href="blog-details" className="comment-one__btn">
+                            <Link href="/blog-details" className="comment-one__btn">
                             Reply
                             </Link>
                         </div>
@@ -216,7 +216,7 @@ export default function Home() {
                             given bearing greats fly hrtter louytww hhry
                             </p>
                             <span>February 03. 2021</span>
-                            <Link href="blog-details" className="comment-one__btn">
+                            <Link href="/blog-details" className="comment-one__btn">
                             Reply
                             </Link>
                         </div>
@@ -287,32 +287,32 @@ export default function Home() {
                     </div>
                     <ul className="sidebar__category-list list-unstyled">
                         <li>
-                        <Link href="blog-details">
+                        <Link href="/blog-details">
                             New Technologies<span>(12)</span>
                         </Link>
                         </li>
                         <li>
-                        <Link href="blog-details">
+                        <Link href="/blog-details">
                             Parallax Effect<span>(15)</span>
                         </Link>
                         </li>
                         <li>
-                        <Link href="blog-details">
+                        <Link href="/blog-details">
                             Digital Marketing<span>(08)</span>
                         </Link>
                         </li>
                         <li>
-                        <Link href="blog-details">
+                        <Link href="/blog-details">
                             Content Writting<span>(20)</span>
                         </Link>
                         </li>
                         <li>
-                        <Link href="blog-details">
+                        <Link href="/blog-details">
                             One Page Template<span>(14)</span>
                         </Link>
                         </li>
                         <li>
-                        <Link href="blog-details">
+                        <Link href="/blog-details">
                             Relationship Buildup<span>(05)</span>
                         </Link>
                         </li>
@@ -328,7 +328,7 @@ export default function Home() {
                             <img loading="lazy" src="assets/images/blog/blog-lp-1.webp" alt="Recent blog post thumbnail" />
                         </div>
                         <h3 className="sidebar__post-title">
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                             Face eite mowl dirst dominon likeness meat a mornin.
                             </Link>
                         </h3>
@@ -338,7 +338,7 @@ export default function Home() {
                             <img loading="lazy" src="assets/images/blog/blog-lp-2.webp" alt="Recent blog post thumbnail" />
                         </div>
                         <h3 className="sidebar__post-title">
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                             Said dill under bielding over made spirit sea.
                             </Link>
                         </h3>
@@ -348,7 +348,7 @@ export default function Home() {
                             <img loading="lazy" src="assets/images/blog/blog-lp-3.webp" alt="Recent blog post thumbnail" />
                         </div>
                         <h3 className="sidebar__post-title">
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                             Maybe you should talk to someone
                             </Link>
                         </h3>
@@ -360,14 +360,14 @@ export default function Home() {
                         <h3 className="sidebar__title">Tags Cloud</h3>
                     </div>
                     <div className="sidebar__tag-list">
-                        <Link href="blog-details">Carpet</Link>
-                        <Link href="blog-details">Office</Link>
-                        <Link href="blog-details">Agent</Link>
-                        <Link href="blog-details">Business</Link>
-                        <Link href="blog-details">Love</Link>
-                        <Link href="blog-details">Room</Link>
-                        <Link href="blog-details">Project</Link>
-                        <Link href="blog-details">Corporate</Link>
+                        <Link href="/blog-details">Carpet</Link>
+                        <Link href="/blog-details">Office</Link>
+                        <Link href="/blog-details">Agent</Link>
+                        <Link href="/blog-details">Business</Link>
+                        <Link href="/blog-details">Love</Link>
+                        <Link href="/blog-details">Room</Link>
+                        <Link href="/blog-details">Project</Link>
+                        <Link href="/blog-details">Corporate</Link>
                     </div>
                     </div>
                 </div>

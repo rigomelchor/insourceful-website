@@ -26,7 +26,7 @@ export default function Portfolio() {
                 >
                   <div className="portfolio-one__title-box">
                     <h3 className="portfolio-one__title">
-                      <Link href="portfolio-details">
+                      <Link href="/portfolio-details">
                         Mining: SAP to JDE Migration
                       </Link>
                     </h3>
@@ -54,7 +54,7 @@ export default function Portfolio() {
                 >
                   <div className="portfolio-one__title-box">
                     <h3 className="portfolio-one__title">
-                      <Link href="portfolio-details">Pharmaceutical: 24-Country Rollout</Link>
+                      <Link href="/portfolio-details">Pharmaceutical: 24-Country Rollout</Link>
                     </h3>
                     <div className="portfolio-one__arrow">
                       <Link
@@ -80,7 +80,7 @@ export default function Portfolio() {
                 >
                   <div className="portfolio-one__title-box">
                     <h3 className="portfolio-one__title">
-                      <Link href="portfolio-details">
+                      <Link href="/portfolio-details">
                         Wine & Beverage: Production ERP
                       </Link>
                     </h3>
@@ -108,7 +108,7 @@ export default function Portfolio() {
                 >
                   <div className="portfolio-one__title-box">
                     <h3 className="portfolio-one__title">
-                      <Link href="portfolio-details">Oil & Gas: Asset Management</Link>
+                      <Link href="/portfolio-details">Oil & Gas: Asset Management</Link>
                     </h3>
                     <div className="portfolio-one__arrow">
                       <Link

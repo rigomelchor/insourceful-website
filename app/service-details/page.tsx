@@ -242,32 +242,32 @@ export default function Home() {
                     </div>
                     <ul className="sidebar__category-list list-unstyled">
                         <li>
-                        <Link href="blog-details">
+                        <Link href="/blog-details">
                             New Technologies<span>(12)</span>
                         </Link>
                         </li>
                         <li>
-                        <Link href="blog-details">
+                        <Link href="/blog-details">
                             Parallax Effect<span>(15)</span>
                         </Link>
                         </li>
                         <li>
-                        <Link href="blog-details">
+                        <Link href="/blog-details">
                             Digital Marketing<span>(08)</span>
                         </Link>
                         </li>
                         <li>
-                        <Link href="blog-details">
+                        <Link href="/blog-details">
                             Content Writting<span>(20)</span>
                         </Link>
                         </li>
                         <li>
-                        <Link href="blog-details">
+                        <Link href="/blog-details">
                             One Page Template<span>(14)</span>
                         </Link>
                         </li>
                         <li>
-                        <Link href="blog-details">
+                        <Link href="/blog-details">
                             Relationship Buildup<span>(05)</span>
                         </Link>
                         </li>
@@ -294,14 +294,14 @@ export default function Home() {
                         <h3 className="sidebar__title">Tags Cloud</h3>
                     </div>
                     <div className="sidebar__tag-list">
-                        <Link href="blog-details">Carpet</Link>
-                        <Link href="blog-details">Office</Link>
-                        <Link href="blog-details">Agent</Link>
-                        <Link href="blog-details">Business</Link>
-                        <Link href="blog-details">Love</Link>
-                        <Link href="blog-details">Room</Link>
-                        <Link href="blog-details">Project</Link>
-                        <Link href="blog-details">Corporate</Link>
+                        <Link href="/blog-details">Carpet</Link>
+                        <Link href="/blog-details">Office</Link>
+                        <Link href="/blog-details">Agent</Link>
+                        <Link href="/blog-details">Business</Link>
+                        <Link href="/blog-details">Love</Link>
+                        <Link href="/blog-details">Room</Link>
+                        <Link href="/blog-details">Project</Link>
+                        <Link href="/blog-details">Corporate</Link>
                     </div>
                     </div>
                     <div className="services-details__banner">

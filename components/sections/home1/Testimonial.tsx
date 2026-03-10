@@ -86,7 +86,7 @@ export default function Testimonial() {
                               <div className="testimonial-one__client-img">
                                 <img loading="lazy"
                                   src="assets/images/testimonial/testimonial-1-1.webp"
-                                  
+                                  alt="Jason Smith testimonial photo"
                                 />
                               </div>
                               <div className="testimonial-one__client-info">
@@ -128,7 +128,7 @@ export default function Testimonial() {
                               <div className="testimonial-one__client-img">
                                 <img loading="lazy"
                                   src="assets/images/testimonial/testimonial-1-2.webp"
-                                  
+                                  alt="Alisha Martin testimonial photo"
                                 />
                               </div>
                               <div className="testimonial-one__client-info">
@@ -159,7 +159,7 @@ export default function Testimonial() {
                     <div className="testimonial-one__img">
                       <img loading="lazy"
                         src="assets/images/testimonial/testimonial-one-img-1.webp"
-                        
+                        alt="Client testimonials"
                       />
                     </div>
                   </div>

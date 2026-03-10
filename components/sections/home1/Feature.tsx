@@ -15,7 +15,7 @@ export default function Feature() {
                 </div>
                 <div className="feature-one__content">
                   <h3 className="feature-one__title">
-                    <Link href="service-details">Oracle JD Edwards</Link>
+                    <Link href="/service-details">Oracle JD Edwards</Link>
                   </h3>
                   <p className="feature-one__text">
                     Full-lifecycle JDE support — implementations, upgrades, and managed services across EnterpriseOne and World.
@@ -32,7 +32,7 @@ export default function Feature() {
                 </div>
                 <div className="feature-one__content">
                   <h3 className="feature-one__title">
-                    <Link href="service-details">Oracle Cloud ERP</Link>
+                    <Link href="/service-details">Oracle Cloud ERP</Link>
                   </h3>
                   <p className="feature-one__text">
                     Cloud migration strategy, Fusion implementation, and integration with legacy Oracle on-premise systems.
@@ -49,7 +49,7 @@ export default function Feature() {
                 </div>
                 <div className="feature-one__content">
                   <h3 className="feature-one__title">
-                    <Link href="service-details">System Integration</Link>
+                    <Link href="/service-details">System Integration</Link>
                   </h3>
                   <p className="feature-one__text">
                     Connect Oracle ERP with third-party platforms, data warehouses, and business intelligence tools.
@@ -66,7 +66,7 @@ export default function Feature() {
                 </div>
                 <div className="feature-one__content">
                   <h3 className="feature-one__title">
-                    <Link href="service-details">Operational Advisory</Link>
+                    <Link href="/service-details">Operational Advisory</Link>
                   </h3>
                   <p className="feature-one__text">
                     Strategic consulting to align Oracle investments with business objectives and drive measurable ROI.

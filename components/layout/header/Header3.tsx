@@ -85,7 +85,7 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu }: Heade
                     />
                   </div>
                   <div className="main-menu-three__btn-box">
-                    <a href="contact">
+                    <a href="/contact">
                       Get Free Quote <span className="icon-back" />
                     </a>
                   </div>
@@ -186,7 +186,7 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu }: Heade
                     />
                   </div>
                   <div className="main-menu-three__btn-box">
-                    <a href="contact">
+                    <a href="/contact">
                       Get Free Quote <span className="icon-back" />
                     </a>
                   </div>

@@ -48,19 +48,19 @@ export default function Footer3() {
               </div>
               <ul className="footer-widget-three__list list-unstyled">
                 <li>
-                  <Link href="about">About</Link>
+                  <Link href="/about">About</Link>
                 </li>
                 <li>
-                  <Link href="team">Our Team</Link>
+                  <Link href="/team">Our Team</Link>
                 </li>
                 <li>
-                  <Link href="services">Services</Link>
+                  <Link href="/services">Services</Link>
                 </li>
                 <li>
-                  <Link href="portfolio">Gallery</Link>
+                  <Link href="/portfolio">Gallery</Link>
                 </li>
                 <li>
-                  <Link href="blog">News &amp; Blog</Link>
+                  <Link href="/blog">News &amp; Blog</Link>
                 </li>
               </ul>
             </div>
@@ -76,19 +76,19 @@ export default function Footer3() {
               </div>
               <ul className="footer-widget-three__list list-unstyled">
                 <li>
-                  <Link href="about">About Us</Link>
+                  <Link href="/about">About Us</Link>
                 </li>
                 <li>
-                  <Link href="services">Need A Career</Link>
+                  <Link href="/services">Need A Career</Link>
                 </li>
                 <li>
-                  <Link href="portfolio">Working Process</Link>
+                  <Link href="/portfolio">Working Process</Link>
                 </li>
                 <li>
-                  <Link href="blog">Blog Post</Link>
+                  <Link href="/blog">Blog Post</Link>
                 </li>
                 <li>
-                  <Link href="about">Company History</Link>
+                  <Link href="/about">Company History</Link>
                 </li>
               </ul>
             </div>
@@ -123,13 +123,13 @@ export default function Footer3() {
           </p>
           <ul className="list-unstyled site-footer-three__bottom-links">
             <li>
-              <Link href="about">Terms &amp; Condition</Link>
+              <Link href="/terms">Terms &amp; Conditions</Link>
             </li>
             <li>
-              <Link href="about">Privacy</Link>
+              <Link href="/privacy-policy">Privacy Policy</Link>
             </li>
             <li>
-              <Link href="about">Support</Link>
+              <Link href="/contact">Support</Link>
             </li>
           </ul>
         </div>

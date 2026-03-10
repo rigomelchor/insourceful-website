@@ -23,7 +23,7 @@ export default function Home() {
                     <div className="portfolio-page__content">
                         <div className="portfolio-page__title-box">
                         <h3 className="portfolio-page__title">
-                            <Link href="portfolio-details">Analysis Of Security</Link>
+                            <Link href="/portfolio-details">Analysis Of Security</Link>
                         </h3>
                         <p className="portfolio-page__sub-title">Technology</p>
                         </div>
@@ -53,7 +53,7 @@ export default function Home() {
                     <div className="portfolio-page__content">
                         <div className="portfolio-page__title-box">
                         <h3 className="portfolio-page__title">
-                            <Link href="portfolio-details">Analysis Of Security</Link>
+                            <Link href="/portfolio-details">Analysis Of Security</Link>
                         </h3>
                         <p className="portfolio-page__sub-title">Technology</p>
                         </div>
@@ -83,7 +83,7 @@ export default function Home() {
                     <div className="portfolio-page__content">
                         <div className="portfolio-page__title-box">
                         <h3 className="portfolio-page__title">
-                            <Link href="portfolio-details">Analysis Of Security</Link>
+                            <Link href="/portfolio-details">Analysis Of Security</Link>
                         </h3>
                         <p className="portfolio-page__sub-title">Technology</p>
                         </div>
@@ -113,7 +113,7 @@ export default function Home() {
                     <div className="portfolio-page__content">
                         <div className="portfolio-page__title-box">
                         <h3 className="portfolio-page__title">
-                            <Link href="portfolio-details">Analysis Of Security</Link>
+                            <Link href="/portfolio-details">Analysis Of Security</Link>
                         </h3>
                         <p className="portfolio-page__sub-title">Technology</p>
                         </div>
@@ -143,7 +143,7 @@ export default function Home() {
                     <div className="portfolio-page__content">
                         <div className="portfolio-page__title-box">
                         <h3 className="portfolio-page__title">
-                            <Link href="portfolio-details">Analysis Of Security</Link>
+                            <Link href="/portfolio-details">Analysis Of Security</Link>
                         </h3>
                         <p className="portfolio-page__sub-title">Technology</p>
                         </div>
@@ -173,7 +173,7 @@ export default function Home() {
                     <div className="portfolio-page__content">
                         <div className="portfolio-page__title-box">
                         <h3 className="portfolio-page__title">
-                            <Link href="portfolio-details">Analysis Of Security</Link>
+                            <Link href="/portfolio-details">Analysis Of Security</Link>
                         </h3>
                         <p className="portfolio-page__sub-title">Technology</p>
                         </div>
@@ -203,7 +203,7 @@ export default function Home() {
                     <div className="portfolio-page__content">
                         <div className="portfolio-page__title-box">
                         <h3 className="portfolio-page__title">
-                            <Link href="portfolio-details">Analysis Of Security</Link>
+                            <Link href="/portfolio-details">Analysis Of Security</Link>
                         </h3>
                         <p className="portfolio-page__sub-title">Technology</p>
                         </div>
@@ -233,7 +233,7 @@ export default function Home() {
                     <div className="portfolio-page__content">
                         <div className="portfolio-page__title-box">
                         <h3 className="portfolio-page__title">
-                            <Link href="portfolio-details">Analysis Of Security</Link>
+                            <Link href="/portfolio-details">Analysis Of Security</Link>
                         </h3>
                         <p className="portfolio-page__sub-title">Technology</p>
                         </div>
@@ -263,7 +263,7 @@ export default function Home() {
                     <div className="portfolio-page__content">
                         <div className="portfolio-page__title-box">
                         <h3 className="portfolio-page__title">
-                            <Link href="portfolio-details">Analysis Of Security</Link>
+                            <Link href="/portfolio-details">Analysis Of Security</Link>
                         </h3>
                         <p className="portfolio-page__sub-title">Technology</p>
                         </div>

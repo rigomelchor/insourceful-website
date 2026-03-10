@@ -25,7 +25,7 @@ export default function Breadcrumb({ breadcrumbTitle }: BreadcrumbProps) {
     </div>
     <div className="container">
       <div className="page-header__inner">
-        <h2>{breadcrumbTitle}</h2>
+        <h1>{breadcrumbTitle}</h1>
         <ul className="thm-breadcrumb list-unstyled">
           <li>
             <Link href="/">Home</Link>

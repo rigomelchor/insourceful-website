@@ -93,7 +93,7 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }: Heade
                 </div>
                 <div className="main-menu__right">
                     <div className="main-menu__btn-box">
-                    <Link href="contact" className="main-menu__btn">
+                    <Link href="/contact" className="main-menu__btn">
                         Schedule Consultation <i className="fas fa-plus" />
                     </Link>
                     </div>
@@ -122,7 +122,7 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }: Heade
                             </div>
                             <div className="main-menu__right">
                                 <div className="main-menu__btn-box">
-                                    <Link href="contact" className="main-menu__btn">
+                                    <Link href="/contact" className="main-menu__btn">
                                         Schedule Consultation <i className="fas fa-plus" />
                                     </Link>
                                 </div>

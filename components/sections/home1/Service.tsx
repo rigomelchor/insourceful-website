@@ -11,7 +11,7 @@ export default function Service() {
                 <img loading="lazy" src="assets/images/icon/section-title-icon.webp" alt="Section title icon" width={20} height={30} />
               </div>
               <p className="section-title__tagline">
-                <Link href="#">What We Offering</Link>
+                <Link href="/services">What We Offering</Link>
               </p>
             </div>
             <h2 className="section-title__title">Comprehensive Enterprise Solutions</h2>
@@ -24,7 +24,7 @@ export default function Service() {
                     <span className="icon-coding" />
                   </div>
                   <h3 className="services-one__title">
-                    <Link href="services-details">
+                    <Link href="/service-details">
                       ERP
                       <br /> Implementations
                     </Link>
@@ -37,7 +37,7 @@ export default function Service() {
                     <span className="icon-cloud-database" />
                   </div>
                   <h3 className="services-one__title">
-                    <Link href="services-details">
+                    <Link href="/service-details">
                       Capital Asset
                       <br /> Management
                     </Link>
@@ -50,7 +50,7 @@ export default function Service() {
                     <span className="icon-ux-design" />
                   </div>
                   <h3 className="services-one__title">
-                    <Link href="services-details">
+                    <Link href="/service-details">
                       MOS
                       <br /> Deployment
                     </Link>
@@ -63,7 +63,7 @@ export default function Service() {
                     <span className="icon-cyber-security" />
                   </div>
                   <h3 className="services-one__title">
-                    <Link href="services-details">
+                    <Link href="/service-details">
                       Operational
                       <br /> Advisory
                     </Link>
@@ -78,7 +78,7 @@ export default function Service() {
                     <span className="icon-event-management" />
                   </div>
                   <h3 className="services-one__title">
-                    <Link href="services-details">
+                    <Link href="/service-details">
                       System
                       <br /> Integration
                     </Link>
@@ -91,7 +91,7 @@ export default function Service() {
                     <span className="icon-content-management-1" />
                   </div>
                   <h3 className="services-one__title">
-                    <Link href="services-details">
+                    <Link href="/service-details">
                       Process
                       <br /> Excellence
                     </Link>
@@ -104,7 +104,7 @@ export default function Service() {
                     <span className="icon-cyber-security" />
                   </div>
                   <h3 className="services-one__title">
-                    <Link href="services-details">
+                    <Link href="/service-details">
                       Governance &amp;
                       <br /> Compliance
                     </Link>
@@ -117,7 +117,7 @@ export default function Service() {
                     <span className="icon-backup" />
                   </div>
                   <h3 className="services-one__title">
-                    <Link href="services-details">
+                    <Link href="/service-details">
                       Training &amp; Knowledge
                       <br /> Transfer
                     </Link>

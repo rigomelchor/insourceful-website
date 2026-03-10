@@ -142,10 +142,10 @@ export default function Home() {
                   </div>
                   <div className="feature-one__content">
                     <h3 className="feature-one__title">
-                      <Link href="services-details">Manage It Services</Link>
+                      <Link href="/service-details">Oracle JD Edwards</Link>
                     </h3>
                     <p className="feature-one__text">
-                      Complete account of system, and expound the actual
+                      Full-lifecycle JDE support — implementations, upgrades, and managed services.
                     </p>
                   </div>
                 </div>
@@ -159,10 +159,10 @@ export default function Home() {
                   </div>
                   <div className="feature-one__content">
                     <h3 className="feature-one__title">
-                      <Link href="services-details">Digital Experience</Link>
+                      <Link href="/service-details">Oracle Cloud ERP</Link>
                     </h3>
                     <p className="feature-one__text">
-                      Complete account of system, and expound the actual
+                      Cloud migration strategy, Fusion implementation, and legacy integration.
                     </p>
                   </div>
                 </div>
@@ -176,10 +176,10 @@ export default function Home() {
                   </div>
                   <div className="feature-one__content">
                     <h3 className="feature-one__title">
-                      <Link href="services-details">Cyber Security</Link>
+                      <Link href="/service-details">System Integration</Link>
                     </h3>
                     <p className="feature-one__text">
-                      Complete account of system, and expound the actual
+                      Connect Oracle ERP with third-party platforms and BI tools.
                     </p>
                   </div>
                 </div>
@@ -193,10 +193,10 @@ export default function Home() {
                   </div>
                   <div className="feature-one__content">
                     <h3 className="feature-one__title">
-                      <Link href="services-details">Deployment Service</Link>
+                      <Link href="/service-details">Operational Advisory</Link>
                     </h3>
                     <p className="feature-one__text">
-                      Complete account of system, and expound the actual
+                      Strategic consulting to align Oracle investments with business goals.
                     </p>
                   </div>
                 </div>
@@ -241,12 +241,12 @@ export default function Home() {
                     <span className="icon-web-page" />
                   </div>
                   <h3 className="services-four__title">
-                    <Link href="services-details">
-                      Speed <br /> Optimization
+                    <Link href="/service-details">
+                      ERP <br /> Implementations
                     </Link>
                   </h3>
                   <p className="services-four__text">
-                    Lorem ipsum is are many variations of pass of majority.
+                    End-to-end Oracle implementations with minimal disruption to operations.
                   </p>
                   <Link href="" className="services-four__arrow">
                     <span className="icon-back" />
@@ -264,12 +264,12 @@ export default function Home() {
                     <span className="icon-money" />
                   </div>
                   <h3 className="services-four__title">
-                    <Link href="services-details">
-                      Digital <br /> Marketing
+                    <Link href="/service-details">
+                      Capital Asset <br /> Management
                     </Link>
                   </h3>
                   <p className="services-four__text">
-                    Lorem ipsum is are many variations of pass of majority.
+                    Optimize asset lifecycle, maintenance, and cost tracking across your portfolio.
                   </p>
                   <Link href="" className="services-four__arrow">
                     <span className="icon-back" />
@@ -287,12 +287,12 @@ export default function Home() {
                     <span className="icon-content-management-1" />
                   </div>
                   <h3 className="services-four__title">
-                    <Link href="services-details">
-                      Content <br /> Management
+                    <Link href="/service-details">
+                      Process <br /> Excellence
                     </Link>
                   </h3>
                   <p className="services-four__text">
-                    Lorem ipsum is are many variations of pass of majority.
+                    Streamline workflows and eliminate inefficiencies across the enterprise.
                   </p>
                   <Link href="" className="services-four__arrow">
                     <span className="icon-back" />
@@ -310,12 +310,12 @@ export default function Home() {
                     <span className="icon-project-management" />
                   </div>
                   <h3 className="services-four__title">
-                    <Link href="services-details">
-                      Content <br /> Marketing
+                    <Link href="/service-details">
+                      Training &amp; Knowledge <br /> Transfer
                     </Link>
                   </h3>
                   <p className="services-four__text">
-                    Lorem ipsum is are many variations of pass of majority.
+                    Empower your teams with hands-on Oracle training and documentation.
                   </p>
                   <Link href="" className="services-four__arrow">
                     <span className="icon-back" />
@@ -490,7 +490,7 @@ export default function Home() {
                       <img loading="lazy" src="assets/images/team/team-1-1.webp"  />
                       <div className="team-one__name-box">
                         <h3 className="team-one__name">
-                          <Link href="team">Jecika Brown</Link>
+                          <Link href="/team">Jecika Brown</Link>
                         </h3>
                         <p className="team-one__sub-title">Web Designer</p>
                       </div>
@@ -530,7 +530,7 @@ export default function Home() {
                       <img loading="lazy" src="assets/images/team/team-1-2.webp"  />
                       <div className="team-one__name-box">
                         <h3 className="team-one__name">
-                          <Link href="team">Jhon Smith</Link>
+                          <Link href="/team">Jhon Smith</Link>
                         </h3>
                         <p className="team-one__sub-title">Web Designer</p>
                       </div>
@@ -570,7 +570,7 @@ export default function Home() {
                       <img loading="lazy" src="assets/images/team/team-1-3.webp"  />
                       <div className="team-one__name-box">
                         <h3 className="team-one__name">
-                          <Link href="team">Alisha Martin</Link>
+                          <Link href="/team">Alisha Martin</Link>
                         </h3>
                         <p className="team-one__sub-title">Web Designer</p>
                       </div>
@@ -610,7 +610,7 @@ export default function Home() {
                       <img loading="lazy" src="assets/images/team/team-1-4.webp"  />
                       <div className="team-one__name-box">
                         <h3 className="team-one__name">
-                          <Link href="team">David Kapor</Link>
+                          <Link href="/team">David Kapor</Link>
                         </h3>
                         <p className="team-one__sub-title">Web Designer</p>
                       </div>
@@ -719,7 +719,7 @@ export default function Home() {
                       </li>
                     </ul>
                     <h3 className="blog-one__title">
-                      <Link href="blog-details">
+                      <Link href="/blog-details">
                         Easy Yo Use our Software New Innovation
                       </Link>
                     </h3>
@@ -728,7 +728,7 @@ export default function Home() {
                       refreshing.
                     </p>
                     <div className="blog-one__btn">
-                      <Link href="blog-details" aria-label="Read more about Easy To Use Software New Innovation">
+                      <Link href="/blog-details" aria-label="Read more about Easy To Use Software New Innovation">
                         Read more
                         <span className="icon-right-arrow1" />
                       </Link>
@@ -768,7 +768,7 @@ export default function Home() {
                       </li>
                     </ul>
                     <h3 className="blog-one__title">
-                      <Link href="blog-details">
+                      <Link href="/blog-details">
                         Ipsum is simply is text used by copytyping
                       </Link>
                     </h3>
@@ -777,7 +777,7 @@ export default function Home() {
                       refreshing.
                     </p>
                     <div className="blog-one__btn">
-                      <Link href="blog-details" aria-label="Read more about Ipsum Text Used by Copytyping">
+                      <Link href="/blog-details" aria-label="Read more about Ipsum Text Used by Copytyping">
                         Read more
                         <span className="icon-right-arrow1" />
                       </Link>
@@ -817,7 +817,7 @@ export default function Home() {
                       </li>
                     </ul>
                     <h3 className="blog-one__title">
-                      <Link href="blog-details">
+                      <Link href="/blog-details">
                         Simply is text used by copytyping refreshing.
                       </Link>
                     </h3>
@@ -826,7 +826,7 @@ export default function Home() {
                       refreshing.
                     </p>
                     <div className="blog-one__btn">
-                      <Link href="blog-details" aria-label="Read more about Simply Text Used by Copytyping Refreshing">
+                      <Link href="/blog-details" aria-label="Read more about Simply Text Used by Copytyping Refreshing">
                         Read more
                         <span className="icon-right-arrow1" />
                       </Link>

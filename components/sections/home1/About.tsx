@@ -114,7 +114,7 @@ export default function About() {
                 </div>
                 <div className="about-one__btn-and-contact">
                   <div className="about-one__btn-box">
-                    <Link href="about" className="about-one__btn thm-btn">
+                    <Link href="/about" className="about-one__btn thm-btn">
                       Discover More
                       <span className="fa fa-plus" />
                     </Link>

@@ -22,7 +22,7 @@ export default function Home() {
                         <img loading="lazy" src="assets/images/team/team-1-1.webp" alt="Jecika Brown" />
                         <div className="team-one__name-box">
                         <h3 className="team-one__name">
-                            <Link href="team">Jecika Brown</Link>
+                            <Link href="/team">Jecika Brown</Link>
                         </h3>
                         <p className="team-one__sub-title">Web Designer</p>
                         </div>
@@ -64,7 +64,7 @@ export default function Home() {
                         <img loading="lazy" src="assets/images/team/team-1-2.webp" alt="Jhon Smith" />
                         <div className="team-one__name-box">
                         <h3 className="team-one__name">
-                            <Link href="team">Jhon Smith</Link>
+                            <Link href="/team">Jhon Smith</Link>
                         </h3>
                         <p className="team-one__sub-title">Web Designer</p>
                         </div>
@@ -106,7 +106,7 @@ export default function Home() {
                         <img loading="lazy" src="assets/images/team/team-1-3.webp" alt="Alisha Martin" />
                         <div className="team-one__name-box">
                         <h3 className="team-one__name">
-                            <Link href="team">Alisha Martin</Link>
+                            <Link href="/team">Alisha Martin</Link>
                         </h3>
                         <p className="team-one__sub-title">Web Designer</p>
                         </div>
@@ -148,7 +148,7 @@ export default function Home() {
                         <img loading="lazy" src="assets/images/team/team-1-4.webp" alt="David Kapor" />
                         <div className="team-one__name-box">
                         <h3 className="team-one__name">
-                            <Link href="team">David Kapor</Link>
+                            <Link href="/team">David Kapor</Link>
                         </h3>
                         <p className="team-one__sub-title">Web Designer</p>
                         </div>
@@ -190,7 +190,7 @@ export default function Home() {
                         <img loading="lazy" src="assets/images/team/team-1-5.webp" alt="David Warner" />
                         <div className="team-one__name-box">
                         <h3 className="team-one__name">
-                            <Link href="team">David Warner</Link>
+                            <Link href="/team">David Warner</Link>
                         </h3>
                         <p className="team-one__sub-title">Web Designer</p>
                         </div>
@@ -232,7 +232,7 @@ export default function Home() {
                         <img loading="lazy" src="assets/images/team/team-1-6.webp" alt="David Piter" />
                         <div className="team-one__name-box">
                         <h3 className="team-one__name">
-                            <Link href="team">David Piter</Link>
+                            <Link href="/team">David Piter</Link>
                         </h3>
                         <p className="team-one__sub-title">Web Designer</p>
                         </div>
@@ -274,7 +274,7 @@ export default function Home() {
                         <img loading="lazy" src="assets/images/team/team-1-7.webp" alt="Herny Mate" />
                         <div className="team-one__name-box">
                         <h3 className="team-one__name">
-                            <Link href="team">Herny Mate</Link>
+                            <Link href="/team">Herny Mate</Link>
                         </h3>
                         <p className="team-one__sub-title">Web Designer</p>
                         </div>
@@ -316,7 +316,7 @@ export default function Home() {
                         <img loading="lazy" src="assets/images/team/team-1-8.webp" alt="David Wiese" />
                         <div className="team-one__name-box">
                         <h3 className="team-one__name">
-                            <Link href="team">David Wiese</Link>
+                            <Link href="/team">David Wiese</Link>
                         </h3>
                         <p className="team-one__sub-title">Web Designer</p>
                         </div>

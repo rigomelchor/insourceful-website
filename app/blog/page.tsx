@@ -30,24 +30,24 @@ export default function Home() {
                         <div className="blog-page__content">
                         <ul className="list-unstyled blog-page__meta">
                             <li>
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                                 <i className="far fa-user-circle" />
                                 Paul Smith
                             </Link>
                             </li>
                             <li>
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                                 <i className="far fa-comments" />0 Comment
                             </Link>
                             </li>
                             <li>
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                                 <i className="far fa-heart" />0 Like
                             </Link>
                             </li>
                         </ul>
                         <h3 className="blog-page__title">
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                             Over Ride The Digital Divide With Additional
                             </Link>
                         </h3>
@@ -62,7 +62,7 @@ export default function Home() {
                             laboris nisi commodo consequat. Duis aute irure dolor in
                             reprehenderit in voluptate velit
                         </p>
-                        <Link href="blog-details" className="blog-page__read-more" aria-label="Read more about blog post">
+                        <Link href="/blog-details" className="blog-page__read-more" aria-label="Read more about blog post">
                             Read more <span className="icon-right-arrow1" />
                         </Link>
                         </div>
@@ -83,24 +83,24 @@ export default function Home() {
                         <div className="blog-page__content">
                         <ul className="list-unstyled blog-page__meta">
                             <li>
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                                 <i className="far fa-user-circle" />
                                 Paul Smith
                             </Link>
                             </li>
                             <li>
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                                 <i className="far fa-comments" />0 Comment
                             </Link>
                             </li>
                             <li>
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                                 <i className="far fa-heart" />0 Like
                             </Link>
                             </li>
                         </ul>
                         <h3 className="blog-page__title">
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                             Leverage Frameworks To Provide A Robust
                             </Link>
                         </h3>
@@ -115,7 +115,7 @@ export default function Home() {
                             laboris nisi commodo consequat. Duis aute irure dolor in
                             reprehenderit in voluptate velit
                         </p>
-                        <Link href="blog-details" className="blog-page__read-more" aria-label="Read more about blog post">
+                        <Link href="/blog-details" className="blog-page__read-more" aria-label="Read more about blog post">
                             Read more <span className="icon-right-arrow1" />
                         </Link>
                         </div>
@@ -136,24 +136,24 @@ export default function Home() {
                         <div className="blog-page__content">
                         <ul className="list-unstyled blog-page__meta">
                             <li>
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                                 <i className="far fa-user-circle" />
                                 Paul Smith
                             </Link>
                             </li>
                             <li>
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                                 <i className="far fa-comments" />0 Comment
                             </Link>
                             </li>
                             <li>
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                                 <i className="far fa-heart" />0 Like
                             </Link>
                             </li>
                         </ul>
                         <h3 className="blog-page__title">
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                             Basic Rule Of Running Web Business
                             </Link>
                         </h3>
@@ -168,7 +168,7 @@ export default function Home() {
                             laboris nisi commodo consequat. Duis aute irure dolor in
                             reprehenderit in voluptate velit
                         </p>
-                        <Link href="blog-details" className="blog-page__read-more" aria-label="Read more about blog post">
+                        <Link href="/blog-details" className="blog-page__read-more" aria-label="Read more about blog post">
                             Read more <span className="icon-right-arrow1" />
                         </Link>
                         </div>
@@ -189,24 +189,24 @@ export default function Home() {
                         <div className="blog-page__content">
                         <ul className="list-unstyled blog-page__meta">
                             <li>
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                                 <i className="far fa-user-circle" />
                                 Paul Smith
                             </Link>
                             </li>
                             <li>
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                                 <i className="far fa-comments" />0 Comment
                             </Link>
                             </li>
                             <li>
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                                 <i className="far fa-heart" />0 Like
                             </Link>
                             </li>
                         </ul>
                         <h3 className="blog-page__title">
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                             Over Ride The Digital Divide With Additional
                             </Link>
                         </h3>
@@ -221,7 +221,7 @@ export default function Home() {
                             laboris nisi commodo consequat. Duis aute irure dolor in
                             reprehenderit in voluptate velit
                         </p>
-                        <Link href="blog-details" className="blog-page__read-more" aria-label="Read more about blog post">
+                        <Link href="/blog-details" className="blog-page__read-more" aria-label="Read more about blog post">
                             Read more <span className="icon-right-arrow1" />
                         </Link>
                         </div>
@@ -269,32 +269,32 @@ export default function Home() {
                     </div>
                     <ul className="sidebar__category-list list-unstyled">
                         <li>
-                        <Link href="blog-details">
+                        <Link href="/blog-details">
                             New Technologies<span>(12)</span>
                         </Link>
                         </li>
                         <li>
-                        <Link href="blog-details">
+                        <Link href="/blog-details">
                             Parallax Effect<span>(15)</span>
                         </Link>
                         </li>
                         <li>
-                        <Link href="blog-details">
+                        <Link href="/blog-details">
                             Digital Marketing<span>(08)</span>
                         </Link>
                         </li>
                         <li>
-                        <Link href="blog-details">
+                        <Link href="/blog-details">
                             Content Writting<span>(20)</span>
                         </Link>
                         </li>
                         <li>
-                        <Link href="blog-details">
+                        <Link href="/blog-details">
                             One Page Template<span>(14)</span>
                         </Link>
                         </li>
                         <li>
-                        <Link href="blog-details">
+                        <Link href="/blog-details">
                             Relationship Buildup<span>(05)</span>
                         </Link>
                         </li>
@@ -310,7 +310,7 @@ export default function Home() {
                             <img loading="lazy" src="assets/images/blog/blog-lp-1.webp" alt="Recent blog post thumbnail" />
                         </div>
                         <h3 className="sidebar__post-title">
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                             Face eite mowl dirst dominon likeness meat a mornin.
                             </Link>
                         </h3>
@@ -320,7 +320,7 @@ export default function Home() {
                             <img loading="lazy" src="assets/images/blog/blog-lp-2.webp" alt="Recent blog post thumbnail" />
                         </div>
                         <h3 className="sidebar__post-title">
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                             Said dill under bielding over made spirit sea.
                             </Link>
                         </h3>
@@ -330,7 +330,7 @@ export default function Home() {
                             <img loading="lazy" src="assets/images/blog/blog-lp-3.webp" alt="Recent blog post thumbnail" />
                         </div>
                         <h3 className="sidebar__post-title">
-                            <Link href="blog-details">
+                            <Link href="/blog-details">
                             Maybe you should talk to someone
                             </Link>
                         </h3>
@@ -342,14 +342,14 @@ export default function Home() {
                         <h3 className="sidebar__title">Tags Cloud</h3>
                     </div>
                     <div className="sidebar__tag-list">
-                        <Link href="blog-details">Carpet</Link>
-                        <Link href="blog-details">Office</Link>
-                        <Link href="blog-details">Agent</Link>
-                        <Link href="blog-details">Business</Link>
-                        <Link href="blog-details">Love</Link>
-                        <Link href="blog-details">Room</Link>
-                        <Link href="blog-details">Project</Link>
-                        <Link href="blog-details">Corporate</Link>
+                        <Link href="/blog-details">Carpet</Link>
+                        <Link href="/blog-details">Office</Link>
+                        <Link href="/blog-details">Agent</Link>
+                        <Link href="/blog-details">Business</Link>
+                        <Link href="/blog-details">Love</Link>
+                        <Link href="/blog-details">Room</Link>
+                        <Link href="/blog-details">Project</Link>
+                        <Link href="/blog-details">Corporate</Link>
                     </div>
                     </div>
                 </div>

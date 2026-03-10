@@ -33,19 +33,19 @@ export default function Footer2() {
                     </div>
                     <ul className="footer-widget__list list-unstyled">
                         <li>
-                        <Link href="about">Causes</Link>
+                        <Link href="/about">Causes</Link>
                         </li>
                         <li>
-                        <Link href="about">About Us</Link>
+                        <Link href="/about">About Us</Link>
                         </li>
                         <li>
-                        <Link href="about">New Campaign</Link>
+                        <Link href="/about">New Campaign</Link>
                         </li>
                         <li>
-                        <Link href="about">Site Map</Link>
+                        <Link href="/about">Site Map</Link>
                         </li>
                         <li>
-                        <Link href="about">New Events</Link>
+                        <Link href="/about">New Events</Link>
                         </li>
                     </ul>
                     </div>
@@ -61,19 +61,19 @@ export default function Footer2() {
                     </div>
                     <ul className="footer-widget__list list-unstyled">
                         <li>
-                        <Link href="about">Press Release</Link>
+                        <Link href="/about">Press Release</Link>
                         </li>
                         <li>
-                        <Link href="contact">Contact</Link>
+                        <Link href="/contact">Contact</Link>
                         </li>
                         <li>
-                        <Link href="blog">Blog Posts</Link>
+                        <Link href="/blog">Blog Posts</Link>
                         </li>
                         <li>
-                        <Link href="about">Social Connect</Link>
+                        <Link href="/about">Social Connect</Link>
                         </li>
                         <li>
-                        <Link href="about">Help Topics</Link>
+                        <Link href="/about">Help Topics</Link>
                         </li>
                     </ul>
                     </div>
@@ -89,19 +89,19 @@ export default function Footer2() {
                     </div>
                     <ul className="footer-widget__list list-unstyled">
                         <li>
-                        <Link href="about">Company</Link>
+                        <Link href="/about">Company</Link>
                         </li>
                         <li>
-                        <Link href="blog">Latest News</Link>
+                        <Link href="/blog">Latest News</Link>
                         </li>
                         <li>
-                        <Link href="services">Popular Services</Link>
+                        <Link href="/services">Popular Services</Link>
                         </li>
                         <li>
-                        <Link href="about">Financial</Link>
+                        <Link href="/about">Financial</Link>
                         </li>
                         <li>
-                        <Link href="about">Consulting</Link>
+                        <Link href="/about">Consulting</Link>
                         </li>
                     </ul>
                     </div>
@@ -117,19 +117,19 @@ export default function Footer2() {
                     </div>
                     <ul className="footer-widget__list list-unstyled">
                         <li>
-                        <Link href="about">Financial Planning</Link>
+                        <Link href="/about">Financial Planning</Link>
                         </li>
                         <li>
-                        <Link href="about">Care for All People</Link>
+                        <Link href="/about">Care for All People</Link>
                         </li>
                         <li>
-                        <Link href="about">Build Business</Link>
+                        <Link href="/about">Build Business</Link>
                         </li>
                         <li>
-                        <Link href="about">Being Volunteer</Link>
+                        <Link href="/about">Being Volunteer</Link>
                         </li>
                         <li>
-                        <Link href="about">Raise fund to help</Link>
+                        <Link href="/about">Raise fund to help</Link>
                         </li>
                     </ul>
                     </div>
@@ -181,13 +181,13 @@ export default function Footer2() {
                 </p>
                 <ul className="list-unstyled site-footer__bottom-links">
                     <li>
-                    <Link href="about">Terms &amp; Condition</Link>
+                    <Link href="/terms">Terms &amp; Conditions</Link>
                     </li>
                     <li>
-                    <Link href="about">Privacy</Link>
+                    <Link href="/privacy-policy">Privacy Policy</Link>
                     </li>
                     <li>
-                    <Link href="about">Support</Link>
+                    <Link href="/contact">Support</Link>
                     </li>
                 </ul>
                 </div>

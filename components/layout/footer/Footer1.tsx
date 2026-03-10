@@ -32,10 +32,10 @@ export default function Footer1() {
                     </div>
                     <ul className="footer-widget__list list-unstyled">
                         <li>
-                        <Link href="services">Implementation</Link>
+                        <Link href="/services">Implementation</Link>
                         </li>
                         <li>
-                        <Link href="services">Consulting</Link>
+                        <Link href="/services">Consulting</Link>
                         </li>
                         <li>
                         <Link href="/">Development</Link>
@@ -60,19 +60,19 @@ export default function Footer1() {
                     </div>
                     <ul className="footer-widget__list list-unstyled">
                         <li>
-                        <Link href="about">Company</Link>
+                        <Link href="/about">Company</Link>
                         </li>
                         <li>
-                        <Link href="blog">Latest News</Link>
+                        <Link href="/blog">Latest News</Link>
                         </li>
                         <li>
-                        <Link href="services">Popular Services</Link>
+                        <Link href="/services">Popular Services</Link>
                         </li>
                         <li>
-                        <Link href="services">Financial</Link>
+                        <Link href="/services">Financial</Link>
                         </li>
                         <li>
-                        <Link href="services">Consulting</Link>
+                        <Link href="/services">Consulting</Link>
                         </li>
                     </ul>
                     </div>
@@ -110,19 +110,19 @@ export default function Footer1() {
                     </div>
                     <ul className="footer-widget__list list-unstyled">
                         <li>
-                        <Link href="contact">Contact Us</Link>
+                        <Link href="/contact">Contact Us</Link>
                         </li>
                         <li>
-                        <Link href="contact">Schedule a Call</Link>
+                        <Link href="/contact">Schedule a Call</Link>
                         </li>
                         <li>
-                        <Link href="terms">Terms</Link>
+                        <Link href="/terms">Terms</Link>
                         </li>
                         <li>
-                        <Link href="privacy-policy">Privacy</Link>
+                        <Link href="/privacy-policy">Privacy</Link>
                         </li>
                         <li>
-                        <Link href="gdpr">GDPR</Link>
+                        <Link href="/gdpr">GDPR</Link>
                         </li>
                     </ul>
                     </div>
@@ -174,13 +174,13 @@ export default function Footer1() {
                 </p>
                 <ul className="list-unstyled site-footer__bottom-links">
                     <li>
-                    <Link href="about">Terms &amp; Condition</Link>
+                    <Link href="/terms">Terms &amp; Conditions</Link>
                     </li>
                     <li>
-                    <Link href="about">Privacy</Link>
+                    <Link href="/privacy-policy">Privacy Policy</Link>
                     </li>
                     <li>
-                    <Link href="about">Support</Link>
+                    <Link href="/contact">Support</Link>
                     </li>
                 </ul>
                 </div>

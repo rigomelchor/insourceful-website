@@ -61,7 +61,7 @@ export default function Banner() {
                     Expert Oracle JD Edwards consulting for Mining, Oil & Gas, Pharmaceuticals, and Utilities.
                   </p>
                   <div className="main-slider__btn-box">
-                    <a href="contact" className="thm-btn main-slider__btn">
+                    <a href="/contact" className="thm-btn main-slider__btn">
                       Schedule Consultation
                       <span className="fa fa-plus" />
                     </a>
@@ -92,7 +92,7 @@ export default function Banner() {
                     Expert Oracle JD Edwards consulting for Mining, Oil & Gas, Pharmaceuticals, and Utilities.
                   </p>
                   <div className="main-slider__btn-box">
-                    <a href="contact" className="thm-btn main-slider__btn">
+                    <a href="/contact" className="thm-btn main-slider__btn">
                       Schedule Consultation
                       <span className="fa fa-plus" />
                     </a>

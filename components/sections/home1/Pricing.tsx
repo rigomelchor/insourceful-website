@@ -64,7 +64,7 @@ export default function Pricng() {
                     </li>
                   </ul>
                   <div className="pricing-one__btn-box">
-                    <Link href="contact" className="pricing-one__btn">
+                    <Link href="/contact" className="pricing-one__btn">
                       Get Started Now
                       <span className="icon-back" />
                     </Link>
@@ -115,7 +115,7 @@ export default function Pricng() {
                     </li>
                   </ul>
                   <div className="pricing-one__btn-box">
-                    <Link href="contact" className="pricing-one__btn">
+                    <Link href="/contact" className="pricing-one__btn">
                       Get Started Now
                       <span className="icon-back" />
                     </Link>
@@ -166,7 +166,7 @@ export default function Pricng() {
                     </li>
                   </ul>
                   <div className="pricing-one__btn-box">
-                    <Link href="contact" className="pricing-one__btn">
+                    <Link href="/contact" className="pricing-one__btn">
                       Get Started Now
                       <span className="icon-back" />
                     </Link>

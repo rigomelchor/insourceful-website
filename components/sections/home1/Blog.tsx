@@ -51,7 +51,7 @@ export default function Blog() {
                     </li>
                   </ul>
                   <h3 className="blog-one__title">
-                    <Link href="blog-details">
+                    <Link href="/blog-details">
                       Oracle JD Edwards 9.2 Upgrade: Key Benefits for Mining Operations
                     </Link>
                   </h3>
@@ -59,7 +59,7 @@ export default function Blog() {
                     Discover how the latest JDE upgrade delivers enhanced asset management capabilities.
                   </p>
                   <div className="blog-one__btn">
-                    <Link href="blog-details" aria-label="Read more about Oracle JD Edwards 9.2 Upgrade for Mining Operations">
+                    <Link href="/blog-details" aria-label="Read more about Oracle JD Edwards 9.2 Upgrade for Mining Operations">
                       Read more
                       <span className="icon-right-arrow1" />
                     </Link>
@@ -102,7 +102,7 @@ export default function Blog() {
                     </li>
                   </ul>
                   <h3 className="blog-one__title">
-                    <Link href="blog-details">
+                    <Link href="/blog-details">
                       SOX Compliance in Pharmaceutical ERP Systems
                     </Link>
                   </h3>
@@ -110,7 +110,7 @@ export default function Blog() {
                     Best practices for maintaining regulatory compliance during ERP implementations.
                   </p>
                   <div className="blog-one__btn">
-                    <Link href="blog-details" aria-label="Read more about SOX Compliance in Pharmaceutical ERP Systems">
+                    <Link href="/blog-details" aria-label="Read more about SOX Compliance in Pharmaceutical ERP Systems">
                       Read more
                       <span className="icon-right-arrow1" />
                     </Link>
@@ -153,7 +153,7 @@ export default function Blog() {
                     </li>
                   </ul>
                   <h3 className="blog-one__title">
-                    <Link href="blog-details">
+                    <Link href="/blog-details">
                       Capital Asset Management for Oil & Gas: Digital Transformation
                     </Link>
                   </h3>
@@ -161,7 +161,7 @@ export default function Blog() {
                     How modern CAM systems optimize asset lifecycle management in energy sector.
                   </p>
                   <div className="blog-one__btn">
-                    <Link href="blog-details" aria-label="Read more about Capital Asset Management for Oil & Gas Digital Transformation">
+                    <Link href="/blog-details" aria-label="Read more about Capital Asset Management for Oil & Gas Digital Transformation">
                       Read more
                       <span className="icon-right-arrow1" />
                     </Link>
