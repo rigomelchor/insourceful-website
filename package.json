@@ -11,6 +11,7 @@
     "@types/aos": "^3.0.7",
     "@types/nodemailer": "^7.0.2",
     "aos": "^2.3.4",
+    "critters": "^0.0.23",
     "isotope-layout": "^3.0.6",
     "next": "^15",
     "nodemailer": "^7.0.6",
@@ -23,6 +24,8 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "csso-cli": "^4.0.2",
+    "purgecss": "^8.0.0",
     "typescript": "^5"
   },
   "browserslist": [
