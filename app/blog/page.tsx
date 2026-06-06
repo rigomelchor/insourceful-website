@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <>
         <Layout headerStyle={2} footerStyle={1} headTitle="Blog" breadcrumbTitle="Blog" wrapperCls="">
-     
+
         {/*Blog Page Start */}
         <section className="blog-page">
             <div className="container">
@@ -19,11 +19,11 @@ export default function Home() {
                     <div className="blog-page__single">
                         <div className="blog-page__img-box">
                         <div className="blog-page__img">
-                            <img loading="lazy" src="assets/images/blog/blog-page-1-1.webp" alt="Over Ride The Digital Divide With Additional" />
+                            <img loading="lazy" src="assets/images/blog/blog-page-1-1.webp" alt="Why Asset-Intensive Enterprises Are Moving to Oracle Cloud ERP" />
                         </div>
                         <div className="blog-page__date">
                             <p>
-                            20 <br /> June
+                            15 <br /> Mar
                             </p>
                         </div>
                         </div>
@@ -32,7 +32,7 @@ export default function Home() {
                             <li>
                             <Link href="/blog-details">
                                 <i className="far fa-user-circle" />
-                                Paul Smith
+                                Rigo Melchor
                             </Link>
                             </li>
                             <li>
@@ -48,21 +48,16 @@ export default function Home() {
                         </ul>
                         <h3 className="blog-page__title">
                             <Link href="/blog-details">
-                            Over Ride The Digital Divide With Additional
+                            Why Asset-Intensive Enterprises Are Moving to Oracle Cloud ERP
                             </Link>
                         </h3>
                         <p className="blog-page__text-1">
-                            Excepteur sint occaecat cupidatat non proident, sunt in
-                            culpa qui officia deserunt mollanim id est laborum. Sed ut
-                            perspiciatis unde omnis iste natus voluptatem accusantium
-                            doloremque laudantium, totam rem aperiam,
+                            Mining and energy companies carry a level of operational complexity that on-premise ERP systems were never designed to handle at scale. Maintenance backlogs, multi-site asset tracking, regulatory reporting across jurisdictions, and fluctuating commodity cycles create pressure that legacy platforms absorb poorly.
                         </p>
                         <p className="blog-page__text-2">
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit
+                            Oracle Cloud ERP gives these organizations a path to consolidate that complexity into a single platform with real-time visibility across operations, finance, and supply chain.
                         </p>
-                        <Link href="/blog-details" className="blog-page__read-more" aria-label="Read more about blog post">
+                        <Link href="/blog-details" className="blog-page__read-more" aria-label="Read more about Oracle Cloud ERP for asset-intensive industries">
                             Read more <span className="icon-right-arrow1" />
                         </Link>
                         </div>
@@ -72,11 +67,11 @@ export default function Home() {
                     <div className="blog-page__single">
                         <div className="blog-page__img-box">
                         <div className="blog-page__img">
-                            <img loading="lazy" src="assets/images/blog/blog-page-1-2.webp" alt="Leverage Frameworks To Provide A Robust" />
+                            <img loading="lazy" src="assets/images/blog/blog-page-1-2.webp" alt="JD Edwards vs Oracle Cloud: Choosing the Right ERP Path" />
                         </div>
                         <div className="blog-page__date">
                             <p>
-                            20 <br /> June
+                            02 <br /> Feb
                             </p>
                         </div>
                         </div>
@@ -85,7 +80,7 @@ export default function Home() {
                             <li>
                             <Link href="/blog-details">
                                 <i className="far fa-user-circle" />
-                                Paul Smith
+                                Rigo Melchor
                             </Link>
                             </li>
                             <li>
@@ -101,21 +96,16 @@ export default function Home() {
                         </ul>
                         <h3 className="blog-page__title">
                             <Link href="/blog-details">
-                            Leverage Frameworks To Provide A Robust
+                            JD Edwards vs Oracle Cloud: Choosing the Right ERP Path
                             </Link>
                         </h3>
                         <p className="blog-page__text-1">
-                            Excepteur sint occaecat cupidatat non proident, sunt in
-                            culpa qui officia deserunt mollanim id est laborum. Sed ut
-                            perspiciatis unde omnis iste natus voluptatem accusantium
-                            doloremque laudantium, totam rem aperiam,
+                            JD Edwards remains a strong platform for companies with highly customized processes, deep manufacturing requirements, or environments where the business case for cloud migration does not yet close. The honest answer is that not every organization needs to move.
                         </p>
                         <p className="blog-page__text-2">
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit
+                            This article walks through the criteria that actually matter when evaluating JDE versus Oracle Cloud, including total cost of ownership, upgrade cycles, integration surface area, and long-term vendor support commitments.
                         </p>
-                        <Link href="/blog-details" className="blog-page__read-more" aria-label="Read more about blog post">
+                        <Link href="/blog-details" className="blog-page__read-more" aria-label="Read more about JD Edwards vs Oracle Cloud comparison">
                             Read more <span className="icon-right-arrow1" />
                         </Link>
                         </div>
@@ -125,11 +115,11 @@ export default function Home() {
                     <div className="blog-page__single">
                         <div className="blog-page__img-box">
                         <div className="blog-page__img">
-                            <img loading="lazy" src="assets/images/blog/blog-page-1-3.webp" alt="Basic Rule Of Running Web Business" />
+                            <img loading="lazy" src="assets/images/blog/blog-page-1-3.webp" alt="5 Signs Your Enterprise Needs a System Integration Overhaul" />
                         </div>
                         <div className="blog-page__date">
                             <p>
-                            20 <br /> June
+                            18 <br /> Jan
                             </p>
                         </div>
                         </div>
@@ -138,7 +128,7 @@ export default function Home() {
                             <li>
                             <Link href="/blog-details">
                                 <i className="far fa-user-circle" />
-                                Paul Smith
+                                Rigo Melchor
                             </Link>
                             </li>
                             <li>
@@ -154,21 +144,16 @@ export default function Home() {
                         </ul>
                         <h3 className="blog-page__title">
                             <Link href="/blog-details">
-                            Basic Rule Of Running Web Business
+                            5 Signs Your Enterprise Needs a System Integration Overhaul
                             </Link>
                         </h3>
                         <p className="blog-page__text-1">
-                            Excepteur sint occaecat cupidatat non proident, sunt in
-                            culpa qui officia deserunt mollanim id est laborum. Sed ut
-                            perspiciatis unde omnis iste natus voluptatem accusantium
-                            doloremque laudantium, totam rem aperiam,
+                            Point-to-point integrations accumulate over years of incremental IT decisions. Each connection made sense when it was built, but the aggregate result is a brittle web that slows down every new initiative and puts data quality at risk across the business.
                         </p>
                         <p className="blog-page__text-2">
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit
+                            If your teams are reconciling reports manually, waiting days for data to sync between systems, or dreading the impact of any platform upgrade, the integration layer is likely the root cause.
                         </p>
-                        <Link href="/blog-details" className="blog-page__read-more" aria-label="Read more about blog post">
+                        <Link href="/blog-details" className="blog-page__read-more" aria-label="Read more about system integration overhaul">
                             Read more <span className="icon-right-arrow1" />
                         </Link>
                         </div>
@@ -178,11 +163,11 @@ export default function Home() {
                     <div className="blog-page__single">
                         <div className="blog-page__img-box">
                         <div className="blog-page__img">
-                            <img loading="lazy" src="assets/images/blog/blog-page-1-4.webp" alt="Over Ride The Digital Divide With Additional" />
+                            <img loading="lazy" src="assets/images/blog/blog-page-1-4.webp" alt="Digital Transformation in Mining: Lessons from the Field" />
                         </div>
                         <div className="blog-page__date">
                             <p>
-                            20 <br /> June
+                            05 <br /> Dec
                             </p>
                         </div>
                         </div>
@@ -191,7 +176,7 @@ export default function Home() {
                             <li>
                             <Link href="/blog-details">
                                 <i className="far fa-user-circle" />
-                                Paul Smith
+                                Rigo Melchor
                             </Link>
                             </li>
                             <li>
@@ -207,21 +192,16 @@ export default function Home() {
                         </ul>
                         <h3 className="blog-page__title">
                             <Link href="/blog-details">
-                            Over Ride The Digital Divide With Additional
+                            Digital Transformation in Mining: Lessons from the Field
                             </Link>
                         </h3>
                         <p className="blog-page__text-1">
-                            Excepteur sint occaecat cupidatat non proident, sunt in
-                            culpa qui officia deserunt mollanim id est laborum. Sed ut
-                            perspiciatis unde omnis iste natus voluptatem accusantium
-                            doloremque laudantium, totam rem aperiam,
+                            Mining companies face a version of digital transformation that other industries do not. Remote operations, harsh environments, strict safety reporting requirements, and assets that cost hundreds of millions to replace mean that technology decisions carry consequences that go well beyond a failed software rollout.
                         </p>
                         <p className="blog-page__text-2">
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit
+                            After working with major gold and precious metals producers, a consistent pattern emerges: the projects that succeed prioritize process discipline before platform selection, not after.
                         </p>
-                        <Link href="/blog-details" className="blog-page__read-more" aria-label="Read more about blog post">
+                        <Link href="/blog-details" className="blog-page__read-more" aria-label="Read more about digital transformation in mining">
                             Read more <span className="icon-right-arrow1" />
                         </Link>
                         </div>
@@ -270,32 +250,32 @@ export default function Home() {
                     <ul className="sidebar__category-list list-unstyled">
                         <li>
                         <Link href="/blog-details">
-                            New Technologies<span>(12)</span>
+                            Oracle Cloud ERP<span>(12)</span>
                         </Link>
                         </li>
                         <li>
                         <Link href="/blog-details">
-                            Parallax Effect<span>(15)</span>
+                            JD Edwards<span>(15)</span>
                         </Link>
                         </li>
                         <li>
                         <Link href="/blog-details">
-                            Digital Marketing<span>(08)</span>
+                            System Integration<span>(08)</span>
                         </Link>
                         </li>
                         <li>
                         <Link href="/blog-details">
-                            Content Writting<span>(20)</span>
+                            Digital Transformation<span>(20)</span>
                         </Link>
                         </li>
                         <li>
                         <Link href="/blog-details">
-                            One Page Template<span>(14)</span>
+                            Process Excellence<span>(14)</span>
                         </Link>
                         </li>
                         <li>
                         <Link href="/blog-details">
-                            Relationship Buildup<span>(05)</span>
+                            Industry Insights<span>(05)</span>
                         </Link>
                         </li>
                     </ul>
@@ -307,31 +287,31 @@ export default function Home() {
                     <ul className="sidebar__post-list list-unstyled">
                         <li>
                         <div className="sidebar__post-image">
-                            <img loading="lazy" src="assets/images/blog/blog-lp-1.webp" alt="Recent blog post thumbnail" />
+                            <img loading="lazy" src="assets/images/blog/blog-lp-1.webp" alt="Why Asset-Intensive Enterprises Are Moving to Oracle Cloud ERP" />
                         </div>
                         <h3 className="sidebar__post-title">
                             <Link href="/blog-details">
-                            Face eite mowl dirst dominon likeness meat a mornin.
+                            Why Asset-Intensive Enterprises Are Moving to Oracle Cloud ERP
                             </Link>
                         </h3>
                         </li>
                         <li>
                         <div className="sidebar__post-image">
-                            <img loading="lazy" src="assets/images/blog/blog-lp-2.webp" alt="Recent blog post thumbnail" />
+                            <img loading="lazy" src="assets/images/blog/blog-lp-2.webp" alt="JD Edwards vs Oracle Cloud: Choosing the Right ERP Path" />
                         </div>
                         <h3 className="sidebar__post-title">
                             <Link href="/blog-details">
-                            Said dill under bielding over made spirit sea.
+                            JD Edwards vs Oracle Cloud: Choosing the Right ERP Path
                             </Link>
                         </h3>
                         </li>
                         <li>
                         <div className="sidebar__post-image">
-                            <img loading="lazy" src="assets/images/blog/blog-lp-3.webp" alt="Recent blog post thumbnail" />
+                            <img loading="lazy" src="assets/images/blog/blog-lp-3.webp" alt="5 Signs Your Enterprise Needs a System Integration Overhaul" />
                         </div>
                         <h3 className="sidebar__post-title">
                             <Link href="/blog-details">
-                            Maybe you should talk to someone
+                            5 Signs Your Enterprise Needs a System Integration Overhaul
                             </Link>
                         </h3>
                         </li>
@@ -342,14 +322,14 @@ export default function Home() {
                         <h3 className="sidebar__title">Tags Cloud</h3>
                     </div>
                     <div className="sidebar__tag-list">
-                        <Link href="/blog-details">Carpet</Link>
-                        <Link href="/blog-details">Office</Link>
-                        <Link href="/blog-details">Agent</Link>
-                        <Link href="/blog-details">Business</Link>
-                        <Link href="/blog-details">Love</Link>
-                        <Link href="/blog-details">Room</Link>
-                        <Link href="/blog-details">Project</Link>
-                        <Link href="/blog-details">Corporate</Link>
+                        <Link href="/blog-details">Oracle</Link>
+                        <Link href="/blog-details">ERP</Link>
+                        <Link href="/blog-details">Cloud</Link>
+                        <Link href="/blog-details">Mining</Link>
+                        <Link href="/blog-details">JDE</Link>
+                        <Link href="/blog-details">Integration</Link>
+                        <Link href="/blog-details">Advisory</Link>
+                        <Link href="/blog-details">Enterprise</Link>
                     </div>
                     </div>
                 </div>
@@ -358,7 +338,7 @@ export default function Home() {
             </div>
         </section>
         {/*Blog Page End */}
-        
+
         <Newsletter />
 
         </Layout>

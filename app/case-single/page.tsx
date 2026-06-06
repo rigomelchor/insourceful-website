@@ -25,19 +25,19 @@ export default function Home() {
                     <li>
                     <div className="case-single__details-content">
                         <p>Clients:</p>
-                        <h4>John brown</h4>
+                        <h4>Global Energy Enterprise</h4>
                     </div>
                     </li>
                     <li>
                     <div className="case-single__details-content">
                         <p>Category:</p>
-                        <h4>Graphic, Illustrations</h4>
+                        <h4>System Integration, ERP</h4>
                     </div>
                     </li>
                     <li>
                     <div className="case-single__details-content">
                         <p>Date:</p>
-                        <h4>20 Nov, 2023</h4>
+                        <h4>January 2025</h4>
                     </div>
                     </li>
                     <li>
@@ -60,23 +60,12 @@ export default function Home() {
                 </div>
             </div>
             <div className="case-single__content">
-                <h3 className="case-single__content-title">Business Analysis</h3>
+                <h3 className="case-single__content-title">Enterprise System Integration for Global Energy Operations</h3>
                 <p className="case-single__content-text-1">
-                Tincidunt elit magnis nulla facilisis sagittis sapien nunc amet
-                ultrices dolores sit ipsum velit purus aliquet massa fringilla leo
-                orci. Sapien nunc amet ultrices, dolores sit ipsum velit massa
-                fringilla leo orci dolors sit amet elit amet.
+                A global energy company operating across 8 countries had built up a portfolio of disconnected systems over two decades of acquisitions and regional IT decisions. Field operations ran on one platform, asset management on another, and finance on a third. Consolidating month-end close required manual data exports between five systems, and reporting for regulatory submissions in each jurisdiction had to be assembled by hand. When a compliance audit flagged gaps in audit trail integrity across their upstream and midstream operations, leadership committed to a full systems consolidation.
                 </p>
                 <p className="case-single__content-text-2">
-                It is a long established fact that a reader will be distracted by the
-                readable content of a page when looking at its layout. The point of
-                using Lorem Ipsum is that it has a more-or-less normal distribution of
-                letters, as opposed to using 'Content here, content here', making it
-                look like readable English. Many desktop publishing packages and web
-                page editors now use Lorem Ipsum as their default model text, and a
-                search for 'lorem ipsum' will uncover many web sites still in their
-                infancy. Various versions have evolved over the years, sometimes by
-                accident, humour and the like.
+                InSourceful designed a unified Oracle Cloud platform connecting field operations, asset lifecycle management, project finance, and regulatory compliance reporting under a single data model. The integration architecture used Oracle Integration Cloud to bridge remaining on-premise systems during the transition period, ensuring no operational disruption at producing assets. A formal data governance framework was established before any migration began, assigning data stewardship responsibilities across business units and defining golden-record rules for equipment, supplier, and cost center master data. The change management program ran alongside the technical build, embedding functional leads from each country operation into the design process. By go-live, the client had eliminated four redundant systems, reduced month-end close from 14 days to 6, and established a real-time compliance dashboard covering all 8 jurisdictions from a single Oracle Analytics instance.
                 </p>
             </div>
             <div className="case-details__pagination-box">

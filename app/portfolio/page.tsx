@@ -17,15 +17,15 @@ export default function Home() {
                     <div className="portfolio-page__img">
                         <img loading="lazy"
                         src="assets/images/project/portfolio-page-1-1.webp"
-                        
+                        alt="Oracle Cloud ERP migration for mining enterprise"
                         />
                     </div>
                     <div className="portfolio-page__content">
                         <div className="portfolio-page__title-box">
                         <h3 className="portfolio-page__title">
-                            <Link href="/portfolio-details">Analysis Of Security</Link>
+                            <Link href="/portfolio-details">Oracle Cloud ERP Migration</Link>
                         </h3>
-                        <p className="portfolio-page__sub-title">Technology</p>
+                        <p className="portfolio-page__sub-title">Mining</p>
                         </div>
                         <div className="portfolio-page__arrow">
                         <Link
@@ -47,15 +47,15 @@ export default function Home() {
                     <div className="portfolio-page__img">
                         <img loading="lazy"
                         src="assets/images/project/portfolio-page-1-2.webp"
-                        
+                        alt="JD Edwards optimization for oil and gas operations"
                         />
                     </div>
                     <div className="portfolio-page__content">
                         <div className="portfolio-page__title-box">
                         <h3 className="portfolio-page__title">
-                            <Link href="/portfolio-details">Analysis Of Security</Link>
+                            <Link href="/portfolio-details">JD Edwards Optimization</Link>
                         </h3>
-                        <p className="portfolio-page__sub-title">Technology</p>
+                        <p className="portfolio-page__sub-title">Oil & Gas</p>
                         </div>
                         <div className="portfolio-page__arrow">
                         <Link
@@ -77,15 +77,15 @@ export default function Home() {
                     <div className="portfolio-page__img">
                         <img loading="lazy"
                         src="assets/images/project/portfolio-page-1-3.webp"
-                        
+                        alt="Capital asset management system for pharmaceutical company"
                         />
                     </div>
                     <div className="portfolio-page__content">
                         <div className="portfolio-page__title-box">
                         <h3 className="portfolio-page__title">
-                            <Link href="/portfolio-details">Analysis Of Security</Link>
+                            <Link href="/portfolio-details">Capital Asset Management System</Link>
                         </h3>
-                        <p className="portfolio-page__sub-title">Technology</p>
+                        <p className="portfolio-page__sub-title">Pharmaceuticals</p>
                         </div>
                         <div className="portfolio-page__arrow">
                         <Link
@@ -107,15 +107,15 @@ export default function Home() {
                     <div className="portfolio-page__img">
                         <img loading="lazy"
                         src="assets/images/project/portfolio-page-1-4.webp"
-                        
+                        alt="Enterprise system integration for energy sector"
                         />
                     </div>
                     <div className="portfolio-page__content">
                         <div className="portfolio-page__title-box">
                         <h3 className="portfolio-page__title">
-                            <Link href="/portfolio-details">Analysis Of Security</Link>
+                            <Link href="/portfolio-details">Enterprise System Integration</Link>
                         </h3>
-                        <p className="portfolio-page__sub-title">Technology</p>
+                        <p className="portfolio-page__sub-title">Energy</p>
                         </div>
                         <div className="portfolio-page__arrow">
                         <Link
@@ -137,15 +137,15 @@ export default function Home() {
                     <div className="portfolio-page__img">
                         <img loading="lazy"
                         src="assets/images/project/portfolio-page-1-5.webp"
-                        
+                        alt="MOS platform deployment for mining operations"
                         />
                     </div>
                     <div className="portfolio-page__content">
                         <div className="portfolio-page__title-box">
                         <h3 className="portfolio-page__title">
-                            <Link href="/portfolio-details">Analysis Of Security</Link>
+                            <Link href="/portfolio-details">MOS Platform Deployment</Link>
                         </h3>
-                        <p className="portfolio-page__sub-title">Technology</p>
+                        <p className="portfolio-page__sub-title">Mining</p>
                         </div>
                         <div className="portfolio-page__arrow">
                         <Link
@@ -167,15 +167,15 @@ export default function Home() {
                     <div className="portfolio-page__img">
                         <img loading="lazy"
                         src="assets/images/project/portfolio-page-1-6.webp"
-                        
+                        alt="Process excellence program for oil and gas enterprise"
                         />
                     </div>
                     <div className="portfolio-page__content">
                         <div className="portfolio-page__title-box">
                         <h3 className="portfolio-page__title">
-                            <Link href="/portfolio-details">Analysis Of Security</Link>
+                            <Link href="/portfolio-details">Process Excellence Program</Link>
                         </h3>
-                        <p className="portfolio-page__sub-title">Technology</p>
+                        <p className="portfolio-page__sub-title">Oil & Gas</p>
                         </div>
                         <div className="portfolio-page__arrow">
                         <Link
@@ -197,15 +197,15 @@ export default function Home() {
                     <div className="portfolio-page__img">
                         <img loading="lazy"
                         src="assets/images/project/portfolio-page-1-7.webp"
-                        
+                        alt="ERP governance framework for pharmaceutical enterprise"
                         />
                     </div>
                     <div className="portfolio-page__content">
                         <div className="portfolio-page__title-box">
                         <h3 className="portfolio-page__title">
-                            <Link href="/portfolio-details">Analysis Of Security</Link>
+                            <Link href="/portfolio-details">ERP Governance Framework</Link>
                         </h3>
-                        <p className="portfolio-page__sub-title">Technology</p>
+                        <p className="portfolio-page__sub-title">Pharmaceuticals</p>
                         </div>
                         <div className="portfolio-page__arrow">
                         <Link
@@ -227,15 +227,15 @@ export default function Home() {
                     <div className="portfolio-page__img">
                         <img loading="lazy"
                         src="assets/images/project/portfolio-page-1-8.webp"
-                        
+                        alt="Digital transformation roadmap for mining company"
                         />
                     </div>
                     <div className="portfolio-page__content">
                         <div className="portfolio-page__title-box">
                         <h3 className="portfolio-page__title">
-                            <Link href="/portfolio-details">Analysis Of Security</Link>
+                            <Link href="/portfolio-details">Digital Transformation Roadmap</Link>
                         </h3>
-                        <p className="portfolio-page__sub-title">Technology</p>
+                        <p className="portfolio-page__sub-title">Mining</p>
                         </div>
                         <div className="portfolio-page__arrow">
                         <Link
@@ -257,15 +257,15 @@ export default function Home() {
                     <div className="portfolio-page__img">
                         <img loading="lazy"
                         src="assets/images/project/portfolio-page-1-9.webp"
-                        
+                        alt="Training and knowledge transfer program for energy enterprise"
                         />
                     </div>
                     <div className="portfolio-page__content">
                         <div className="portfolio-page__title-box">
                         <h3 className="portfolio-page__title">
-                            <Link href="/portfolio-details">Analysis Of Security</Link>
+                            <Link href="/portfolio-details">Training & Knowledge Transfer</Link>
                         </h3>
-                        <p className="portfolio-page__sub-title">Technology</p>
+                        <p className="portfolio-page__sub-title">Energy</p>
                         </div>
                         <div className="portfolio-page__arrow">
                         <Link

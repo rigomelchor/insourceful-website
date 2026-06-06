@@ -11,7 +11,7 @@ export default function Service() {
                 <img loading="lazy" src="assets/images/icon/section-title-icon.webp" alt="Section title icon" width={20} height={30} />
               </div>
               <p className="section-title__tagline">
-                <Link href="/services">What We Offering</Link>
+                <Link href="/services">What We Offer</Link>
               </p>
             </div>
             <h2 className="section-title__title">Comprehensive Enterprise Solutions</h2>

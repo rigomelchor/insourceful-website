@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <>
         <Layout headerStyle={2} footerStyle={1} headTitle="Blog Details" breadcrumbTitle="Blog Details" wrapperCls="">
-        
+
         {/*BLog Details Start*/}
         <section className="blog-details">
             <div className="container">
@@ -16,18 +16,18 @@ export default function Home() {
                 <div className="blog-details__left">
                     <div className="blog-details__img-box">
                     <div className="blog-details__img">
-                        <img loading="lazy" src="assets/images/blog/blog-details-img-1.webp" alt="Blog post featured image" />
+                        <img loading="lazy" src="assets/images/blog/blog-details-img-1.webp" alt="Why Asset-Intensive Enterprises Are Moving to Oracle Cloud ERP" />
                     </div>
                     <div className="blog-details__date">
                         <p>
-                        10 <br /> Nov
+                        15 <br /> Mar
                         </p>
                     </div>
                     </div>
                     <ul className="list-unstyled blog-details__meta">
                     <li>
                         <Link href="/blog-details">
-                        <i className="fas fa-user-circle" /> Jhon Albert
+                        <i className="fas fa-user-circle" /> Rigo Melchor
                         </Link>
                     </li>
                     <li>
@@ -42,18 +42,13 @@ export default function Home() {
                     </li>
                     </ul>
                     <h3 className="blog-details__title-1">
-                    Context And Variables In Hugo Site Generator.
+                    Why Asset-Intensive Enterprises Are Moving to Oracle Cloud ERP
                     </h3>
                     <p className="blog-details__text-1">
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                    officia deserunt mollanim id est laborum. Sed ut perspiciatis unde
-                    omnis iste natus voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam,
+                    Mining, oil and gas, and pharmaceutical manufacturers share a common ERP problem. Their operations generate volumes of transactional data across assets, work orders, procurement, and regulatory reporting that on-premise systems were sized for a different era. The business has grown, the regulatory environment has tightened, and the platform has not kept pace.
                     </p>
                     <p className="blog-details__text-2">
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit
+                    Most organizations in these sectors have been running JD Edwards or a similar on-premise ERP for 15 to 20 years. The system works, but every upgrade is a project in itself, every integration is a custom build, and every new reporting requirement lands on an IT backlog that never gets shorter. The maintenance burden has become a competitive liability.
                     </p>
                     <div className="blog-details__btn-box">
                     <Link href="#" className="blog-details__btn">
@@ -62,15 +57,10 @@ export default function Home() {
                     </Link>
                     </div>
                     <div className="blog-details__img-2">
-                    <img loading="lazy" src="assets/images/blog/blog-details-img-2.webp" alt="Blog post content image" />
+                    <img loading="lazy" src="assets/images/blog/blog-details-img-2.webp" alt="Oracle Cloud ERP dashboard showing real-time operational data" />
                     </div>
                     <p className="blog-details__text-3">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                    anim id est laborum. Sed ut perspiciatis unde omnis iste natus
-                    error sit voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam,
+                    Oracle Cloud ERP addresses this by moving the infrastructure burden off the enterprise and onto Oracle. Quarterly updates are included. Security patching is handled. The finance, supply chain, project, and maintenance modules share a single data model, which eliminates the reconciliation work that consumes finance teams at month-end close. For a mining company running operations across multiple countries, the difference in reporting speed alone is significant. One client reduced their consolidated close cycle from 12 days to 4 after migrating from JDE to Oracle Cloud Financials.
                     </p>
                     <div className="blog-details__quote-and-text">
                     <div className="blog-details__quote">
@@ -78,70 +68,50 @@ export default function Home() {
                     </div>
                     <div className="blog-details__quote-text">
                         <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusan doloremque laudantium, totam rem aperiam, eaque ipsa
-                        quae ab ilnventore veritatis et quasi architecto beatae vitae
-                        dicta sunt explicabo.
+                        The organizations that struggle with ERP migrations are not struggling because of the technology. They are struggling because they tried to lift and shift processes that were already broken. The migration is the opportunity to fix them.
                         </p>
                     </div>
                     </div>
                     <p className="blog-details__text-4">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                    anim id est laborum. Sed ut perspiciatis unde omnis iste natus
-                    error sit voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam,
+                    The integration story is where cloud ERP becomes most compelling for asset-intensive industries. JDE environments typically carry dozens of point-to-point integrations built over years: connections to SCADA systems, lab information management, mine planning software, trading platforms, and logistics systems. Each of those integrations is a maintenance liability. Oracle Cloud provides pre-built adapters and a unified integration layer through Oracle Integration Cloud, which reduces the custom code surface significantly and makes future system changes far less disruptive.
                     </p>
                     <ul className="blog-details__points list-unstyled">
                     <li>
                         <div className="blog-details__points-shape" />
                         <p className="blog-details__points-text">
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                        qui officia deserunt molla
+                        Reduce maintenance costs by consolidating legacy point-to-point integrations into a managed integration platform
                         </p>
                     </li>
                     <li>
                         <div className="blog-details__points-shape" />
                         <p className="blog-details__points-text">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium consequat.
+                        Achieve real-time financial visibility across multi-site, multi-currency operations without custom reporting builds
                         </p>
                     </li>
                     <li>
                         <div className="blog-details__points-shape" />
                         <p className="blog-details__points-text">
-                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                        amet, consectetur,volupta
+                        Simplify regulatory compliance reporting by leveraging Oracle's built-in audit trails and configurable controls
                         </p>
                     </li>
                     <li>
                         <div className="blog-details__points-shape" />
                         <p className="blog-details__points-text">
-                        Excepteur sint occaecat cupidatat non proident, sunt culpa qui
-                        officia deserunt accusantium
+                        Scale operations and user access without infrastructure investments or lengthy upgrade projects
                         </p>
                     </li>
                     </ul>
                     <p className="blog-details__text-5">
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                    officia deserunt mollanim id est laborum. Sed ut perspiciatis unde
-                    omnis iste natus error sit voluptatem accusantium doloremque
-                    laudantium, totam rem aperiam,
+                    Compliance requirements in mining and pharma add another dimension. Newmont, Kinross, and similar producers operate under environmental reporting obligations that span multiple regulatory bodies. Mallinckrodt and other pharmaceutical manufacturers carry FDA and DEA compliance requirements on top of financial controls. Oracle Cloud's audit framework, segregation of duties controls, and configurable approval workflows reduce the manual effort required to demonstrate compliance during audits. These are not features that get retrofitted into on-premise systems easily.
                     </p>
                     <p className="blog-details__text-6">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                    anim id est laborum. Sed ut perspiciatis unde omnis iste natus
-                    error sit voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam
+                    The migration itself requires careful planning. Data quality, chart of accounts harmonization, and process redesign take longer than the technical deployment in most cases. Organizations that treat the migration as a pure IT project consistently underestimate the change management work. The business process owners need to be accountable for the outcome, not just the implementation team. When that accountability is structured correctly from the start, cloud ERP migrations in asset-intensive industries deliver on their promise.
                     </p>
                     <div className="blog-details__bottom">
                     <p className="blog-details__tags">
-                        <Link href="#">Office</Link>
-                        <Link href="#">Design</Link>
-                        <Link href="#">Clean</Link>
+                        <Link href="#">Oracle</Link>
+                        <Link href="#">Cloud ERP</Link>
+                        <Link href="#">Mining</Link>
                     </p>
                     <div className="blog-details__social-list">
                         <Link href="#">
@@ -160,14 +130,12 @@ export default function Home() {
                     </div>
                     <div className="author">
                     <div className="author__img">
-                        <img loading="lazy" src="assets/images/blog/author-img.webp" alt="Moho Smith" />
+                        <img loading="lazy" src="assets/images/blog/author-img.webp" alt="Rigo Melchor" />
                     </div>
                     <div className="author__content">
-                        <h4>Moho Smith</h4>
+                        <h4>Rigo Melchor</h4>
                         <p>
-                        Them cattle had their you're female, living seed firmament
-                        earth saying mud you dark make heaven face carribian surface
-                        saying without.
+                        Enterprise technology consultant with over 20 years of experience in Oracle implementations for asset-intensive industries.
                         </p>
                         <div className="author__social">
                         <Link href="#">
@@ -186,42 +154,6 @@ export default function Home() {
                     </div>
                     </div>
                     <div className="blog-details__comment-and-form">
-                    <div className="comment-one">
-                        <h3 className="comment-one__title">Comments ( 2)</h3>
-                        <div className="comment-one__single">
-                        <div className="comment-one__image">
-                            <img loading="lazy" src="assets/images/blog/comment-1-1.webp" alt="Strone Smith" />
-                        </div>
-                        <div className="comment-one__content">
-                            <h3>Strone Smith</h3>
-                            <p>
-                            Blessed heaven in seasons man were image void seasons
-                            given bearing greats fly multiply every deed you can surem
-                            dolor mesurement good.
-                            </p>
-                            <span>February 03. 2021</span>
-                            <Link href="/blog-details" className="comment-one__btn">
-                            Reply
-                            </Link>
-                        </div>
-                        </div>
-                        <div className="comment-one__single">
-                        <div className="comment-one__image">
-                            <img loading="lazy" src="assets/images/blog/comment-1-2.webp" alt="Jhon Smith" />
-                        </div>
-                        <div className="comment-one__content">
-                            <h3>Jhon Smith</h3>
-                            <p>
-                            Blessed heaven in seasons man were image void seasons
-                            given bearing greats fly hrtter louytww hhry
-                            </p>
-                            <span>February 03. 2021</span>
-                            <Link href="/blog-details" className="comment-one__btn">
-                            Reply
-                            </Link>
-                        </div>
-                        </div>
-                    </div>
                     <div className="comment-form">
                         <h3 className="comment-form__title">Leave A Reply</h3>
                         <form
@@ -288,32 +220,32 @@ export default function Home() {
                     <ul className="sidebar__category-list list-unstyled">
                         <li>
                         <Link href="/blog-details">
-                            New Technologies<span>(12)</span>
+                            Oracle Cloud ERP<span>(12)</span>
                         </Link>
                         </li>
                         <li>
                         <Link href="/blog-details">
-                            Parallax Effect<span>(15)</span>
+                            JD Edwards<span>(15)</span>
                         </Link>
                         </li>
                         <li>
                         <Link href="/blog-details">
-                            Digital Marketing<span>(08)</span>
+                            System Integration<span>(08)</span>
                         </Link>
                         </li>
                         <li>
                         <Link href="/blog-details">
-                            Content Writting<span>(20)</span>
+                            Digital Transformation<span>(20)</span>
                         </Link>
                         </li>
                         <li>
                         <Link href="/blog-details">
-                            One Page Template<span>(14)</span>
+                            Process Excellence<span>(14)</span>
                         </Link>
                         </li>
                         <li>
                         <Link href="/blog-details">
-                            Relationship Buildup<span>(05)</span>
+                            Industry Insights<span>(05)</span>
                         </Link>
                         </li>
                     </ul>
@@ -325,31 +257,31 @@ export default function Home() {
                     <ul className="sidebar__post-list list-unstyled">
                         <li>
                         <div className="sidebar__post-image">
-                            <img loading="lazy" src="assets/images/blog/blog-lp-1.webp" alt="Recent blog post thumbnail" />
+                            <img loading="lazy" src="assets/images/blog/blog-lp-1.webp" alt="Why Asset-Intensive Enterprises Are Moving to Oracle Cloud ERP" />
                         </div>
                         <h3 className="sidebar__post-title">
                             <Link href="/blog-details">
-                            Face eite mowl dirst dominon likeness meat a mornin.
+                            Why Asset-Intensive Enterprises Are Moving to Oracle Cloud ERP
                             </Link>
                         </h3>
                         </li>
                         <li>
                         <div className="sidebar__post-image">
-                            <img loading="lazy" src="assets/images/blog/blog-lp-2.webp" alt="Recent blog post thumbnail" />
+                            <img loading="lazy" src="assets/images/blog/blog-lp-2.webp" alt="JD Edwards vs Oracle Cloud: Choosing the Right ERP Path" />
                         </div>
                         <h3 className="sidebar__post-title">
                             <Link href="/blog-details">
-                            Said dill under bielding over made spirit sea.
+                            JD Edwards vs Oracle Cloud: Choosing the Right ERP Path
                             </Link>
                         </h3>
                         </li>
                         <li>
                         <div className="sidebar__post-image">
-                            <img loading="lazy" src="assets/images/blog/blog-lp-3.webp" alt="Recent blog post thumbnail" />
+                            <img loading="lazy" src="assets/images/blog/blog-lp-3.webp" alt="5 Signs Your Enterprise Needs a System Integration Overhaul" />
                         </div>
                         <h3 className="sidebar__post-title">
                             <Link href="/blog-details">
-                            Maybe you should talk to someone
+                            5 Signs Your Enterprise Needs a System Integration Overhaul
                             </Link>
                         </h3>
                         </li>
@@ -360,14 +292,14 @@ export default function Home() {
                         <h3 className="sidebar__title">Tags Cloud</h3>
                     </div>
                     <div className="sidebar__tag-list">
-                        <Link href="/blog-details">Carpet</Link>
-                        <Link href="/blog-details">Office</Link>
-                        <Link href="/blog-details">Agent</Link>
-                        <Link href="/blog-details">Business</Link>
-                        <Link href="/blog-details">Love</Link>
-                        <Link href="/blog-details">Room</Link>
-                        <Link href="/blog-details">Project</Link>
-                        <Link href="/blog-details">Corporate</Link>
+                        <Link href="/blog-details">Oracle</Link>
+                        <Link href="/blog-details">ERP</Link>
+                        <Link href="/blog-details">Cloud</Link>
+                        <Link href="/blog-details">Mining</Link>
+                        <Link href="/blog-details">JDE</Link>
+                        <Link href="/blog-details">Integration</Link>
+                        <Link href="/blog-details">Advisory</Link>
+                        <Link href="/blog-details">Enterprise</Link>
                     </div>
                     </div>
                 </div>

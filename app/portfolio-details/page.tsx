@@ -70,23 +70,18 @@ export default function Home() {
                     <div className="portfolio-details__content-one-img">
                         <img loading="lazy"
                         src="assets/images/project/portfolio-details-content-one-img-1.webp"
-                        alt="Financial project showcase"
+                        alt="Oracle Cloud ERP Migration project"
                         />
                     </div>
                     <div className="portfolio-details__content-one">
                         <h3 className="portfolio-details__content-one-title">
-                        Financial
+                        Oracle Cloud ERP Migration
                         </h3>
                         <p className="portfolio-details__content-one-text-1">
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                        qui officia deserunt mollanim id est laborum. Sed ut
-                        perspiciatis unde omnis iste natus error voluptatem
-                        accusantium doloremque laudantium, totam rem aperiam
+                        A multinational mining corporation operating across four continents engaged InSourceful to migrate off a JD Edwards EnterpriseOne environment that had accumulated 15+ years of site-specific customizations. The existing system was deeply embedded in plant maintenance, procurement, and project accounting workflows. The client needed to consolidate 12 operational sites onto a single Oracle Cloud ERP instance without disrupting active production schedules.
                         </p>
                         <p className="portfolio-details__content-one-text-2">
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit
+                        The core challenge was not the technology itself but the layer of custom business logic built on top of JDE over more than a decade. Orchestrations, user-defined codes, processing options, and direct database modifications had to be catalogued, assessed for equivalence in Oracle Cloud, and either retired or rebuilt as standard configurations. Data quality across sites was inconsistent, requiring a dedicated remediation workstream before any migration could proceed.
                         </p>
                     </div>
                     </div>
@@ -97,7 +92,7 @@ export default function Home() {
                             <div className="portfolio-details__planing-img">
                             <img loading="lazy"
                                 src="assets/images/project/portfolio-details-planing-img-1.webp"
-                                alt="Financial planning project"
+                                alt="Oracle ERP migration strategy"
                             />
                             </div>
                         </div>
@@ -105,11 +100,10 @@ export default function Home() {
                         <div className="col-xl-7">
                         <div className="portfolio-details__planing-right">
                             <h3 className="portfolio-details__planing-title">
-                            Financial Planning
+                            Migration Strategy
                             </h3>
                             <p className="portfolio-details__planing-text">
-                            Duis aute irure dolor in reprehenderit in voluptate velit
-                            esse cillum dolore eu fugiat nulla pariatur.
+                            InSourceful structured the migration as a phased rollout, moving sites in waves based on complexity and production schedules. Each wave ran parallel operations for 60 days before cutover, giving site controllers time to validate outputs and reconcile balances against the legacy system.
                             </p>
                             <ul className="list-unstyled portfolio-details__planing-points">
                             <li>
@@ -117,7 +111,7 @@ export default function Home() {
                                 <span className="icon-check" />
                                 </div>
                                 <div className="text">
-                                <p>Duis aute irure dolor in reprehenderit in vo</p>
+                                <p>Full assessment of existing JDE customizations and data migration requirements</p>
                                 </div>
                             </li>
                             <li>
@@ -125,7 +119,7 @@ export default function Home() {
                                 <span className="icon-check" />
                                 </div>
                                 <div className="text">
-                                <p> voluptate velit esse cillum dolore eu fugiat</p>
+                                <p>Phased rollout across 12 operational sites with zero production downtime</p>
                                 </div>
                             </li>
                             <li>
@@ -133,7 +127,7 @@ export default function Home() {
                                 <span className="icon-check" />
                                 </div>
                                 <div className="text">
-                                <p>Kuis nostr exercitation ullamco laboris conse</p>
+                                <p>Integration of Oracle Cloud with existing SCADA and maintenance systems</p>
                                 </div>
                             </li>
                             </ul>
@@ -142,11 +136,7 @@ export default function Home() {
                     </div>
                     </div>
                     <p className="portfolio-details__text-1">
-                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                    aut consequun magni dolores eos qui ratione volsnesciunt.Neque
-                    porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-                    consectetur, sed quia non numquam eius modi tempora incidunt ut
-                    labore et dolore
+                    The completed migration delivered a 34% reduction in monthly close cycle time and eliminated the cost of maintaining a dedicated JDE support team across each site. Procurement consolidation through Oracle Cloud Procurement enabled group-level purchasing visibility for the first time, resulting in negotiated savings of approximately 11% on category spend within the first year. The SCADA integration layer, built using Oracle Integration Cloud, now feeds real-time equipment utilization data directly into project costing and asset management modules.
                     </p>
                 </div>
                 </div>
@@ -160,7 +150,7 @@ export default function Home() {
                             <p>Clients :</p>
                         </div>
                         <div className="portfolio-details__info-right">
-                            <span>Jhon Albert</span>
+                            <span>Multinational Mining Corporation</span>
                         </div>
                         </li>
                         <li>
@@ -168,7 +158,7 @@ export default function Home() {
                             <p>Project :</p>
                         </div>
                         <div className="portfolio-details__info-right">
-                            <span>Financial</span>
+                            <span>Oracle Cloud ERP Migration</span>
                         </div>
                         </li>
                         <li>
@@ -176,7 +166,7 @@ export default function Home() {
                             <p>Service :</p>
                         </div>
                         <div className="portfolio-details__info-right">
-                            <span>Corporate</span>
+                            <span>System Integration &amp; ERP</span>
                         </div>
                         </li>
                         <li>
@@ -184,7 +174,7 @@ export default function Home() {
                             <p>Category :</p>
                         </div>
                         <div className="portfolio-details__info-right">
-                            <span>Marketing</span>
+                            <span>Mining &amp; Resources</span>
                         </div>
                         </li>
                         <li>
@@ -192,7 +182,7 @@ export default function Home() {
                             <p>Date :</p>
                         </div>
                         <div className="portfolio-details__info-right">
-                            <span>09 Nov 2023</span>
+                            <span>March 2025</span>
                         </div>
                         </li>
                         <li>
@@ -228,9 +218,9 @@ export default function Home() {
                 <div className="item">
                 <div className="gallery-one__single">
                     <div className="gallery-one__img">
-                    <img loading="lazy" src="assets/images/gallery/gallery-one-1-1.webp" alt="Platform Integration project" />
+                    <img loading="lazy" src="assets/images/gallery/gallery-one-1-1.webp" alt="System architecture diagram for Oracle Cloud ERP migration" />
                     <div className="gallery-one__title-box">
-                        <h4>Platform Integration</h4>
+                        <h4>System Architecture</h4>
                     </div>
                     </div>
                 </div>
@@ -242,9 +232,9 @@ export default function Home() {
                 <div className="item">
                 <div className="gallery-one__single">
                     <div className="gallery-one__img">
-                    <img loading="lazy" src="assets/images/gallery/gallery-one-1-2.webp" alt="Platform Integration project" />
+                    <img loading="lazy" src="assets/images/gallery/gallery-one-1-2.webp" alt="Data migration process for legacy JDE to Oracle Cloud" />
                     <div className="gallery-one__title-box">
-                        <h4>Platform Integration</h4>
+                        <h4>Data Migration</h4>
                     </div>
                     </div>
                 </div>
@@ -256,9 +246,9 @@ export default function Home() {
                 <div className="item">
                 <div className="gallery-one__single">
                     <div className="gallery-one__img">
-                    <img loading="lazy" src="assets/images/gallery/gallery-one-1-3.webp" alt="Platform Integration project" />
+                    <img loading="lazy" src="assets/images/gallery/gallery-one-1-3.webp" alt="Go-live support and cutover coordination across mining sites" />
                     <div className="gallery-one__title-box">
-                        <h4>Platform Integration</h4>
+                        <h4>Go-Live Support</h4>
                     </div>
                     </div>
                 </div>

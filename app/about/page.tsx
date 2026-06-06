@@ -222,12 +222,12 @@ export default function Home() {
                 <div className="section-title__tagline-icon">
                   <img loading="lazy"
                     src="assets/images/icon/section-title-icon-2.webp"
-                    
+                    alt="Section title icon"
                   />
                 </div>
-                <p className="section-title__tagline">What We Offering</p>
+                <p className="section-title__tagline">What We Offer</p>
               </div>
-              <h2 className="section-title__title">We Make Bright Agency</h2>
+              <h2 className="section-title__title">Our Oracle Cloud Services</h2>
             </div>
             <div className="row">
               <div
