@@ -58,7 +58,7 @@ export default function Banner() {
                     Engineering Excellence <br /> for Asset-Intensive Enterprises
                   </h1>
                   <p className="main-slider__text">
-                    Expert Oracle JD Edwards consulting for Mining, Oil & Gas, Pharmaceuticals, and Utilities.
+                    InSourceful is an enterprise technology consulting firm specializing in Oracle JD Edwards implementations for asset-intensive industries including mining, oil &amp; gas, pharmaceuticals, and utilities. With 25+ years of experience across 88 countries, we deliver measurable operational improvements.
                   </p>
                   <div className="main-slider__btn-box">
                     <a href="/contact" className="thm-btn main-slider__btn">
@@ -89,7 +89,7 @@ export default function Banner() {
                     Engineering Excellence <br /> for Asset-Intensive Enterprises
                   </h2>
                   <p className="main-slider__text">
-                    Expert Oracle JD Edwards consulting for Mining, Oil & Gas, Pharmaceuticals, and Utilities.
+                    InSourceful is an enterprise technology consulting firm specializing in Oracle JD Edwards implementations for asset-intensive industries including mining, oil &amp; gas, pharmaceuticals, and utilities. With 25+ years of experience across 88 countries, we deliver measurable operational improvements.
                   </p>
                   <div className="main-slider__btn-box">
                     <a href="/contact" className="thm-btn main-slider__btn">

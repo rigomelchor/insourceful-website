@@ -57,9 +57,10 @@ export default function Benefit() {
                   </h2>
                 </div>
                 <p className="benefits-one__text">
-                  Our implementations consistently deliver 30%+ improvements in operational 
-                  efficiency, significant cost reductions, and enhanced compliance across 
-                  asset-intensive operations globally.
+                  Our implementations consistently deliver 30%+ improvements in operational
+                  efficiency, significant cost reductions, and enhanced compliance across
+                  asset-intensive operations globally.{" "}
+                  <span style={{ fontSize: "0.85em", opacity: 0.8 }}>(Based on measured client project outcomes, 2000–2026)</span>
                 </p>
                 <div className="benefits-one__points-and-mission">
                   <ul className="benefits-one__points list-unstyled">

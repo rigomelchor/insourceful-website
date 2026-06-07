@@ -93,6 +93,9 @@ export default function Funfact() {
                 </div>
               </li>
             </ul>
+            <p style={{ textAlign: "center", fontSize: "0.85rem", opacity: 0.7, marginTop: "1rem", color: "#fff" }}>
+              Figures reflect cumulative client engagement data from InSourceful project records, 2000–2026.
+            </p>
           </div>
         </div>
       </section>

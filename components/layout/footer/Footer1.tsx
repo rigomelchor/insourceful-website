@@ -170,7 +170,7 @@ export default function Footer1() {
             <div className="container">
                 <div className="site-footer__bottom-inner">
                 <p className="site-footer__bottom-text">
-                    Copyright © 2025 All Rights Reserved.
+                    Copyright © 2025 All Rights Reserved. | Last updated: June 2026
                 </p>
                 <ul className="list-unstyled site-footer__bottom-links">
                     <li>

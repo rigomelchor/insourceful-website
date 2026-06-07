@@ -19,7 +19,7 @@ export const metadata = {
     },
     description: 'Enterprise technology consulting: Oracle system integration, process optimisation, and digital transformation solutions.',
     keywords: ['technology consulting', 'enterprise software', 'Oracle consulting', 'business process optimization', 'digital transformation', 'system integration'],
-    authors: [{ name: 'InSourceful' }],
+    authors: [{ name: 'InSourceful', url: 'https://insourceful.ai' }, { name: 'Rigo Melchor', url: 'https://insourceful.ai/rigo-melchor' }],
     creator: 'InSourceful',
     publisher: 'InSourceful',
     formatDetection: {

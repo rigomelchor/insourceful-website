@@ -47,8 +47,9 @@ export default function About() {
                       <span>+</span>
                     </div>
                     <p className="about-one__count-text">
-                      Project
-                      <br /> Complete
+                      Projects
+                      <br /> Completed
+                      <br /><span style={{ fontSize: "0.7em", opacity: 0.7 }}>(cumulative engagements)</span>
                     </p>
                   </div>
                 </div>
