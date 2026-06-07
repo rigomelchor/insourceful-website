@@ -6,20 +6,20 @@ export default function Faq() {
   // FAQ data for structured data
   const faqData = [
     {
-      question: "Industries We Serve",
-      answer: "Mining & Metals | Oil, Gas & Energy | Pharmaceutical Manufacturing | Utilities & Infrastructure | Transportation & Logistics with deep expertise in asset-intensive operations."
+      question: "What industries does InSourceful serve?",
+      answer: "InSourceful specializes in asset-intensive industries including Mining & Metals, Oil, Gas & Energy, Pharmaceutical Manufacturing, Utilities & Infrastructure, and Transportation & Logistics. We bring deep domain expertise to each sector's unique operational challenges."
     },
     {
-      question: "Our Certifications",
-      answer: "Oracle JDE Certified (Finance, CAM, Distribution) | SAP Certified Consultants | SOX Compliance Experts | CIPP/CIPM Data Privacy (In Progress)"
+      question: "What certifications do InSourceful consultants hold?",
+      answer: "Our team holds Oracle JDE Certifications in Finance, CAM, and Distribution modules, SAP Certifications, SOX Compliance expertise, and CIPP/CIPM Data Privacy credentials. These certifications ensure our consultants meet the highest industry standards."
     },
     {
-      question: "Why Choose InSourceful?",
-      answer: "25+ years experience | 100+ global implementations | 88 countries served | Deep industry expertise in asset-intensive sectors with proven ROI results."
+      question: "Why should I choose InSourceful for Oracle consulting?",
+      answer: "InSourceful brings 25+ years of experience, 100+ global implementations across 88 countries, and deep industry expertise in asset-intensive sectors. Our track record includes measurable ROI results and long-term client partnerships with Fortune 500 companies."
     },
     {
-      question: "Implementation Methodology",
-      answer: "Assess current state | Design solution architecture | Implement with phased rollout | Optimize with post-go-live support and continuous improvement."
+      question: "What is InSourceful's implementation methodology?",
+      answer: "Our proven four-phase methodology includes: Assess current state and requirements, Design solution architecture, Implement with phased rollout to minimize disruption, and Optimize with post-go-live support and continuous improvement."
     }
   ];
 

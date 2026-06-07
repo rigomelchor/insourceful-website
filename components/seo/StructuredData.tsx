@@ -17,14 +17,11 @@ export default function StructuredData() {
     },
     "description": "Expert technology consulting services for enterprise businesses. We provide Oracle system integration, process optimization, and digital transformation solutions.",
     "foundingDate": "2024",
-    "founder": {
-      "@type": "Person",
-      "name": "InSourceful Team"
-    },
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Denver",
-      "addressRegion": "CO",
+      "streetAddress": "6558 Tuscany Ridge Dr",
+      "addressLocality": "El Paso",
+      "addressRegion": "TX",
       "addressCountry": "US"
     },
     "contactPoint": {
@@ -46,25 +43,60 @@ export default function StructuredData() {
       "Digital Transformation",
       "Enterprise Software Solutions"
     ],
-    "areaServed": {
-      "@type": "Country",
-      "name": "United States"
-    }
+    "areaServed": "Worldwide"
   }
 
-  // WebSite Schema with SearchAction
+  // WebSite Schema
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "InSourceful",
+    "url": baseUrl
+  }
+
+  // ProfessionalService Schema
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "InSourceful",
     "url": baseUrl,
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": `${baseUrl}/search?q={search_term_string}`
-      },
-      "query-input": "required name=search_term_string"
+    "description": "Enterprise technology consulting specializing in Oracle JD Edwards implementations for asset-intensive industries.",
+    "serviceType": [
+      "Oracle JD Edwards Consulting",
+      "Oracle Cloud ERP Implementation",
+      "System Integration",
+      "Operational Advisory"
+    ],
+    "areaServed": "Worldwide",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Enterprise Consulting Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Oracle JD Edwards Implementation",
+            "description": "Full lifecycle JDE implementation including finance, distribution, and manufacturing modules."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Oracle Cloud ERP Migration",
+            "description": "Migration from legacy systems to Oracle Cloud ERP with minimal business disruption."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "System Integration",
+            "description": "Integration of Oracle systems with third-party platforms and enterprise applications."
+          }
+        }
+      ]
     }
   }
 
@@ -102,7 +134,7 @@ export default function StructuredData() {
   }
 
   // Combine all schemas
-  const schemas: any[] = [organizationSchema, websiteSchema]
+  const schemas: any[] = [organizationSchema, websiteSchema, serviceSchema]
 
   // Add breadcrumb for non-homepage
   if (pathname !== '/') {
