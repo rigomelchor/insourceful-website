@@ -218,7 +218,7 @@ export default function Home() {
                 <div className="item">
                 <div className="gallery-one__single">
                     <div className="gallery-one__img">
-                    <img loading="lazy" src="assets/images/gallery/gallery-one-1-1.webp" alt="System architecture diagram for Oracle Cloud ERP migration" />
+                    <img loading="lazy" src="assets/images/project/portfolio-1-1.webp" alt="System architecture diagram for Oracle Cloud ERP migration" />
                     <div className="gallery-one__title-box">
                         <h4>System Architecture</h4>
                     </div>
@@ -232,7 +232,7 @@ export default function Home() {
                 <div className="item">
                 <div className="gallery-one__single">
                     <div className="gallery-one__img">
-                    <img loading="lazy" src="assets/images/gallery/gallery-one-1-2.webp" alt="Data migration process for legacy JDE to Oracle Cloud" />
+                    <img loading="lazy" src="assets/images/project/portfolio-1-2.webp" alt="Data migration process for legacy JDE to Oracle Cloud" />
                     <div className="gallery-one__title-box">
                         <h4>Data Migration</h4>
                     </div>
@@ -246,7 +246,7 @@ export default function Home() {
                 <div className="item">
                 <div className="gallery-one__single">
                     <div className="gallery-one__img">
-                    <img loading="lazy" src="assets/images/gallery/gallery-one-1-3.webp" alt="Go-live support and cutover coordination across mining sites" />
+                    <img loading="lazy" src="assets/images/project/portfolio-1-3.webp" alt="Go-live support and cutover coordination across mining sites" />
                     <div className="gallery-one__title-box">
                         <h4>Go-Live Support</h4>
                     </div>

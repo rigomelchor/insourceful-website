@@ -10,7 +10,6 @@ export default function Home() {
         {/*Team Details Start */}
         <section className="team-details">
             <div className="team-details__shape-1 float-bob-y">
-            <img loading="lazy" src="assets/images/shapes/team-details-shape-1.webp" alt="" />
             </div>
             <div className="container">
             <div className="row">

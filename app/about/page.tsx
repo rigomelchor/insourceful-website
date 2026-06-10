@@ -359,7 +359,7 @@ export default function Home() {
                     <div className="faq-one__img">
                       <img loading="lazy"
                         src="assets/images/resources/oracle-rect-logo.webp"
-                        
+                        alt="Oracle partner certification logo"
                       />
                     </div>
                     <div className="faq-one__system">
