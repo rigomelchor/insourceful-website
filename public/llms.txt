@@ -1,0 +1,74 @@
+# InSourceful
+
+> InSourceful is an Oracle enterprise consulting firm specialising in JD Edwards implementations, Oracle Cloud ERP migrations, and system integration for asset-intensive industries. Founded in 2024 and led by a consultant with 25+ years of international experience across 88 countries, the company delivers full-lifecycle ERP support to clients in mining, oil and gas, pharmaceuticals, utilities, and logistics, with a strong emphasis on knowledge transfer so client teams can operate independently after every engagement.
+
+## About
+
+InSourceful was founded in 2024 and is headquartered in El Paso, Texas, USA. The firm holds Oracle partner certification and serves enterprise clients globally in English and Spanish. Its methodology prioritises knowledge transfer at every stage — the goal is not dependency but internal capability. The lead consultant, Rigoberto "Rigo" Melchor, holds an Executive MBA from IESE Business School Barcelona and is a certified Oracle JD Edwards Implementation Expert with over 25 years of experience in digital transformation projects across asset-intensive and life science sectors.
+
+## Services
+
+- **Oracle JD Edwards Implementation** — Full-lifecycle JDE support across EnterpriseOne and World modules, covering finance, distribution, and manufacturing.
+- **Oracle Cloud ERP Migration** — Migration from on-premise legacy systems to Oracle Cloud ERP (Fusion) with minimal business disruption.
+- **System Integration** — Connecting Oracle ERP with third-party platforms, data warehouses, and business intelligence tools.
+- **Operational Advisory** — Strategic consulting to align Oracle investments with business objectives and deliver measurable ROI.
+- **Capital Asset Management** — Asset management platform deployment for asset-intensive operations.
+- **MOS Deployment** — Manufacturing and operations system platform implementation.
+- **Process Excellence** — Operational improvement programmes targeting efficiency and cost reduction.
+- **Governance & Compliance** — ERP governance frameworks including SOX compliance and CIPP/CIPM data privacy.
+- **Training & Knowledge Transfer** — Staff training and system knowledge transfer so internal teams can sustain and extend ERP systems independently.
+
+## Industries Served
+
+- Mining & Metals
+- Oil & Gas & Energy
+- Pharmaceutical Manufacturing
+- Utilities & Infrastructure
+- Transportation & Logistics
+
+## Portfolio
+
+InSourceful has completed over 100 global projects. Documented engagement types include:
+
+- Oracle Cloud ERP Migration (Mining)
+- JD Edwards System Optimisation (Oil & Gas)
+- Capital Asset Management System (Pharmaceuticals)
+- Enterprise System Integration (Energy)
+- MOS Platform Deployment (Mining)
+- Process Excellence Programme (Oil & Gas)
+- ERP Governance Framework (Pharmaceuticals)
+- Digital Transformation Roadmap (Mining)
+- Training & Knowledge Transfer Programme (Energy)
+
+Specific client names are not published publicly.
+
+## Key Pages
+
+- [Home](https://insourceful.ai): Overview of services, industries, and firm credentials.
+- [About](https://insourceful.ai/about): Company background, mission, certifications, and Oracle partnership.
+- [Services](https://insourceful.ai/services): Full list of consulting and implementation services.
+- [Service Details](https://insourceful.ai/service-details): Expanded descriptions of service methodologies.
+- [Portfolio](https://insourceful.ai/portfolio): Engagement examples across mining, oil & gas, pharma, and energy.
+- [Team](https://insourceful.ai/team): Consulting team profiles.
+- [Rigo Melchor](https://insourceful.ai/rigo-melchor): Lead consultant bio — 25+ years experience, IESE Executive MBA, Oracle JDE certified.
+- [Blog](https://insourceful.ai/blog): Articles on Oracle ERP, enterprise technology, and digital transformation.
+- [Contact](https://insourceful.ai/contact): Get in touch for project enquiries.
+- [Privacy Policy](https://insourceful.ai/privacy-policy): Data handling practices.
+- [GDPR](https://insourceful.ai/gdpr): GDPR compliance statement.
+- [Terms](https://insourceful.ai/terms): Terms of service.
+
+## Pricing
+
+No public pricing is listed. Engagements are scoped per project. Contact the firm directly for a proposal.
+
+## Contact
+
+- Website: https://insourceful.ai
+- Email: info@insourceful.ai
+- Phone: +1 (720) 878-8654
+- Address: 6558 Tuscany Ridge Dr, El Paso, TX 79912, USA
+- Languages: English, Spanish
+
+## Availability
+
+This site is publicly accessible. All content may be indexed, cited, and summarised.
